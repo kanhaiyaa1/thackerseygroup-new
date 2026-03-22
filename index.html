@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Thackersey Group - A diversified investment conglomerate with a legacy of trust, stability, and strategic growth. Explore our real estate and investment portfolio.">
+    <meta name="keywords" content="Thackersey Group, investment conglomerate, real estate, financial assets, Mumbai, heritage, property management, asset management">
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
@@ -306,7 +308,7 @@
                                     care in all dealings.
                                 </p>
 
-                                <a href="financial-assets.html"
+                                <a href="our-investments.html"
                                    class="btn style-one d-inline-flex align-items-center"
                                    data-cue="slideInLeft"
                                    data-delay="800">
@@ -557,14 +559,14 @@
                                     <i class="fas fa-chart-line" style="font-size: 48px; color: #1d2563; margin-bottom: 20px;"></i>
 
                                     <h3 class="fs-24">
-                                        <a href="financial-assets.html"
+                                        <a href="our-investments.html"
                                            class="text-white link-hover-white transition">Our Investments</a>
                                     </h3>
                                     <p class="fs-xxl-18">
                                         Expert handling of financial investments to maximize
                                         growth and portfolio stability.
                                     </p>
-                                    <a href="financial-assets.html"
+                                    <a href="our-investments.html"
                                        class="btn style-one d-inline-flex align-items-center">
                                         <span class="btn-icon-one d-flex flex-column align-items-center justify-content-center rounded-circle transition">
                                             <img src="assets/img/icons/right-arrow.svg"
@@ -1561,45 +1563,55 @@
 
                         </div>
                         <div class="col-lg-6 mb-30">
-                            <form action="#" class="contact-form style-three bg-white round-20">
+                            <form action="https://formspree.io/f/xyzpqvwy" method="POST" class="contact-form style-three bg-white round-20" id="contactForm">
                                 <h2 class="section-title style-two fw-semibold reveal-text mb-35">Send Us A Message</h2>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group mb-45">
-                                            <input type="text" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Full Name*" required="">
+                                            <input type="text" name="fullname" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Full Name*" required="">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group mb-45">
-                                            <input type="email" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Email*" required="">
+                                            <input type="email" name="email" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Email*" required="">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group mb-45">
-                                            <input type="tel" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Phone Number">
+                                            <input type="tel" name="phone" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Phone Number">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group mb-45">
-                                            <input type="text" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Type Service Name*" required="">
+                                            <input type="text" name="service" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Type Service Name*" required="">
                                         </div>
                                     </div>
 
                                     <div class="col-12">
                                         <div class="form-group mb-22">
-                                            <textarea class="w-100 bg-transparent fs-xxl-18 text-title outline-0 resize-0" placeholder="How Can We help?"></textarea>
+                                            <textarea name="message" class="w-100 bg-transparent fs-xxl-18 text-title outline-0 resize-0" placeholder="How Can We help?"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <button class="btn style-one d-flex align-items-center" data-cue="slideInLeft" data-delay="300" data-show="true" style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 300ms; animation-direction: normal; animation-fill-mode: both;">
+                                        <button type="submit" class="btn style-one d-flex align-items-center" data-cue="slideInLeft" data-delay="300" data-show="true" style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 300ms; animation-direction: normal; animation-fill-mode: both;">
                                             <span class="btn-icon-one d-flex flex-column align-items-center justify-content-center rounded-circle transition"><img src="assets/img/icons/right-arrow.svg" alt="Icon" class="d-block mx-auto"></span>
                                             <span class="btn-text fw-bold d-flex flex-column align-items-center justify-content-center transition">Send Message</span>
                                             <span class="btn-icon-two d-flex flex-column align-items-center justify-content-center rounded-circle transition"><img src="assets/img/icons/right-arrow.svg" alt="Icon" class="d-block mx-auto"></span>
                                         </button>
                                     </div>
+                                    <div class="col-12 mt-3" id="formStatus"></div>
                                 </div>
                             </form>
                         </div>
+
+                        <script>
+                            document.getElementById('contactForm').addEventListener('submit', function(event) {
+                                var submitBtn = this.querySelector('button[type="submit"]');
+                                var originalText = submitBtn.querySelector('.btn-text').textContent;
+                                submitBtn.disabled = true;
+                                submitBtn.querySelector('.btn-text').textContent = 'Sending...';
+                            });
+                        </script>
                     </div>
                     <div class="row pb-90">
                         <div class="comp-map style-one">
