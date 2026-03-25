@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -348,7 +348,7 @@
                                         <h4 class="fs-22 fw-bold mb-2">Inquire: Capricon Realty</h4>
                                         <p class="fs-16 text-gray mb-4">Enquire about residential apartments or retail spaces for your brand visibility.</p>
 
-                                        <form action="https://formspree.io/f/xdawqwga" method="POST" id="capriconinquiryForm">
+                                        <form action="https://formspree.io/f/xyzpqvwy" method="POST" id="capriconinquiryForm">
                                             <div class="row g-3">
                                                 <div class="col-md-6">
                                                     <input type="text" name="first_name" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" placeholder="First Name*" required="">

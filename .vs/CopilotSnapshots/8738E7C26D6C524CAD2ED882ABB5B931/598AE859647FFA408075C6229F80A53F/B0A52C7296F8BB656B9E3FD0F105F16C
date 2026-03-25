@@ -1,12 +1,12 @@
-
+﻿
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Capricon Realty - Leading real estate developer specializing in premium residential and commercial projects in Mumbai. Explore our innovative asset management solutions.">
-    <meta name="keywords" content="Capricon Realty, real estate developer, residential projects, commercial properties, Mumbai real estate, asset management, property investment">
+    <meta name="description" content="Bhishma Realty - Premium real estate solutions with a focus on quality, innovation, and customer satisfaction. Discover our exclusive property offerings and investment opportunities.">
+    <meta name="keywords" content="Bhishma Realty, real estate solutions, property investment, residential properties, commercial real estate, Mumbai properties, quality projects">
 
     <!-- Link of CSS files -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -20,11 +20,10 @@
     <link rel="stylesheet" href="assets/css/dark-theme.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
           rel="stylesheet" />
-    <title>Capricon Realty - Real Estate & Asset Management</title>
+    <title>Bhishma Realty - Premium Real Estate Solutions</title>
     <link rel="icon" type="image/png" href="assets/img/favicon.ico">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
 </head>
     <body>
 
@@ -60,7 +59,7 @@
 
                 <div class="position-relative z-1">
                     <!-- Navbar To Start -->
-                   <div class="navbar-area style-one position-relative z-2" id="navbar" style="background-color:white">
+                    <div class="navbar-area style-one position-relative z-2" id="navbar" style="background-color:white">
                     <div class="container style-two">
                         <div class="navbar-wrapper d-flex justify-content-between align-items-center">
                             <a href="index.html" class="navbar-brand">
@@ -202,7 +201,6 @@
                 </div>
           <!-- Navbar Area End -->
 
-                    <!-- Navbar Area End -->
 
                     <!-- Breadcrumb Area Start -->
                     <div class="breadcrumb-area style-one position-relative z-1">
@@ -212,10 +210,10 @@
                         <div class="container style-one">
                             <div class="row">
                                 <div class="col-xxl-10 col-lg-8">
-                                    <h2 class="section-title style-three text-white fw-bold mb-20 reveal-text">CAPRICON REALTY </h2>
+                                    <h2 class="section-title style-three text-white fw-bold mb-20 reveal-text">BHISHMA REALTY</h2>
                                     <ul class="br-menu list-unstyled mb-0">
                                         <li class="fs-xxl-18"><a href="index.html">Home</a></li>
-                                        <li class="fs-xxl-18"><a href="capriconrealty.html">Capricon Realty </a></li>
+                                        <li class="fs-xxl-18">Bhishma Realty</li>
                                     </ul>
                                 </div>
                             </div>
@@ -224,176 +222,189 @@
                     <!-- Breadcrumb Area End -->
 
                     <!-- Blog Details Section Start -->
-                    <div class="bg-albastor">
-                        <div class="container style-one ptb-120">
-                            <div class="row">
+<div class="bg-albastor">
+    <div class="container style-one ptb-120">
+        <div class="row">
             
+            <!-- META INFO -->
+            <ul class="blog-metainfo style-two list-unstyled">
+                <li class="position-relative fs-xxl-18">
+                    <i class="ri-building-line"></i>Bhishma Realty Limited
+                </li>
+                <li class="position-relative fs-xxl-18">
+                    <i class="ri-map-pin-line"></i>South Mumbai, India
+                </li>
+                <li class="position-relative fs-xxl-18">
+                    <i class="ri-briefcase-line"></i>Real Estate Development | Prabhadevi
+                </li>
+            </ul>
 
-                <!-- META INFO -->
-                <ul class="blog-metainfo style-two list-unstyled">
-                    <li class="position-relative fs-xxl-18">
-                        <i class="ri-building-line"></i>Capricon Realty Pvt. Ltd.
-                    </li>
-                    <li class="position-relative fs-xxl-18">
-                        <i class="ri-map-pin-line"></i>Mumbai, India
-                    </li>
-                    <li class="position-relative fs-xxl-18">
-                        <i class="ri-briefcase-line"></i>Real Assets & Financial Investments
-                    </li>
-                </ul>
+            <div class="blog-desc mb-35">
 
-                <div class="blog-desc mb-35">
+                <!-- INTRO -->
+                <div class="single-para">
+                    <h1 class="reveal-text-bottom">Bhishma Realty Limited</h1>
 
-                    <!-- INTRO -->
-                    <div class="single-para">
-                        <h1 class="reveal-text-bottom">Capricon Realty Pvt. Ltd.</h1>
-                        <p>
-                            Capricon Realty Private Limited is a Thackersey Group company with a diversified portfolio
-                            spanning real assets and financial investments. Formerly involved in large-scale real estate
-                            development, the company has evolved into a strategic investment and asset-holding platform
-                            focused on long-term value creation.
-                        </p>
-                    </div>
+                    <p>
+                        Bhishma Realty Limited is a Thackersey Group company and the landowner of Project Crown,
+                        located at a prestigious location in South Mumbai's Prabhadevi neighborhood. Operating under
+                        the group's foundational values of trust, stability, and legacy, Bhishma Realty represents
+                        the Thackersey family's commitment to quality real estate development and long-term value creation.
+                    </p>
+                </div>
 
-                  
 
-                    <!-- WHAT WE DO -->
-                    <!-- RUSTOMEJEE / RAHEJA VIVAREA -->
-                    <div class="single-para">
-                        <h5>Raheja Vivarea — Mahalaxmi, South Mumbai</h5>
-                        <p>
-                            Raheja Vivarea is one of Mumbai’s most coveted residential developments, located on a
-                            14-acre land parcel in Mahalaxmi. The low-density development comprises five iconic towers
-                            offering ultra-spacious 3 & 4 BHK residences with balconies, 3.8-metre floor-to-floor
-                            heights, and sweeping 270-degree views of the Mahalaxmi Racecourse and the Arabian Sea.
-                        </p>
-                    </div>
 
-                    <div class="bg-albastor">
-                        <div class="container style-one">
-                            <div class="row justify-content-center">
-                                <div class="col-xl-6 col-md-6">
-                                    <div class="round-20 mb-45">
-                                        <div class="case-img position-relative img-scale overflow-hidden round-20 mb-25" data-cursor-text="View project">
-                                            <img src="assets/img/client-data/downloaded/6-4.jpg" alt="Raheja Vivarea Mahalaxmi Luxury Residences" class="position-absolute top-0 start-0 w-100 h-100 transition round-20">
-                                            <img src="assets/img/client-data/downloaded/6-4.jpg" alt="Thackersey Group Premium Development" class="transition round-20">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6 col-md-6">
-                                    <div class="round-20 mb-45">
-                                        <div class="case-img position-relative img-scale overflow-hidden round-20 mb-25" data-cursor-text="View project">
-                                            <img src="assets/img/client-data/downloaded/5-5.jpg" alt="World-Class Amenities South Mumbai" class="position-absolute top-0 start-0 w-100 h-100 transition round-20">
-                                            <img src="assets/img/client-data/downloaded/5-5.jpg" alt="Luxury Clubhouse Facilities Mumbai" class="transition round-20">
-                                        </div>
+                <!-- PROJECT CROWN -->
+                <div class="single-para">
+                    <h5>Project Crown — Rustomjee Crown, Prabhadevi</h5>
+                    <p>
+                        Rustomjee Crown is a prestigious residential development in Prabhadevi, one of South Mumbai's most
+                        sought-after neighborhoods. Developed in partnership with the renowned Rustomjee Group, this landmark
+                        project showcases Bhishma Realty Limited's commitment to creating exceptional living spaces that combine
+                        luxury, convenience, and long-term value appreciation.
+                    </p>
+                    <p>
+                        Located in the heart of South Mumbai, Rustomjee Crown offers residents unparalleled connectivity to
+                        the city's business districts, entertainment hubs, educational institutions, and healthcare facilities,
+                        making it an ideal choice for discerning families and professionals.
+                    </p>
+                </div>
+
+                <!-- PROJECT DOWNLOADS -->
+                <div class="single-para">
+                    <h5>Project Information</h5>
+                    <p>Download detailed information about Project Crown:</p>
+                    <ul class="features-list style-one list-unstyled">
+                        <li class="position-relative">
+                            <a href="https://www.bhishmarealty.com/_files/ugd/79002f_48a03a2270e34013849c939774a38dfb.pdf" target="_blank" rel="noopener">
+                                <strong>Floor Plan</strong> — View detailed floor plans and unit configurations
+                            </a>
+                        </li>
+                        <li class="position-relative">
+                            <a href="https://www.bhishmarealty.com/_files/ugd/79002f_af23dcbea37740739808ad288a341f5b.pdf" target="_blank" rel="noopener">
+                                <strong>Project Brochure</strong> — Complete project details, amenities, and specifications
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-albastor">
+                    <div class="container style-one">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-6 col-md-6">
+                                <div class=" round-20 mb-45">
+                                    <div class="case-img position-relative img-scale overflow-hidden round-20 mb-25" data-cursor-text="View project">
+                                        <img src="assets/img/client-data/PhotosCrown/Picture%206.jpg" alt="Image" class="position-absolute top-0 start-0 w-100 h-100 transition round-20">
+                                        <img src="assets/img/client-data/PhotosCrown/Picture%206.jpg" alt="Image" class="transition round-20">
                                     </div>
                                 </div>
                             </div>
-
-                        </div>
-                    </div>
-
-
-
-                  
-
-                    <div class="ptb-100 bg-white padding-not-in-mob">
-                        <div class="container style-one">
-                            <div class="row align-items-start">
-                                <div class="col-lg-7 mb-5 mb-lg-0 pe-lg-5">
-                                    <div class="d-flex align-items-center mb-20">
-                                        
-                                        <h3 class="fs-32 fw-bold text-title mb-0">Capricon Realty Pvt. Ltd.</h3>
-                                    </div>
-                                    <p class="fs-18 mb-4">
-                                        Our portfolio spans a wide range of real assets and financial investments. Formerly involved in the Raheja Vivarea project, Capricorn Realty has transitioned into a financial investment company dedicated to strategic, long-term investments.
-                                        <a href="https://www.capriconrealty.com" target="_blank" class="text-title fw-bold fs-14 d-inline-flex align-items-center border-bottom pb-1 hover-text-secondary transition">
-                                            Visit Capricon Website <i class="ri-external-link-line ms-1"></i>
-                                        </a>
-                                    </p>
-
-                                    <div class="mb-4 p-4 bg-albastor round-20 border border-light">
-                                        <div class="d-flex align-items-center justify-content-between mb-3">
-                                            <h4 class="fs-22 fw-bold mb-0 text-secondary">Raheja Vivarea</h4>
-                                            <span class="badge bg-white text-dark border px-3 py-2 rounded-pill">Premium Residential</span>
-                                        </div>
-                                        <p class="fs-16 mb-3 text-gray">
-                                            Located in Mahalaxmi, South Mumbai and spread across 14 acres, this is one of Mumbai’s most coveted addresses.
-                                            <strong>5 towers, 3 &amp; 4 BHK Ultra-Spacious Luxurious Residences</strong> with 270-degree skyline views overlooking the Racecourse and Arabian Sea.
-                                        </p>
-                                        <ul class="feature-list style-one list-unstyled fs-16 mb-0">
-                                            <li class="d-flex align-items-start mb-2"><i class="ri-check-line text-secondary me-2 mt-1"></i> Landowner of Raheja Vivarea Project</li>
-                                            <li class="d-flex align-items-start mb-2"><i class="ri-check-line text-secondary me-2 mt-1"></i> Residential Apartments available for Leave &amp; License</li>
-                                            <li class="d-flex align-items-start"><i class="ri-check-line text-secondary me-2 mt-1"></i> 24,000+ Sq. Ft. Club house &amp; 90 amenities</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="p-4 bg-albastor round-20 border border-light">
-                                        <div class="d-flex align-items-center justify-content-between mb-3">
-                                            <h4 class="fs-22 fw-bold mb-0 text-secondary">Capricon Centre</h4>
-                                            <span class="badge bg-white text-dark border px-3 py-2 rounded-pill">Commercial</span>
-                                        </div>
-                                        <p class="fs-16 mb-3 text-gray">
-                                            Located in the Raheja Vivarea Complex, offering <strong>6 Retail Shops</strong> (1,500 - 4,200 Sq. Ft.) with frontage on Arthur Road. Licensed to Banking and Automobile brands.
-                                        </p>
-                                        <!-- HERO IMAGE -->
-                                        <div class="single-img img-container overflow-hidden round-20 mb-35">
-                                            <img src="assets/img/client-data/to-share/CapriconCentre.jpeg" alt="Capricon Realty" class="round-20">
-                                        </div>
+                            <div class="col-xl-6 col-md-6">
+                                <div class=" round-20 mb-45">
+                                    <div class="case-img position-relative img-scale overflow-hidden round-20 mb-25" data-cursor-text="View project">
+                                        <img src="assets/img/client-data/PhotosCrown/RahejaVivareaAmenities.jpg" alt="Image" class="position-absolute top-0 start-0 w-100 h-100 transition round-20">
+                                        <img src="assets/img/client-data/PhotosCrown/RahejaVivareaAmenities.jpg" alt="Image" class="transition round-20">
                                     </div>
                                 </div>
-
-                                <div class="col-lg-5" style="z-index: 1">
-                                    <div class="contact-form style-three bg-albastor round-20 p-4 p-md-5 shadow-none border border-2 border-white sticky-lg-top" style="top: 100px;">
-                                        <h4 class="fs-22 fw-bold mb-2">Inquire: Capricon Realty</h4>
-                                        <p class="fs-16 text-gray mb-4">Enquire about residential apartments or retail spaces for your brand visibility.</p>
-
-                                        <form action="https://formspree.io/f/xdawqwga" method="POST" id="capriconinquiryForm">
-                                            <div class="row g-3">
-                                                <div class="col-md-6">
-                                                    <input type="text" name="first_name" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" placeholder="First Name*" required="">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <input type="text" name="last_name" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" placeholder="Last Name*" required="">
-                                                </div>
-                                                <div class="col-12">
-                                                    <input type="email" name="email" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" placeholder="Email Address*" required="">
-                                                </div>
-                                                
-                                                <div class="col-12">
-                                                    <textarea name="message" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" rows="2" placeholder="Message"></textarea>
-                                                </div>
-                                                <div class="col-12">
-                                                    <button type="submit" class="btn style-one w-100 d-inline-flex align-items-center justify-content-center mt-2">
-                                                        <span class="btn-text fw-bold">Submit Inquiry</span>
-                                                        <span class="btn-icon-two d-flex flex-column align-items-center justify-content-center rounded-circle transition ms-2"><i class="ri-send-plane-fill"></i></span>
-                                                    </button>
-                                                    <small class="d-block text-center mt-3 text-gray fs-12 fw-bold">Email sent to: contact@capriconrealty.com</small>
-                                                    <div id="capriconinquiryStatus" class="mt-2"></div>
-                                                </div>
-                                            </div>
-                                        </form>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-xl-6 col-md-6">
+                                <div class=" round-20 mb-45">
+                                    <div class="case-img position-relative img-scale overflow-hidden round-20 mb-25" data-cursor-text="View project">
+                                        <img src="assets/img/client-data/PhotosCrown/Picture%209.jpg" alt="Image" class="position-absolute top-0 start-0 w-100 h-100 transition round-20">
+                                        <img src="assets/img/client-data/PhotosCrown/Picture%209.jpg" alt="Image" class="transition round-20">
                                     </div>
-
-                                    <script>
-                                        document.getElementById('capriconinquiryForm').addEventListener('submit', function(event) {
-                                            var submitBtn = this.querySelector('button[type="submit"]');
-                                            var originalText = submitBtn.querySelector('.btn-text').textContent;
-                                            submitBtn.disabled = true;
-                                            submitBtn.querySelector('.btn-text').textContent = 'Sending...';
-                                        });
-                                    </script>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-md-6">
+                                <div class=" round-20 mb-45">
+                                    <div class="case-img position-relative img-scale overflow-hidden round-20 mb-25" data-cursor-text="View project">
+                                        <img src="assets/img/client-data/PhotosCrown/Picture%208.jpg" alt="Image" class="position-absolute top-0 start-0 w-100 h-100 transition round-20">
+                                        <img src="assets/img/client-data/PhotosCrown/Picture%208.jpg" alt="Image" class="transition round-20">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-               
-                </div>
+                
             </div>
 
+            <!-- TAGS / SHARE -->
+            
+
+            <div class="ptb-100 bg-white padding-not-in-mob">
+                <div class="container style-one">
+                    <div class="row align-items-start">
+                        <div class="col-lg-7 mb-5 mb-lg-0 pe-lg-5">
+                            <div class="d-flex align-items-center mb-20">
+
+                                <h3 class="fs-32 fw-bold text-title mb-0">Bhishma Realty Ltd.</h3>
+                            </div>
+                            <p class="fs-18 mb-4">
+                                Bhishma Realty oversees the Crown property and continues to maintain a strong presence in real estate. In addition to offering premium apartments in Crown, the company invests in targeted real estate ventures as well as financial assets.
+                                <a href="https://www.bhishmarealty.com/" target="_blank" class="text-title fw-bold fs-14 d-inline-flex align-items-center  border-dark pb-1 hover-text-secondary transition">
+                                    Visit Bhishma Realty Website <i class="ri-external-link-line ms-1"></i>
+                                </a>
+                           </p>
+
+                            <div class="mb-4 p-4 bg-albastor round-20 border border-light">
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <h4 class="fs-22 fw-bold mb-0 text-secondary">Project Crown</h4>
+                                    <span class="badge bg-white text-dark border px-3 py-2 rounded-pill">Premium Residential</span>
+                                </div>
+
+                                <p class="fs-16 mb-3 text-gray">
+                                    As landowners of <strong>Project Crown</strong>, we bring to life an address that reflects exclusivity, comfort, and timeless urban living in the heart of South Mumbai.
+                                    This premium residential development is thoughtfully positioned in one of the city's most prestigious neighborhoods, offering seamless connectivity, refined surroundings, and a lifestyle reserved for the discerning few.
+                                </p>
+
+                                <p class="fs-16 mb-0 text-gray">
+                                    We currently offer a curated selection of <strong>luxury leased apartments</strong>, designed with spacious layouts, quality finishes, and an emphasis on everyday elegance.
+                                </p>
+                            </div>
+                            
+                        </div>
+
+                        <div class="col-lg-5" style="z-index: 1">
+                            <div class="contact-form style-three bg-albastor round-20 p-4 p-md-5 shadow-none border border-2 border-white sticky-lg-top" style="top: 100px;">
+                                <h4 class="fs-22 fw-bold mb-2">Inquire: Bhishma Realty</h4>
+
+                                <form action="mailto:Contact@bhishmarealty.com" method="post" enctype="text/plain">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <input type="text" name="First_Name" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" placeholder="First Name*" required="">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" name="Last_Name" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" placeholder="Last Name*" required="">
+                                        </div>
+                                        <div class="col-12">
+                                            <input type="email" name="Email" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" placeholder="Email Address*" required="">
+                                        </div>
+                                       
+                                        <div class="col-12">
+                                            <textarea name="Message" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" rows="2" placeholder="Message"></textarea>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn style-one w-100 d-inline-flex align-items-center justify-content-center mt-2">
+                                                <span class="btn-text fw-bold">Submit Inquiry</span>
+                                                <span class="btn-icon-two d-flex flex-column align-items-center justify-content-center rounded-circle transition ms-2"><i class="ri-send-plane-fill"></i></span>
+                                            </button>
+                                            <small class="d-block text-center mt-3 text-gray fs-12 fw-bold">Email sent to: Contact@bhishmarealty.com</small>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
         </div>
+    </div>
+</div>
 
                     
 

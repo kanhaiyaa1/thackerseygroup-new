@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zxx">
 <head>
     <!-- Required meta tags -->
@@ -759,7 +759,7 @@
                                             <h2 class="section-title style-two fw-bold mb-15">General Application</h2>
                                             <p class="fs-18 text-gray">Don't see a role that fits? Submit your CV for future consideration.</p>
                                         </div>
-                                        <!--Getform.io-->
+
                                         <form action="https://formspree.io/f/mreynday" method="POST" id="generalApplicationForm" enctype="multipart/form-data">
                                             <div class="row g-4">
 

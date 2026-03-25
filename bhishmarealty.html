@@ -372,31 +372,41 @@
                             <div class="contact-form style-three bg-albastor round-20 p-4 p-md-5 shadow-none border border-2 border-white sticky-lg-top" style="top: 100px;">
                                 <h4 class="fs-22 fw-bold mb-2">Inquire: Bhishma Realty</h4>
 
-                                <form action="mailto:Contact@bhishmarealty.com" method="post" enctype="text/plain">
+                                <form action="https://formspree.io/f/mnjgegpq" method="POST" id="bhishmainquiryForm">
                                     <div class="row g-3">
                                         <div class="col-md-6">
-                                            <input type="text" name="First_Name" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" placeholder="First Name*" required="">
+                                            <input type="text" name="first_name" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" placeholder="First Name*" required="">
                                         </div>
                                         <div class="col-md-6">
-                                            <input type="text" name="Last_Name" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" placeholder="Last Name*" required="">
+                                            <input type="text" name="last_name" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" placeholder="Last Name*" required="">
                                         </div>
                                         <div class="col-12">
-                                            <input type="email" name="Email" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" placeholder="Email Address*" required="">
+                                            <input type="email" name="email" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" placeholder="Email Address*" required="">
                                         </div>
                                        
                                         <div class="col-12">
-                                            <textarea name="Message" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" rows="2" placeholder="Message"></textarea>
+                                            <textarea name="message" class="w-100 bg-white p-3 border-0 rounded-3 outline-0" rows="2" placeholder="Message"></textarea>
                                         </div>
                                         <div class="col-12">
                                             <button type="submit" class="btn style-one w-100 d-inline-flex align-items-center justify-content-center mt-2">
                                                 <span class="btn-text fw-bold">Submit Inquiry</span>
                                                 <span class="btn-icon-two d-flex flex-column align-items-center justify-content-center rounded-circle transition ms-2"><i class="ri-send-plane-fill"></i></span>
                                             </button>
-                                            <small class="d-block text-center mt-3 text-gray fs-12 fw-bold">Email sent to: Contact@bhishmarealty.com</small>
+                                            <small class="d-block text-center mt-3 text-gray fs-12 fw-bold">Email sent to: contact@bhishmarealty.com</small>
+                                            <div id="bhishmainquiryStatus" class="mt-2"></div>
                                         </div>
                                     </div>
                                 </form>
                             </div>
+
+                            <script>
+                                document.getElementById('bhishmainquiryForm').addEventListener('submit', function(event) {
+                                    var submitBtn = this.querySelector('button[type="submit"]');
+                                    var originalText = submitBtn.querySelector('.btn-text').textContent;
+                                    submitBtn.disabled = true;
+                                    submitBtn.querySelector('.btn-text').textContent = 'Sending...';
+                                });
+                            </script>
                         </div>
                     </div>
                 </div>

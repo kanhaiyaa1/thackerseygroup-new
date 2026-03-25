@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zxx">
 <head>
     <!-- Required meta tags -->
@@ -759,8 +759,8 @@
                                             <h2 class="section-title style-two fw-bold mb-15">General Application</h2>
                                             <p class="fs-18 text-gray">Don't see a role that fits? Submit your CV for future consideration.</p>
                                         </div>
-                                        <!--Getform.io-->
-                                        <form action="https://formspree.io/f/mreynday" method="POST" id="generalApplicationForm" enctype="multipart/form-data">
+
+                                        <form action="mailto:Careers@thackerseygroup.com" method="post" enctype="multipart/form-data">
                                             <div class="row g-4">
 
                                                 <!-- Full Name -->
@@ -792,16 +792,9 @@
                                                     <div class="form-group">
                                                         <label class="fw-semibold text-title mb-2">Position applying for</label>
                                                         <select name="position" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" style="height: 54px;">
-                                                            <option value="">Select a position</option>
                                                             <option value="PE/VC & Investment Analyst">PE/VC & Investment Analyst</option>
                                                             <option value="Manager - Accounts">Manager - Accounts</option>
                                                             <option value="Accounting & Investment Strategy Manager">Accounting & Investment Strategy Manager</option>
-                                                            <option value="Accountant">Accountant</option>
-                                                            <option value="Property and Admin Manager">Property and Admin Manager</option>
-                                                            <option value="Assistant Manager – Compliance">Assistant Manager – Compliance</option>
-                                                            <option value="Assistant HR Manager">Assistant HR Manager</option>
-                                                            <option value="Account and Finance Strategy Manager">Account and Finance Strategy Manager</option>
-                                                            <option value="Other">Other</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -1126,13 +1119,6 @@
                                     document.getElementById('continueWrap').style.display = 'none';
                                     document.getElementById('formExpanded').scrollIntoView({ behavior: 'smooth', block: 'start' });
                                 }
-
-                                document.getElementById('generalApplicationForm').addEventListener('submit', function(event) {
-                                    var submitBtn = this.querySelector('button[type="submit"]');
-                                    var originalText = submitBtn.querySelector('.btn-text').textContent;
-                                    submitBtn.disabled = true;
-                                    submitBtn.querySelector('.btn-text').textContent = 'Sending...';
-                                });
                             </script>
 
 
