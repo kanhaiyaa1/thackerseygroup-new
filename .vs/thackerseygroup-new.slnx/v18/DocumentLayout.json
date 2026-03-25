@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\lance\\thackerseygroup\\thackerseygroup-new\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\lance\\thackerseygroup\\thackerseygroup-new\\work-with-us.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:work-with-us.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\lance\\thackerseygroup\\thackerseygroup-new\\our-investments.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:our-investments.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\lance\\thackerseygroup\\thackerseygroup-new\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\lance\\thackerseygroup\\thackerseygroup-new\\bhishmarealty.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bhishmarealty.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\lance\\thackerseygroup\\thackerseygroup-new\\capriconrealty.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capriconrealty.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "our-investments.html",
+              "DocumentMoniker": "C:\\lance\\thackerseygroup\\thackerseygroup-new\\our-investments.html",
+              "RelativeDocumentMoniker": "our-investments.html",
+              "ToolTip": "C:\\lance\\thackerseygroup\\thackerseygroup-new\\our-investments.html",
+              "RelativeToolTip": "our-investments.html",
+              "ViewState": "AgIAAA8EAAAAAAAAAAAnwBwEAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-23T13:09:41.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "capriconrealty.html",
+              "DocumentMoniker": "C:\\lance\\thackerseygroup\\thackerseygroup-new\\capriconrealty.html",
+              "RelativeDocumentMoniker": "capriconrealty.html",
+              "ToolTip": "C:\\lance\\thackerseygroup\\thackerseygroup-new\\capriconrealty.html",
+              "RelativeToolTip": "capriconrealty.html",
+              "ViewState": "AgIAAEABAAAAAAAAAAAnwF4BAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-23T13:07:22.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "work-with-us.html",
+              "DocumentMoniker": "C:\\lance\\thackerseygroup\\thackerseygroup-new\\work-with-us.html",
+              "RelativeDocumentMoniker": "work-with-us.html",
+              "ToolTip": "C:\\lance\\thackerseygroup\\thackerseygroup-new\\work-with-us.html*",
+              "RelativeToolTip": "work-with-us.html*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-22T03:13:53.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\lance\\thackerseygroup\\thackerseygroup-new\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\lance\\thackerseygroup\\thackerseygroup-new\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAPkFAAAAAAAAAAAgwB0GAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-22T03:11:59.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "bhishmarealty.html",
+              "DocumentMoniker": "C:\\lance\\thackerseygroup\\thackerseygroup-new\\bhishmarealty.html",
+              "RelativeDocumentMoniker": "bhishmarealty.html",
+              "ToolTip": "C:\\lance\\thackerseygroup\\thackerseygroup-new\\bhishmarealty.html",
+              "RelativeToolTip": "bhishmarealty.html",
+              "ViewState": "AgIAAGcBAAAAAAAAAAAnwHYBAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-22T03:11:45.154Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

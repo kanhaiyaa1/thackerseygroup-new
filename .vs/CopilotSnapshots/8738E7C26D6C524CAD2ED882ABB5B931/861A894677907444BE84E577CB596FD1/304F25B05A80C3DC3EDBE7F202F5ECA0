@@ -1,0 +1,1628 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Thackersey Group Investments - A diverse portfolio spanning real estate, financial assets, and pre-leased properties. Learn about our strategic investment approach and opportunities.">
+    <meta name="keywords" content="investments, real estate investment, financial assets, pre-leased properties, asset portfolio, investment opportunities, portfolio management">
+
+    <!-- Link of CSS files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/scrollcue.min.css" />
+    <link rel="stylesheet" href="assets/css/remixicon.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/dark-theme.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+          rel="stylesheet" />
+    <title>Our Investments - Thackersey Group Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!--  Preloader Start -->
+    <div class="preloader-area" id="preloader">
+        <div class="spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!--  Preloader End -->
+    <!-- Theme Switcher Start -->
+    <div class="switch-theme-mode d-none">
+        <label id="switch" class="switch">
+            <input type="checkbox" onchange="toggleTheme()" id="slider" />
+            <span class="slider round"></span>
+        </label>
+    </div>
+    <!-- Theme Switcher End -->
+    <!-- Custom Cursor -->
+    <!--<div class="cursor">
+      <span
+        class="cursor-text d-flex flex-column align-items-center justify-content-center rounded-circle bg-white text-title fs-14 fw-semibold"
+      ></span>
+    </div>-->
+    <!--<div class="cursor-inner"></div>-->
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <div class="bg-albastor position-relative z-1">
+                <!-- Navbar To Start -->
+                <!-- <div class="navbar-top style-two position-relative z-2">
+      <div class="container style-two">
+        <div class="row">
+          <div class="col-md-7 mb-sm-6">
+            <ul
+              class="contact-info list-unstyled text-md-start text-center mb-0"
+            >
+              <li class="d-inline-block">
+                <a
+                  href="tel:18083609282"
+                  class="contact-num d-block fw-bold text_secondary link-hover-secondary"
+                  >+1 (808) 360-9282</a
+                >
+              </li>
+              <li class="d-inline-block">
+                <a
+                  href="/cdn-cgi/l/email-protection#08606d646467486d707a6770266b6765"
+                  class="contact-mail fw-normal text-white hover-text-secondary d-inline-block"
+                  >hello<span class="text_secondary">@</span>exrox.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <ul
+              class="social-profile style-two list-unstyled text-md-end text-center mb-0"
+            >
+              <li>
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="d-flex flex-column align-items-center justify-content-center rounded-circle"
+                  ><i class="ri-facebook-fill"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://x.com/?lang=en"
+                  target="_blank"
+                  class="d-flex flex-column align-items-center justify-content-center rounded-circle"
+                  ><i class="ri-twitter-x-line"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  class="d-flex flex-column align-items-center justify-content-center rounded-circle"
+                  ><i class="ri-linkedin-fill"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  class="d-flex flex-column align-items-center justify-content-center rounded-circle"
+                  ><i class="ri-instagram-line"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    Navbar Top End -->
+                <!-- Navbar Area Start -->
+                <div class="navbar-area style-one position-relative z-2" id="navbar" style="background-color:white">
+                    <div class="container style-two">
+                        <div class="navbar-wrapper d-flex justify-content-between align-items-center">
+                            <a href="index.html" class="navbar-brand">
+                                <img src="assets/img/Tglogo.jpg"
+                                     alt="Thackersey Group"
+                                     class="navbar-logo" />
+                            </a>
+
+                            <style>
+                                .navbar-logo {
+                                    height: 80px;
+                                    width: auto;
+                                    display: block;
+                                    object-fit: contain;
+                                }
+
+                                /* Mobile view */
+                                @media (max-width: 768px) {
+                                    .navbar-logo {
+                                        height: 45px; /* adjust as needed */
+                                    }
+                                }
+
+                                @media (max-width: 480px) {
+                                    .navbar-logo {
+                                        height: 38px;
+                                    }
+                                }
+                            </style>
+                            <div class="menu-area mx-auto">
+                                <div class="overlay"></div>
+                                <nav class="menu">
+                                    <div class="menu-mobile-header">
+                                        <button type="button"
+                                                class="menu-mobile-arrow bg-transparent border-0">
+                                            <i class="ri-arrow-left-s-line"></i>
+                                        </button>
+                                        <div class="menu-mobile-title"></div>
+                                        <button type="button"
+                                                class="menu-mobile-close bg-transparent border-0">
+                                            <i class="ri-close-line"></i>
+                                        </button>
+                                    </div>
+                                    <ul class="menu-section p-0 mb-0 lh-1">
+                                        <li class="menu-item-has-children">
+                                            <a href="index.html">Home</a>
+                                        </li>
+
+                                        <li class="menu-item-has-children">
+                                            <a href="javascript:void(0)">
+                                                Group Companies<i class="ri-arrow-down-s-line"></i>
+                                            </a>
+                                            <ul class="menu-subs menu-column-1">
+                                                <li>
+                                                    <a href="capriconrealty.html">Capricon Realty</a>
+                                                </li>
+                                                <li>
+                                                    <a href="bhishmarealty.html">Bhishma Realty</a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="our-investments.html">Our Investments</a>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="philanthropy.html">Philanthropy</a>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="work-with-us.html">Work with us</a>
+                                        </li>
+                                        <!-- <li class="menu-item-has-children">
+                  <a href="javascript:void(0)"
+                    >Careers<i class="ri-arrow-down-s-line"></i
+                  ></a>
+                  <ul class="menu-subs menu-column-1">
+                    <li><a href="services.html">Real Estate</a></li>
+                    <li><a href="services.html">Pre-Leased Assets</a></li>
+                    <li><a href="services.html">Our Investments</a></li>
+                  </ul>
+                </li> -->
+                                        <li><a href="index.html#homecontact">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="other-options d-flex flex-wrap align-items-center justify-content-end">
+
+                                <!-- Social Icons (Desktop) -->
+                                <div class="option-item d-lg-flex d-none gap-3">
+
+                                    <a href="https://www.facebook.com/share/1HoKeAFxWK/" target="_blank" class="social-icon">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+
+                                    <a href="https://www.instagram.com/thackerseyfoundation/" target="_blank" class="social-icon">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+
+                                    <a href="https://www.linkedin.com/company/capricon-realty-private-limited/?originalSubdomain=in" target="_blank" class="social-icon">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+
+                                </div>
+
+                                <!-- Mobile Menu Button -->
+                                <div class="option-item d-lg-none">
+                                    <button type="button" class="menu-mobile-trigger">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                </div>
+
+                            </div>
+                            <style>
+                                .social-icon {
+                                    width: 40px;
+                                    height: 40px;
+                                    border-radius: 50%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    background: #1a265e;
+                                    color: #fff;
+                                    font-size: 16px;
+                                    transition: 0.3s;
+                                    text-decoration: none;
+                                }
+
+                                    .social-icon:hover {
+                                        background: #1a265e; /* classy gold-ish tone */
+                                        color: #fff;
+                                        transform: translateY(-3px);
+                                    }
+                            </style>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navbar Area End -->
+                <!-- Breadcrumb Area Start -->
+                <div class="breadcrumb-area style-one position-relative z-1" style="background-color: #1a265e;">
+                    
+                    <div class="container style-one">
+                        <div class="row">
+                            <div class="col-xxl-10 col-lg-8">
+                                <h2 class="section-title style-three text-white fw-bold mb-20 reveal-text">
+                                    OUR INVESTMENTS
+                                </h2>
+                                <ul class="br-menu list-unstyled mb-0">
+                                    <li class="fs-xxl-18"><a href="index.html">Home</a></li>
+                                    <li class="fs-xxl-18">Our Investments</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Breadcrumb Area End -->
+
+                <div class="about-area style-one ptb-120">
+                    <div class="container style-one">
+
+                        <div class="row align-items-center mt-5">
+                            <div class="col-lg-5 col-lg-5 pe-xxl-2 mb-md-30">
+                                <div class="about-img-wrap img-container position-relative overflow-hidden round-20"
+                                     data-cue="anim-left"
+                                     data-delay="400"
+                                     data-duration="1200">
+                                    <img src="assets/img/client-data/PhotosCrown/bredcrumb-bg.jpg"
+                                         alt="Image"
+                                         class="w-100 round-20" />
+                                </div>
+                            </div>
+                            <div class="col-lg-7 ps-xl-5">
+                                <div class="about-content">
+                                    <h2 class="reveal-text-bottom">
+                                        Introduction
+                                    </h2>
+                                    <p class="fs-xxl-18 mb-4">
+                                        Thackersey Group actively invests in startups and start up led funds through its investment arms like Capricon Realty Private Limited and Bhishma Realty Ltd. The group has backed India-based ventures such as hBits, Series A funding to support growth and technology expansion, and has also invested in other early-stage companies including electric vehicle startup 3ev Industries in its Series A round, illustrating its commitment to fostering innovative businesses and emerging sectors.
+                                    </p>
+
+
+                                    <div class="row d-none">
+                                        <div class="">
+                                            <div class="achievement-box position-relative z-1 move-right-full round-20 mb-md-30"
+                                                 data-cue="slideInLeft"
+                                                 data-delay="400">
+                                                <h6 class="fs-18 font-primary fw-normal text-title mb-40">
+                                                    OUR EXPERTISE
+                                                </h6>
+                                                <ul class="list-unstyled mb-0">
+                                                    <li class="d-flex flex-wrap align-items-start justify-content-between">
+                                                        <span class="fs-18 fw-semibold">Real Estate</span>
+                                                    </li>
+                                                    <li class="d-flex flex-wrap align-items-start justify-content-between">
+                                                        <span class="fs-20 font-secondary fw-semibold text-title">Pre-Leased Asset Mgmt</span>
+                                                    </li>
+                                                    <li class="d-flex flex-wrap align-items-start justify-content-between">
+                                                        <span class="fs-20 font-secondary fw-semibold text-title">Our Investments</span>
+                                                    </li>
+                                                    <li class="d-flex flex-wrap align-items-start justify-content-between">
+                                                        <span class="fs-20 font-secondary fw-semibold text-title">Philanthropy</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-area style-two pb-90 d-none">
+                    <div class="container style-one">
+                        <h2 class="section-title style-two fw-semibold text-center reveal-text-bottom mb-45">
+                            Group Governance & Companies
+                        </h2>
+                        <div class="row align-items-stretch">
+                            <div class="col-xl-6 mb-30">
+                                <div class="about-content bg-white round-20">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="about-card style-one round-10 bg-albastor mb-25">
+                                                <h3 class="fs-24 mb-12">Structure</h3>
+                                                <p class="fs-xxl-18 mb-0">
+                                                    Thackersey Group is a collective reference to a
+                                                    set of group companies, not an independent legal
+                                                    entity.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="about-card style-one round-10 bg_secondary mb-25">
+                                                <p class="fs-24 mb-12">Disclaimer</p>
+                                                <p class="fs-xxl-18 text-title mb-0">
+                                                    Content is for informational purposes only. No
+                                                    warranties of accuracy or completeness are implied.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="features-wrap d-flex flex-wrap align-items-center mb-25">
+
+                                                <div class="feature-info">
+                                                    <h3 class="fs-24">Group Companies</h3>
+                                                    <ul class="feature-list style-one list-unstyled">
+                                                        <li class="fs-xxl-18 position-relative">
+                                                            <img src="assets/img/icons/check.svg"
+                                                                 alt="Icon"
+                                                                 class="position-absolute start-0" /><strong>Capricon Realty Pvt Ltd:</strong> Real
+                                                            Assets & Financial Investments
+                                                        </li>
+                                                        <li class="fs-xxl-18 position-relative">
+                                                            <img src="assets/img/icons/check.svg"
+                                                                 alt="Icon"
+                                                                 class="position-absolute start-0" /><strong>Bhishma Realty Ltd:</strong> Project
+                                                            Crown, South Mumbai
+                                                        </li>
+                                                        <li class="fs-xxl-18 position-relative">
+                                                            <img src="assets/img/icons/check.svg"
+                                                                 alt="Icon"
+                                                                 class="position-absolute start-0" /><strong>Thackersey Foundation:</strong>
+                                                            Philanthropic Arm
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 mb-30">
+                                <div class="about-img-wrap position-relative z-1 h-100 overflow-hidden bg_primary">
+                                    <h3 class="text-white fs-24 fw-bold mb-32">
+                                        Operating from Sir Vithaldas Chambers, Mumbai, we maintain
+                                        a strong presence in Maharashtra.
+                                    </h3>
+                                    <img src="assets/img/about/about-img-4.png"
+                                         alt="Image"
+                                         class="about-img move-left-two" />
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <style>
+                    .brand-logo {
+                        width: 100%;
+                        height: 120px;
+                        padding: 20px;
+                        background: #ffffff;
+                        border: 1px solid #e5e7eb;
+                        transition: all 0.3s ease;
+                        cursor: pointer;
+                        position: relative;
+                        overflow: hidden;
+                        display: flex !important;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                        .brand-logo:hover {
+                            transform: translateY(-5px);
+                            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+                            border-color: #d1d5db;
+                        }
+
+                        .brand-logo img {
+                            max-width: 100%;
+                            max-height: 100%;
+                            width: auto;
+                            height: auto;
+                            object-fit: contain;
+                         
+                        }
+
+
+                    .brand-logo-wrap {
+                        justify-content: center;
+                        gap: 0;
+                    }
+
+
+
+                    .brand-logo-wrap {
+                        justify-content: center;
+                        gap: 0;
+                    }
+
+                    @media (max-width: 768px) {
+                        .brand-logo {
+                            height: 100px;
+                            padding: 15px;
+                        }
+                    }
+                </style>
+
+                <div class="container ptb-120">
+                    <div class="row align-items-center">
+                        <div class="col-xxl-5 col-xl-4 col-lg-5 mb-md-20">
+                            <h6 class="fs-18 font-primary fw-normal mb-0 reveal-text-right" style="opacity: 1; visibility: inherit;">
+
+                                <div class="word">
+                                    <div class="perspective"><div class="letter"><div>O</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>U</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>R</div></div></div>&nbsp;
+                                </div>
+
+                                <div class="word">
+                                    <div class="perspective"><div class="letter"><div>F</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>U</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>N</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>D</div></div></div>&nbsp;
+                                </div>
+
+                                <div class="word">
+                                    <div class="perspective"><div class="letter"><div>P</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>A</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>R</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>T</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>N</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>E</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>R</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>S</div></div></div>
+                                </div>
+
+                            </h6>
+
+                        </div>
+                        <div class="col-xxl-7 col-xl-8 col-lg-7">
+                            <div class="row g-3" data-cue="slideInUp" data-delay="200" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 200ms; animation-direction: normal; animation-fill-mode: both;">
+                                <div class="col-6 col-md-6 col-lg-6">
+                                    <a href="https://exfinityventures.com" target="_blank" rel="noopener noreferrer" class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20 w-100">
+                                        <img src="assets/img/client-data/downloaded/exfinityventures.com.png" alt="Exfinity Ventures Logo" class="d-block mx-auto">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6">
+                                    <a href="https://sixthsenseventures.com" target="_blank" rel="noopener noreferrer" class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20 w-100">
+                                        <img src="assets/img/client-data/downloaded/sixthsenseventures.com.png" alt="Sixth Sense Ventures Logo" class="d-block mx-auto">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6">
+                                    <a href="https://rpsgcapital.vc" target="_blank" rel="noopener noreferrer" class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20 w-100">
+                                        <img src="assets/img/client-data/downloaded/rpsgcapital.vc.png" alt="RPSG Capital Logo" class="d-block mx-auto">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-6">
+                                    <a href="https://singularityamc.com" target="_blank" rel="noopener noreferrer" class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20 w-100">
+                                        <img src="assets/img/client-data/downloaded/singularityamc.com.png" alt="Singularity AMC Logo" class="d-block mx-auto">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <div class="row g-3 justify-content-center">
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <a href="https://avendus.com" target="_blank" rel="noopener noreferrer" class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20 w-100">
+                                        <img src="assets/img/client-data/downloaded/avendus.com.png" alt="Avendus Logo" class="d-block mx-auto">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <a href="https://firesideventures.com" target="_blank" rel="noopener noreferrer" class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20 w-100">
+                                        <img src="assets/img/client-data/downloaded/firesideventures.com.png" alt="Fireside Ventures Logo" class="d-block mx-auto">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <a href="https://360.one" target="_blank" rel="noopener noreferrer" class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20 w-100">
+                                        <img src="assets/img/client-data/downloaded/360.one.png" alt="360 One Logo" class="d-block mx-auto">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <a href="https://samaracapital.com" target="_blank" rel="noopener noreferrer" class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20 w-100">
+                                        <img src="assets/img/client-data/downloaded/samaracapital.com.png" alt="Samara Capital Logo" class="d-block mx-auto">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <a href="https://fundamentum.co.in" target="_blank" rel="noopener noreferrer" class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20 w-100">
+                                        <img src="assets/img/client-data/downloaded/fundamentum.co.in.png" alt="Fundamentum Logo" class="d-block mx-auto">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <a href="https://pravegavc.com" target="_blank" rel="noopener noreferrer" class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20 w-100">
+                                        <img src="assets/img/client-data/downloaded/pravegavc.com.png" alt="Pravega VC Logo" class="d-block mx-auto">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <a href="https://neoassetmanagement.com" target="_blank" rel="noopener noreferrer" class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20 w-100">
+                                        <img src="assets/img/client-data/downloaded/neoassetmanagement.com.png" alt="Neo Asset Management Logo" class="d-block mx-auto">
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <style>
+                    .brand-logo {
+                        width: 100%;
+                        height: 120px;
+                        padding: 20px;
+                        background: #ffffff;
+                        border: 1px solid #e5e7eb;
+                        transition: all 0.3s ease;
+                        cursor: pointer;
+                        position: relative;
+                        overflow: hidden;
+                        display: flex !important;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                        .brand-logo:hover {
+                            transform: translateY(-5px);
+                            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+                            border-color: #d1d5db;
+                        }
+
+                        .brand-logo img {
+                            max-width: 100%;
+                            max-height: 100%;
+                            width: auto;
+                            height: auto;
+                            object-fit: contain;
+                          
+                        }
+
+
+                    .brand-logo-wrap {
+                        justify-content: center;
+                        gap: 0;
+                    }
+
+                    @media (max-width:768px) {
+                        .brand-logo {
+                            height: 100px;
+                            padding: 15px;
+                        }
+                    }
+
+                    /* MODAL */
+
+                    .brand-modal-overlay {
+                        position: fixed;
+                        inset: 0;
+                        background: rgba(0,0,0,0.6);
+                        display: none;
+                        align-items: center;
+                        justify-content: center;
+                        z-index: 9999;
+                    }
+
+                    .brand-modal-box {
+                        background: #fff;
+                        padding: 30px;
+                        max-width: 420px;
+                        width: 90%;
+                        border-radius: 10px;
+                        text-align: center;
+                        position: relative;
+                    }
+
+                    .brand-modal-close {
+                        position: absolute;
+                        top: 10px;
+                        right: 15px;
+                        font-size: 24px;
+                        cursor: pointer;
+                    }
+
+                    .brand-modal-box h4 {
+                        margin-bottom: 10px;
+                        font-weight: 600;
+                    }
+
+                    .brand-modal-box p {
+                        font-size: 14px;
+                        color: #555;
+                    }
+                </style>
+
+
+                <div class="container ptb-120">
+                    <div class="row align-items-center">
+
+                        <div class="col-xxl-5 col-xl-4 col-lg-5 mb-md-20">
+
+                            <h6 class="fs-18 font-primary fw-normal mb-0 reveal-text-right">
+
+                                <div class="word">
+                                    <div class="perspective"><div class="letter"><div>O</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>U</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>R</div></div></div>&nbsp;
+                                </div>
+
+
+                                <div class="word">
+                                    <div class="perspective"><div class="letter"><div>I</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>N</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>V</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>E</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>S</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>T</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>M</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>E</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>N</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>T</div></div></div>
+                                    <div class="perspective"><div class="letter"><div>S</div></div></div>
+                                </div>
+
+                            </h6>
+
+                        </div>
+
+
+                        <div class="col-xxl-7 col-xl-8 col-lg-7">
+                            <div class="row g-3">
+
+                                <div class="col-6 col-md-6 col-lg-6">
+                                    <a href="#" class="brand-logo brand-modal round-20"
+                                       data-title="3ev"
+                                       data-desc="3ev designs, develops, manufactures and operates 3-wheel electric vehicles for rear-world performance. With decades of experience in off-grid, renewable energy, power electronics 3ev are addressing the real world demands towards affordable greentech vehicles into the market. 3ev provides micro-mobility solutions from the ground up. 3ev offer end-to-end solutions in each hyper-local community they serve, including professional services for passengers, small-parcel deliveries, and freight. 3ev’s focus is on each local ecosystem that they work in, and they strive to provide the highest quality connections to all members in order to build-up and enhance communities.">
+                                        <img src="assets/img/client-data/fund-links/3ev.png">
+                                    </a>
+                                </div>
+
+                                <div class="col-6 col-md-6 col-lg-6">
+                                    <a href="#" class="brand-logo brand-modal round-20"
+                                       data-title="3eco"
+                                       data-desc="3eco Systems is a B2B transportation services provider solving last-mile bottlenecks for IntraCity enterprise customers. 3eco are leading the highly-fragmented last-mile into a technology-enabled future with greater efficiency, productivity, and corporate scale. 3eco’s full-stack IT platform for Command & Control over a Dedicated Resource Base of EVs, Infrastructure, and FT Staff supports high utilization and local operating density. By removing HyperLocal bottlenecks, 3eco share efficiency and productivity gains with their customers while providing high-value services in the markets they serve.">
+                                        <img src="assets/img/client-data/fund-links/3eco.png">
+                                    </a>
+                                </div>
+
+                                <div class="col-6 col-md-6 col-lg-6">
+                                    <a href="#" class="brand-logo brand-modal round-20"
+                                       data-title="Neuron"
+                                       data-desc="Founded in 2018, Neuron Energy was established with a vision to power India’s transition to sustainable energy through intelligent products and solutions. With a strong focus on clean technology, Neuron is building reliable, future-ready energy systems across the electric mobility and energy storage space.">
+                                        <img src="assets/img/client-data/fund-links/Neuron.png">
+                                    </a>
+                                </div>
+
+                                <div class="col-6 col-md-6 col-lg-6">
+                                    <a href="#" class="brand-logo brand-modal round-20"
+                                       data-title="Goldi Solar"
+                                       data-desc="Goldi Solar is India’s largest Solar PV module manufacturing company with annual capacity of 14.7 GW. Since inception in 2011, the company has been supplying world-class high efficiency modules in India and various geographies across the globe. Recently, the company recorded the largest and highest manufacturing expansion in India’s renewable industry for Solar PV Modules from 3 GW to 14.7 GW in the last 12 months.">
+                                        <img src="assets/img/client-data/fund-links/GoldiSolar.png">
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 mt-4">
+                            <div class="row g-3 justify-content-center">
+
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <a href="#" class="brand-logo brand-modal round-20"
+                                       data-title="LOHUM"
+                                       data-desc="The world’s largest producer of sustainable battery raw materials through recycling, repurposing, and low-carbon refining. Over the last three years, LOHUM has been able to create the technology & infrastructure to recycle 2 GWh and reuse 300 MWh of battery capacity per annum.">
+                                        <img src="assets/img/client-data/fund-links/LOHUM.png">
+                                    </a>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <a href="#" class="brand-logo brand-modal round-20"
+                                       data-title="Illuvia"
+                                       data-desc="Online brand offering hair care products. It offers a range of products such as shampoos, conditioners, serums, hair repair masks, and argan oil. The platform offers tailored, and performance-driven products.">
+                                        <img src="assets/img/client-data/fund-links/Illuvia.png">
+                                    </a>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <a href="#" class="brand-logo brand-modal round-20"
+                                       data-title="Dr. Doodley"
+                                       data-desc="Provider of at-home pet healthcare solutions. The company allows pet owners to connect with veterinary professionals for routine check-ups and specialized treatments. It provides pet supplies, online veterinary consultations, pet grooming, and veterinary services. The platform provides services like grooming sessions, vaccine reminders, at-home and online veterinary consultations, and access to pet supplies like food, toys, and medical equipment.">
+                                        <img src="assets/img/client-data/fund-links/DrDoodley.png">
+                                    </a>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <a href="#" class="brand-logo brand-modal round-20"
+                                       data-title="Mydesignation"
+                                       data-desc="Online platform offering casual apparel for men and women. It provides a range of clothing options designed for everyday wear, with styles catering to different preferences. The platform operates primarily in the B2C commerce space, making products directly accessible to individual shoppers.">
+                                        <img src="assets/img/client-data/fund-links/Mydesignation.png">
+                                    </a>
+                                </div>
+
+
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <a href="#" class="brand-logo brand-modal round-20"
+                                       data-title="hBits"
+                                       data-desc="hBits is a Mumbai-based SEBI-regulated platform founded in 2018 that enables fractional ownership of pre-leased, Grade A commercial real estate. It allows individual investors to invest in high-value commercial properties with lower ticket sizes to earn rental income and capital appreciation. The company aims to make institutional-grade real estate accessible through a transparent, tech-enabled, and compliant SM REIT framework.">
+                                        <img src="assets/img/client-data/fund-links/hBits.jpeg" alt="hBits Logo">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <!-- MODAL -->
+
+                <div id="brandModal" class="brand-modal-overlay">
+                    <div class="brand-modal-box">
+
+                        <span class="brand-modal-close">&times;</span>
+
+                        <h4 id="brandTitle"></h4>
+
+                        <p id="brandDesc"></p>
+
+                    </div>
+                </div>
+
+
+                <script>
+
+                    document.querySelectorAll(".brand-modal").forEach(item => {
+
+                        item.addEventListener("click", function (e) {
+
+                            e.preventDefault()
+
+                            document.getElementById("brandTitle").innerText = this.dataset.title
+                            document.getElementById("brandDesc").innerText = this.dataset.desc
+
+                            document.getElementById("brandModal").style.display = "flex"
+
+                        })
+
+                    })
+
+                    document.querySelector(".brand-modal-close").onclick = function () {
+                        document.getElementById("brandModal").style.display = "none"
+                    }
+
+                    window.onclick = function (e) {
+                        if (e.target.id === "brandModal") {
+                            document.getElementById("brandModal").style.display = "none"
+                        }
+                    }
+
+                </script>
+                <div class="wh-area style-two bg-albastor pb-120">
+                    <div class="container style-one">
+                        <div class="row">
+                            <div class="col-lg-6 pe-xxl-1">
+                                <div class="wh-title position-md-sticky mb-md-30">
+                                    <h6 class="fs-18 font-primary fw-normal text-title reveal-text-right mb-15">
+                                        Why Partner With Thackersey?
+                                    </h6>
+                                    <h2 class="section-title style-two fw-semibold text-title mb-35 reveal-text-bottom">
+                                        Built on a foundation of trust, stability, and a legacy of
+                                        excellence.
+                                    </h2>
+                                    <div class="row">
+
+                                        <div class="img-container overflow-hidden round-20"
+                                             data-cue="anim-left"
+                                             data-duration="800">
+                                            <video class="round-20" autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover;">
+                                                <source src="assets/img/client-data/downloaded/file.mp4" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 ps-xl-5">
+                                <div class="wh-content">
+                                    <div class="feature-item-wrap">
+                                        <div class="feature-item d-flex flex-wrap"
+                                             data-cue="slideInUp">
+                                            <span class="feature-icon">
+                                                <img src="assets/img/icons/heart-large.svg"
+                                                     alt="Icon" />
+                                            </span>
+                                            <div class="feature-info">
+                                                <h3 class="fs-24 fw-bold">1. Unwavering Integrity</h3>
+                                                <p class="fs-xxl-18 mb-0">
+                                                    We operate with the highest ethical standards,
+                                                    ensuring transparency and honesty in every
+                                                    interaction.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="feature-item d-flex flex-wrap"
+                                             data-cue="slideInUp">
+                                            <span class="feature-icon">
+                                                <img src="assets/img/icons/gear-large.svg"
+                                                     alt="Icon" />
+                                            </span>
+                                            <div class="feature-info">
+                                                <h3 class="fs-24 fw-bold">2. Strategic Stability</h3>
+                                                <p class="fs-xxl-18 mb-0">
+                                                    Our diverse portfolio across Real Estate and Finance
+                                                    provides a stable foundation for sustainable growth.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="feature-item d-flex flex-wrap"
+                                             data-cue="slideInUp">
+                                            <span class="feature-icon">
+                                                <img src="assets/img/icons/plane-large.svg"
+                                                     alt="Icon" />
+                                            </span>
+                                            <div class="feature-info">
+                                                <h3 class="fs-24 fw-bold">3. Legacy of Excellence</h3>
+                                                <p class="fs-xxl-18 mb-0">
+                                                    With a heritage rooted in trust, we bring decades of
+                                                    experience and a commitment to quality.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="feature-item d-flex flex-wrap"
+                                             data-cue="slideInUp">
+                                            <span class="feature-icon">
+                                                <img src="assets/img/icons/load-large.svg"
+                                                     alt="Icon" />
+                                            </span>
+                                            <div class="feature-info">
+                                                <h3 class="fs-24 fw-bold">4. Precision & Care</h3>
+                                                <p class="fs-xxl-18 mb-0">
+                                                    We approach every project and investment with
+                                                    meticulous attention to detail and care for our
+                                                    partners.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="feature-item d-flex flex-wrap"
+                                             data-cue="slideInUp">
+                                            <span class="feature-icon">
+                                                <img src="assets/img/icons/user-large.svg"
+                                                     alt="Icon" />
+                                            </span>
+                                            <div class="feature-info">
+                                                <h3 class="fs-24 fw-bold">5. Diverse Expertise</h3>
+                                                <p class="fs-xxl-18 mb-0">
+                                                    From Pre-Leased Asset Management to strategic
+                                                    financial investments, our expertise covers critical
+                                                    sectors.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="feature-item d-flex flex-wrap"
+                                             data-cue="slideInUp">
+                                            <span class="feature-icon">
+                                                <img src="assets/img/icons/proven-result.svg"
+                                                     alt="Icon" />
+                                            </span>
+                                            <div class="feature-info">
+                                                <h3 class="fs-24 fw-bold">
+                                                    6. Social Responsibility
+                                                </h3>
+                                                <p class="fs-xxl-18 mb-0">
+                                                    Through the Thackersey Foundation, we are dedicated
+                                                    to meaningful social initiatives and giving back.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <style>
+                    .img-container {
+                        height: 260px; /* pick a height that fits your design */
+                    }
+
+                        .img-container img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover; /* crops smartly, keeps proportions */
+                            display: block;
+                        }
+                </style>
+                <div class="container ptb-120">
+                    <div class="row">
+                        <div class="col-xl-10">
+                            <h2 class="reveal-text-bottom">Latest Articles</h2>
+                            <p class="fs-xxl-18 mb-4">
+                                Stories of compassion, innovation, and impact driving meaningful change for people, communities, and the planet
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="blog-slider-one swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+                        <div class="swiper-wrapper" id="swiper-wrapper-761b106b1b3459f43" aria-live="polite">
+
+                            <!-- Blog 1 -->
+                            <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 3" data-swiper-slide-index="0" style="width: 416px; margin-right: 24px;">
+                                <div class="blog-card style-one bg-white position-relative round-20 mb-30">
+                                    <div class="blog-img position-relative overflow-hidden">
+                                        <img src="assets/img/client-data/downloaded/Neuron-Energy-announces-INR-31-crore-funding-in-Pre-Series-B-round.jpg" alt="Neuron Energy Pre-Series B Funding Round">
+                                    </div>
+                                    <div class="blog-info">
+                                        <ul class="blog-metainfo style-one list-unstyled">
+                                            <li>EV News</li>
+                                            <li>EV REPORTER</li>
+                                        </ul>
+                                        <h3>
+                                            <a href="https://evreporter.com/neuron-energy-announces-inr-31-crore-funding-in-pre-series-b-round/" class="text-title link-hover-primary">
+                                                Neuron Energy Announces INR 31 Crore Funding in Pre-Series B Round
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Blog 3 -->
+                            <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 3" data-swiper-slide-index="1" style="width: 416px; margin-right: 24px;">
+                                <div class="blog-card style-one bg-white position-relative round-20 mb-30">
+                                    <div class="blog-img position-relative overflow-hidden">
+                                        <img src="assets/img/client-data/downloaded/lj_7346_3ev_Secures_120.webp" alt="3ev Industries Series A Funding Led by Mahanagar Gas">
+                                    </div>
+                                    <div class="blog-info">
+                                        <ul class="blog-metainfo style-one list-unstyled">
+                                            <li>EV News</li>
+                                            <li>THE HINDU</li>
+                                        </ul>
+                                        <h3>
+                                            <a href="https://www.thehindu.com/business/3ev-raises-120crore-in-series-a-funding-led-by-mahanagar-gas/article70324619.ece" class="text-title link-hover-primary">
+                                                3ev Raises ₹120 Crore in Series A Funding Led by Mahanagar Gas
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Blog 2 -->
+                            <div class="swiper-slide" role="group" aria-label="3 / 3" data-swiper-slide-index="2" style="width: 416px; margin-right: 24px;">
+                                <div class="blog-card style-one bg-white position-relative round-20 mb-30">
+                                    <div class="blog-img position-relative overflow-hidden">
+                                        <img src="assets/img/client-data/downloaded/money-new.avif" alt="hBits Raises Rs 40 Crore from Thackersey Group in Series A Funding">
+                                    </div>
+                                    <div class="blog-info">
+                                        <ul class="blog-metainfo style-one list-unstyled">
+                                            <li>Real Estate</li>
+                                            <li>ECONOMIC TIMES</li>
+                                        </ul>
+                                        <h3>
+                                            <a href="https://economictimes.indiatimes.com/industry/services/property-/-cstruction/hbits-raises-rs-40-crore-from-thackersey-group-entity-in-series-a-funding/articleshow/117059743.cms?from=mdr" class="text-title link-hover-primary">
+                                                hBits Raises Rs 40 Crore from Thackersey Group Entity in Series A Funding
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-pagination text-center swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-lock"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span></div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                </div>
+                <style>
+                    .blog-img {
+                        width: 100%;
+                        height: 260px; /* choose your visual height */
+                        overflow: hidden;
+                    }
+
+                        .blog-img img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover; /* magic spell */
+                            display: block;
+                        }
+                </style>
+
+                <div class="container style-one ptb-120" id="homecontact">
+                    <div class="row pb-30">
+                        
+                        <div class="mb-30">
+                            <form action="https://formspree.io/f/xyzpqvwy" method="POST" class="contact-form style-three bg-white round-20" id="pitchToUsForm">
+                                <h2 class="reveal-text-bottom" style="padding-bottom:30px;">
+                               
+                                    Pitch to us
+                                   
+                                </h2>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group mb-45">
+                                            <input type="text" name="first_name" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="First Name*" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group mb-45">
+                                            <input type="text" name="last_name" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Last Name*" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group mb-45">
+                                            <input type="email" name="email" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Email*" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group mb-45">
+                                            <input type="tel" name="phone" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Phone Number">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="form-group mb-22">
+                                            <textarea name="message" class="w-100 bg-transparent fs-xxl-18 text-title outline-0 resize-0" placeholder="How Can We help?"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn style-one d-flex align-items-center" data-cue="slideInLeft" data-delay="300" data-show="true" style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 300ms; animation-direction: normal; animation-fill-mode: both;">
+                                            <span class="btn-icon-one d-flex flex-column align-items-center justify-content-center rounded-circle transition"><img src="assets/img/icons/right-arrow.svg" alt="Icon" class="d-block mx-auto"></span>
+                                            <span class="btn-text fw-bold d-flex flex-column align-items-center justify-content-center transition">Send Message</span>
+                                            <span class="btn-icon-two d-flex flex-column align-items-center justify-content-center rounded-circle transition"><img src="assets/img/icons/right-arrow.svg" alt="Icon" class="d-block mx-auto"></span>
+                                        </button>
+                                        <div id="pitchToUsStatus" class="mt-2"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <script>
+                            document.getElementById('pitchToUsForm').addEventListener('submit', function(event) {
+                                var submitBtn = this.querySelector('button[type="submit"]');
+                                var originalText = submitBtn.querySelector('.btn-text').textContent;
+                                submitBtn.disabled = true;
+                                submitBtn.querySelector('.btn-text').textContent = 'Sending...';
+                            });
+                        </script>
+                    </div>
+                   
+                </div>
+                <!-- Team Section Start -->
+                <!-- <div class="container style-one pb-90">
+        <div class="row">
+            <div class="col-xl-8 offset-xl-2">
+                <h2 class="section-title style-two fw-semibold text-center reveal-text-bottom mb-45">
+                The Experienced <span class="position-relative z-1">Professionals</span> Guiding Exrox's Commitment To Financial Excellence
+                </h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xl-4 col-md-6">
+                <div class="team-card style-one img-hover-zoom position-relative mb-30" data-cue="anim-left" data-delay="200">
+                    <div class="team-img img-zoom position-relative z-1 overflow-hidden round-20">
+                        <img src="assets/img/team/team-1.jpg" alt="Team Member" class="transition round-20">
+                        <div class="team-info d-flex flex-wrap align-items-center justify-content-between">
+                            <div>
+                                <h3 class="fs-20 fw-bold mb-10"><a href="leader-details.html" class="text-white link-hover-white transition">Rosemary Turk</a></h3>
+                                <span class="fs-xxl-18 text-gray d-block lh-1">Founder & CEO</span>
+                            </div>
+                            <a href="/cdn-cgi/l/email-protection#26544955434b47545f66435e54495e0845494b" class="mail-link d-flex flex-column align-items-center justify-content-center rounded-circle transition"><i class="ri-mail-fill"></i></a>
+                        </div>
+                    </div>
+                    <h6 class="fs-18 font-primary fw-normal text-title mb-15">AREAS OF EXPERTISE</h6>
+                    <ul class="skill-list list-unstyled mb-0">
+                        <li class="fs-xxl-18 d-inline-block"><a href="service-details.html">Strategic Planning</a></li>
+                        <li class="fs-xxl-18 d-inline-block"><a href="service-details.html">Corporate Tax</a></li>
+                        <li class="fs-xxl-18 d-inline-block"><a href="service-details.html">Audit Defense</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <div class="team-card style-one img-hover-zoom position-relative mb-30" data-cue="anim-top" data-delay="300">
+                    <div class="team-img img-zoom position-relative z-1 overflow-hidden round-20">
+                        <img src="assets/img/team/team-2.jpg" alt="Team Member" class="transition round-20">
+                        <div class="team-info d-flex flex-wrap align-items-center justify-content-between">
+                            <div>
+                                <h3 class="fs-20 fw-bold mb-10"><a href="leader-details.html" class="text-white link-hover-white transition">Richard McMiller</a></h3>
+                                <span class="fs-xxl-18 text-gray d-block lh-1">Chief Financial Officer</span>
+                            </div>
+                            <a href="/cdn-cgi/l/email-protection#c9bba6baaca4a8bbb089acb1bba6b1e7aaa6a4" class="mail-link d-flex flex-column align-items-center justify-content-center rounded-circle transition"><i class="ri-mail-fill"></i></a>
+                        </div>
+                    </div>
+                    <h6 class="fs-18 font-primary fw-normal text-title mb-15">AREAS OF EXPERTISE</h6>
+                    <ul class="skill-list list-unstyled mb-0">
+                        <li class="fs-xxl-18 d-inline-block"><a href="service-details.html">Cost Optimization</a></li>
+                        <li class="fs-xxl-18 d-inline-block"><a href="service-details.html">Financial Modeling</a></li>
+                        <li class="fs-xxl-18 d-inline-block"><a href="service-details.html">Risk Management</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <div class="team-card style-one img-hover-zoom position-relative mb-30" data-cue="anim-right" data-delay="400">
+                    <div class="team-img img-zoom position-relative z-1 overflow-hidden round-20">
+                        <img src="assets/img/team/team-3.jpg" alt="Team Member" class="transition round-20">
+                        <div class="team-info d-flex flex-wrap align-items-center justify-content-between">
+                            <div>
+                                <h3 class="fs-20 fw-bold mb-10"><a href="leader-details.html" class="text-white link-hover-white transition">Marilynn Church</a></h3>
+                                <span class="fs-xxl-18 text-gray d-block lh-1">Tax Director</span>
+                            </div>
+                            <a href="/cdn-cgi/l/email-protection#fb8994889e969a8982bb9e83899483d5989496" class="mail-link d-flex flex-column align-items-center justify-content-center rounded-circle transition"><i class="ri-mail-fill"></i></a>
+                        </div>
+                    </div>
+                    <h6 class="fs-18 font-primary fw-normal text-title mb-15">AREAS OF EXPERTISE</h6>
+                    <ul class="skill-list list-unstyled mb-0">
+                        <li class="fs-xxl-18 d-inline-block"><a href="service-details.html">IRS Negotiation</a></li>
+                        <li class="fs-xxl-18 d-inline-block"><a href="service-details.html">R&D Credits</a></li>
+                        <li class="fs-xxl-18 d-inline-block"><a href="service-details.html">Estate Planning</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> -->
+                <!-- Team Section End -->
+                <!-- Testimonial Section Start -->
+                <!-- <div class="testimonial-area style-two">
+        <div class="container style-one">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
+                    <h2 class="section-title style-one fw-semibold title-anim mb-35">
+                        <small class="fs-18 fw-normal text-md-center text-start d-inline-block">TESTIMONIALS</small>
+                        Join 500+ businesses who rely on Exrox for financial clarity and strategic growth
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid style-two">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-5">
+                    <div class="success-box style-one bg_secondary round-20 mb-sm-30">
+                        <h6 class="fs-24 lh-1 mb-18">Success stories</h6>
+                        <div class="counter-card">
+                            <h4 class="text-title fw-semibold mb-3"><span class="counter fw-bold transition">98</span>%</h4>
+                            <span class="fs-xxl-18 d-block text-title">Client Retention</span>
+                        </div>
+                        <div class="ratings d-flex flex-wrap align-items-end mb-12">
+                            <span class="font-secondary fw-semibold text-title">4.9</span>
+                            <ul class="rating list-unstyled mb-12 ms-3 lh-1">
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                            </ul>
+                        </div>
+                        <p class="fs-xxl-18 text-title mb-0">Based on 50 reviews</p>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-8 col-md-7 pe-lg-0">
+                    <div class="testimonial-slider-one swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial-card style-one d-flex flex-column justify-content-between round-20">
+                                    <div>
+                                        <ul class="rating list-unstyled">
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                        </ul>
+                                        <p class="font-primary fw-bold text-title">“Exrox transformed our messy financials into a streamlined system we can trust. Their team feels like an extension of our business.”</p>
+                                    </div>
+                                    <div class="client-info-wrap d-flex flex-wrap align-items-center">
+                                        <div class="client-img rounded-circle">
+                                            <img src="assets/img/clients/client-7.jpg" alt="Image" class="rounded-circle">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6 class="fs-20">Robert Cervantes</h6>
+                                            <span>CEO & CO-Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-card style-one d-flex flex-column justify-content-between round-20">
+                                    <div>
+                                        <ul class="rating list-unstyled">
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                        </ul>
+                                        <p class="font-primary fw-bold text-title">“Thanks to Exrox, we went from reactive budgeting to real-time decision-making. Their insight helped us reduce costs and scale with confidence.”</p>
+                                    </div>
+                                    <div class="client-info-wrap d-flex flex-wrap align-items-center">
+                                        <div class="client-img rounded-circle">
+                                            <img src="assets/img/clients/client-2.jpg" alt="Image" class="rounded-circle">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6 class="fs-20">Sharon Starks</h6>
+                                            <span>CFO, IUBT</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-card style-one d-flex flex-column justify-content-between round-20">
+                                    <div>
+                                        <ul class="rating list-unstyled">
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                        </ul>
+                                        <p class="font-primary fw-bold text-title">“They handled our complex multi-location accounts with ease and precision. I couldn’t recommend them more for growing teams.”</p>
+                                    </div>
+                                    <div class="client-info-wrap d-flex flex-wrap align-items-center">
+                                        <div class="client-img rounded-circle">
+                                            <img src="assets/img/clients/client-8.jpg" alt="Image" class="rounded-circle">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6 class="fs-20">Brandon Coyne</h6>
+                                            <span>Businessman</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-card style-one d-flex flex-column justify-content-between round-20">
+                                    <div>
+                                        <ul class="rating list-unstyled">
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                        </ul>
+                                        <p class="font-primary fw-bold text-title">“Exrox helped us prepare for funding by building investor-ready reports and forecasts. We closed our seed round in record time.”</p>
+                                    </div>
+                                    <div class="client-info-wrap d-flex flex-wrap align-items-center">
+                                        <div class="client-img rounded-circle">
+                                            <img src="assets/img/clients/client-6.jpg" alt="Image" class="rounded-circle">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6 class="fs-20">Rhonda Proffitt</h6>
+                                            <span>Entrepreneur</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-card style-one d-flex flex-column justify-content-between round-20">
+                                    <div>
+                                        <ul class="rating list-unstyled">
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                        </ul>
+                                        <p class="font-primary fw-bold text-title">“Exrox transformed our messy financials into a streamlined system we can trust. Their team feels like an extension of our business.”</p>
+                                    </div>
+                                    <div class="client-info-wrap d-flex flex-wrap align-items-center">
+                                        <div class="client-img rounded-circle">
+                                            <img src="assets/img/clients/client-1.jpg" alt="Image" class="rounded-circle">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6 class="fs-20">Robert Cervantes</h6>
+                                            <span>CEO & CO-Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-card style-one d-flex flex-column justify-content-between round-20">
+                                    <div>
+                                        <ul class="rating list-unstyled">
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                        </ul>
+                                        <p class="font-primary fw-bold text-title">“Exrox transformed our messy financials into a streamlined system we can trust. Their team feels like an extension of our business.”</p>
+                                    </div>
+                                    <div class="client-info-wrap d-flex flex-wrap align-items-center">
+                                        <div class="client-img rounded-circle">
+                                            <img src="assets/img/clients/client-7.jpg" alt="Image" class="rounded-circle">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6 class="fs-20">Robert Cervantes</h6>
+                                            <span>CEO & CO-Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-card style-one d-flex flex-column justify-content-between round-20">
+                                    <div>
+                                        <ul class="rating list-unstyled">
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                        </ul>
+                                        <p class="font-primary fw-bold text-title">“Thanks to Exrox, we went from reactive budgeting to real-time decision-making. Their insight helped us reduce costs and scale with confidence.”</p>
+                                    </div>
+                                    <div class="client-info-wrap d-flex flex-wrap align-items-center">
+                                        <div class="client-img rounded-circle">
+                                            <img src="assets/img/clients/client-2.jpg" alt="Image" class="rounded-circle">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6 class="fs-20">Sharon Starks</h6>
+                                            <span>CFO, IUBT</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-card style-one d-flex flex-column justify-content-between round-20">
+                                    <div>
+                                        <ul class="rating list-unstyled">
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                            <li><img src="assets/img/icons/star.svg" alt="Icon"></li>
+                                        </ul>
+                                        <p class="font-primary fw-bold text-title">“They handled our complex multi-location accounts with ease and precision. I couldn’t recommend them more for growing teams.”</p>
+                                    </div>
+                                    <div class="client-info-wrap d-flex flex-wrap align-items-center">
+                                        <div class="client-img rounded-circle">
+                                            <img src="assets/img/clients/client-8.jpg" alt="Image" class="rounded-circle">
+                                        </div>
+                                        <div class="client-info">
+                                            <h6 class="fs-20">Brandon Coyne</h6>
+                                            <span>Businessman</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+                <!-- Testimonial Section End -->
+                <!-- Brand Section Start -->
+                <!-- <div class="container ptb-120">
+        <div class="row align-items-center">
+            <div class="col-xxl-5 col-xl-4 col-lg-5 mb-md-20">
+                <h6 class="fs-18 font-primary fw-normal mb-0 reveal-text-right">OUR ESTEEMED CLIENTS</h6>
+            </div>
+            <div class="col-xxl-7 col-xl-8 col-lg-7">
+                <div class="brand-logo-wrap style-one d-flex flex-wrap align-items-center" data-cue="slideInUp" data-delay="200">
+                    <div class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20">
+                        <img src="assets/img/brand/brand-logo-1.svg" alt="Logo" class="d-block mx-auto">
+                    </div>
+                    <div class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20">
+                        <img src="assets/img/brand/brand-logo-2.svg" alt="Logo" class="d-block mx-auto">
+                    </div>
+                    <div class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20">
+                        <img src="assets/img/brand/brand-logo-3.svg" alt="Logo" class="d-block mx-auto">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="brand-logo-wrap style-two d-flex flex-wrap align-items-center">
+                    <div class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20">
+                        <img src="assets/img/brand/brand-logo-4.svg" alt="Logo" class="d-block mx-auto">
+                    </div>
+                    <div class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20">
+                        <img src="assets/img/brand/brand-logo-5.svg" alt="Logo" class="d-block mx-auto">
+                    </div>
+                    <div class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20">
+                        <img src="assets/img/brand/brand-logo-6.svg" alt="Logo" class="d-block mx-auto">
+                    </div>
+                    <div class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20">
+                        <img src="assets/img/brand/brand-logo-7.svg" alt="Logo" class="d-block mx-auto">
+                    </div>
+                    <div class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20">
+                        <img src="assets/img/brand/brand-logo-8.svg" alt="Logo" class="d-block mx-auto">
+                    </div>
+                    <div class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20">
+                        <img src="assets/img/brand/brand-logo-9.svg" alt="Logo" class="d-block mx-auto">
+                    </div>
+                    <div class="brand-logo d-flex flex-column align-items-center justify-content-center style-one round-20">
+                        <img src="assets/img/brand/brand-logo-10.svg" alt="Logo" class="d-block mx-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+                <!-- Brand Section End -->
+            </div>
+
+            <footer class="footer-area style-one">
+                <div class="container style-one">
+                    <!-- TOP SECTION -->
+                    <div class="footer-top pt-120 pb-70">
+                        <div class="row gy-5 align-items-start">
+                            <!-- BRAND + ADDRESS -->
+                            <div class="col-xxl-4 col-lg-4 col-md-12">
+                                <div class="footer-widget">
+                                    <a href="index.html" class="d-inline-block mb-35">
+                                        <img src="assets/img/client-data/downloaded/thackerseygrouplogo.jpg"
+                                             alt="Thackersey Group"
+                                             style="height: 90px; width: auto; object-fit: contain" />
+                                    </a>
+
+                                    <p class="text-white fs-xxl-18 mb-20">
+                                        Thackersey Group<br>Sir Vithaldas Chambers, 16,<br />
+                                        Mumbai Samachar Marg,<br />
+                                        Mumbai – 400 001, Maharashtra, India
+                                    </p>
+
+                                    <div class="mb-14">
+                                        <a href="tel:02269243300"
+                                           class="fw-semibold text-white fs-xxl-18">
+                                            022 6924 3300
+                                        </a>
+                                    </div>
+
+                                    <a href="mailto:contact@thackerseygroup.com"
+                                       class="fs-xxl-18 fw-semibold text-white d-block mb-15">
+                                        contact@thackerseygroup.com
+                                    </a>
+
+                                    <!-- Social Icons -->
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="https://www.facebook.com/share/1HoKeAFxWK/" target="_blank" class="text-white fs-18">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+
+                                        <a href="https://www.instagram.com/thackerseyfoundation/" target="_blank" class="text-white fs-18">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+
+                                        <a href="https://www.linkedin.com/company/capricon-realty-private-limited/?originalSubdomain=in" target="_blank" class="text-white fs-18">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- NAVIGATION -->
+                            <div class="col-xxl-3 col-lg-3 col-md-6">
+                                <div class="footer-widget">
+                                    <h3 class="footer-widget-title fs-22 text-white mb-25">
+                                        Navigation
+                                    </h3>
+
+                                    <ul class="footer-menu style-one list-unstyled mb-20">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="philanthropy.html">Philanthropy</a></li>
+                                        <li><a href="work-with-us.html">Work with us</a></li>
+                                        <li><a href="index.html#homecontact">Get in Touch</a></li>
+                                    </ul>
+                                    <h3 class="footer-widget-title fs-22 text-white mb-20">
+                                        Legal & Compliance
+                                    </h3>
+                                    <p class="text-gray fs-xxl-18 mb-30">
+                                        Thackersey Group is a collective reference to group
+                                        companies and not an independent legal entity. All website
+                                        content is provided for general informational purposes
+                                        only and should not be relied upon for decision-making.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- LEGAL + TRUST -->
+                            <div class="col-xxl-5 col-lg-5 col-md-6">
+                                <div class="footer-widget">
+
+                                    <h3 class="footer-widget-title fs-22 text-white mb-20">
+                                        Locate Us
+                                    </h3>
+
+                                    <div class="comp-map style-one">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12672.308534929807!2d72.82701121834178!3d18.933939327982547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1c4bb3560b7%3A0x2a9208d3dc688f1c!2sThackersey%20Group!5e0!3m2!1sen!2sin!4v1769623309116!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy">
+                                        </iframe>
+                                    </div>
+                                    <!-- TRUST STRIP -->
+                                    <div class="d-flex flex-wrap align-items-center gap-25"
+                                         style="
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            padding-top: 20px;
+          ">
+
+                                        <!-- <ul class="social-profile style-one list-unstyled d-flex gap-12 mb-0">
+                              <li>
+                                <a href="#" target="_blank" class="rounded-circle">
+                                  <i class="ri-facebook-fill"></i>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#" target="_blank" class="rounded-circle">
+                                  <i class="ri-linkedin-fill"></i>
+                                </a>
+                              </li>
+                            </ul> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FOOTER BOTTOM -->
+                    <div class="footer-bottom pt-30 pb-30"
+                         style="border-top: 1px solid rgba(255, 255, 255, 0.12)">
+                        <div class="row align-items-center gy-3">
+                            <div class="col-md-6 text-md-start text-center">
+                                <p class="fs-xxl-15 text-gray mb-0">
+                                    ©Copyright Thackersey Group | All Rights Reserved.
+                                </p>
+                                <p class="fs-xxl-15 text-gray mb-0">
+                                    Designed and Developed by <a class="text-white" href="https://www.kanhaiyasuthar.com/" style="font-weight:bold">TechSpeex</a>
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 text-md-end text-center">
+                                <ul class="footer-bottom-menu list-unstyled d-inline-flex gap-30 mb-0">
+                                    <li>
+                                        <a href="terms-conditions.html">Terms & Conditions</a>
+                                    </li>
+                                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                    <li><a href="diclaimer.html">Disclaimer</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer End -->
+        </div>
+    </div>
+    <!-- Back to Top -->
+    <div id="progress-wrap" class="progress-wrap style-one">
+        <svg class="progress-circle svg-content"
+             width="100%"
+             height="100%"
+             viewBox="-1 -1 102 102">
+            <path id="progress-path"
+                  d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- Link of JS files -->
+    <script data-cfasync="false"
+            src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/megamenu.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/fslightbox.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/scrollTrigger.min.js"></script>
+    <script src="assets/js/lenis.min.js"></script>
+    <script src="assets/js/scrollToPlugin.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/customEase.js"></script>
+    <script src="assets/js/scrollcue.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

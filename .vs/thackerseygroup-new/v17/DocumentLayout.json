@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Kanhaiya\\thackerseygroup-new\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Kanhaiya\\thackerseygroup-new\\work-with-us.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:work-with-us.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Kanhaiya\\thackerseygroup-new\\terms-conditions.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:terms-conditions.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Kanhaiya\\thackerseygroup-new\\privacy-policy.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:privacy-policy.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Kanhaiya\\thackerseygroup-new\\philanthropy.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:philanthropy.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Kanhaiya\\thackerseygroup-new\\financial-assets.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:financial-assets.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Kanhaiya\\thackerseygroup-new\\diclaimer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:diclaimer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Kanhaiya\\thackerseygroup-new\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Kanhaiya\\thackerseygroup-new\\bhishmarealty.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bhishmarealty.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Kanhaiya\\thackerseygroup-new\\capriconrealty.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capriconrealty.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Kanhaiya\\thackerseygroup-new\\assets\\css\\dark-theme.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\css\\dark-theme.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Kanhaiya\\thackerseygroup-new\\assets\\css\\dark-theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\css\\dark-theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:509685457:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "terms-conditions.html",
+              "DocumentMoniker": "D:\\Kanhaiya\\thackerseygroup-new\\terms-conditions.html",
+              "RelativeDocumentMoniker": "terms-conditions.html",
+              "ToolTip": "D:\\Kanhaiya\\thackerseygroup-new\\terms-conditions.html",
+              "RelativeToolTip": "terms-conditions.html",
+              "ViewState": "AgIAAGsAAAAAAAAAAADwv4EAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-25T07:21:05.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "privacy-policy.html",
+              "DocumentMoniker": "D:\\Kanhaiya\\thackerseygroup-new\\privacy-policy.html",
+              "RelativeDocumentMoniker": "privacy-policy.html",
+              "ToolTip": "D:\\Kanhaiya\\thackerseygroup-new\\privacy-policy.html",
+              "RelativeToolTip": "privacy-policy.html",
+              "ViewState": "AgIAAGIAAAAAAAAAAADwv4EAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-25T07:20:57.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "philanthropy.html",
+              "DocumentMoniker": "D:\\Kanhaiya\\thackerseygroup-new\\philanthropy.html",
+              "RelativeDocumentMoniker": "philanthropy.html",
+              "ToolTip": "D:\\Kanhaiya\\thackerseygroup-new\\philanthropy.html",
+              "RelativeToolTip": "philanthropy.html",
+              "ViewState": "AgIAAGYAAAAAAAAAAADwv38AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-25T07:20:50.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "diclaimer.html",
+              "DocumentMoniker": "D:\\Kanhaiya\\thackerseygroup-new\\diclaimer.html",
+              "RelativeDocumentMoniker": "diclaimer.html",
+              "ToolTip": "D:\\Kanhaiya\\thackerseygroup-new\\diclaimer.html",
+              "RelativeToolTip": "diclaimer.html",
+              "ViewState": "AgIAAGgAAAAAAAAAAADwv4EAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-25T07:20:21.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "bhishmarealty.html",
+              "DocumentMoniker": "D:\\Kanhaiya\\thackerseygroup-new\\bhishmarealty.html",
+              "RelativeDocumentMoniker": "bhishmarealty.html",
+              "ToolTip": "D:\\Kanhaiya\\thackerseygroup-new\\bhishmarealty.html",
+              "RelativeToolTip": "bhishmarealty.html",
+              "ViewState": "AgIAAGgAAAAAAAAAAADwv4EAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-25T07:19:07.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Kanhaiya\\thackerseygroup-new\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "D:\\Kanhaiya\\thackerseygroup-new\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAGEAAAAAAAAAAADwv3IAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-25T06:56:56.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "work-with-us.html",
+              "DocumentMoniker": "D:\\Kanhaiya\\thackerseygroup-new\\work-with-us.html",
+              "RelativeDocumentMoniker": "work-with-us.html",
+              "ToolTip": "D:\\Kanhaiya\\thackerseygroup-new\\work-with-us.html",
+              "RelativeToolTip": "work-with-us.html",
+              "ViewState": "AgIAAKsAAAAAAAAAAADwv7wAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-25T05:21:42.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "capriconrealty.html",
+              "DocumentMoniker": "D:\\Kanhaiya\\thackerseygroup-new\\capriconrealty.html",
+              "RelativeDocumentMoniker": "capriconrealty.html",
+              "ToolTip": "D:\\Kanhaiya\\thackerseygroup-new\\capriconrealty.html",
+              "RelativeToolTip": "capriconrealty.html",
+              "ViewState": "AgIAAGwAAAAAAAAAAADwv4IAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-25T07:20:06.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "financial-assets.html",
+              "DocumentMoniker": "D:\\Kanhaiya\\thackerseygroup-new\\financial-assets.html",
+              "RelativeDocumentMoniker": "financial-assets.html",
+              "ToolTip": "D:\\Kanhaiya\\thackerseygroup-new\\financial-assets.html",
+              "RelativeToolTip": "financial-assets.html",
+              "ViewState": "AgIAAKcAAAAAAAAAAADwv8AAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-25T06:14:44.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dark-theme.scss",
+              "DocumentMoniker": "D:\\Kanhaiya\\thackerseygroup-new\\assets\\css\\dark-theme.scss",
+              "RelativeDocumentMoniker": "assets\\css\\dark-theme.scss",
+              "ToolTip": "D:\\Kanhaiya\\thackerseygroup-new\\assets\\css\\dark-theme.scss",
+              "RelativeToolTip": "assets\\css\\dark-theme.scss",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAAAFcFAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2026-03-25T06:14:23.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "dark-theme.css",
+              "DocumentMoniker": "D:\\Kanhaiya\\thackerseygroup-new\\assets\\css\\dark-theme.css",
+              "RelativeDocumentMoniker": "assets\\css\\dark-theme.css",
+              "ToolTip": "D:\\Kanhaiya\\thackerseygroup-new\\assets\\css\\dark-theme.css",
+              "RelativeToolTip": "assets\\css\\dark-theme.css",
+              "ViewState": "AgIAALIDAAAAAAAAAAAawMUDAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-25T06:14:19.907Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

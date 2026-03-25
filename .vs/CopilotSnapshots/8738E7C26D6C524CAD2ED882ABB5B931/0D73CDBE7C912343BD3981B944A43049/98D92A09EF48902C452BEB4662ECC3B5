@@ -1,0 +1,1307 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Careers at Thackersey Group - Join our team and build your legacy with us. Explore current job openings, career growth opportunities, and apply for positions with a trusted conglomerate.">
+    <meta name="keywords" content="careers, job openings, Thackersey Group jobs, employment opportunities, recruitment, job application, career growth, real estate careers">
+
+    <!-- Link of CSS files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/scrollcue.min.css">
+    <link rel="stylesheet" href="assets/css/remixicon.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/dark-theme.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+          rel="stylesheet" />
+    <title>Careers & Job Openings - Join Thackersey Group</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+    <body>
+
+       <!--  Preloader Start -->
+        <div class="preloader-area" id="preloader">
+            <div class="spinner">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <!--  Preloader End -->
+
+        <!-- Theme Switcher Start -->
+        <div class="switch-theme-mode d-none">
+            <label id="switch" class="switch">
+                <input type="checkbox" onchange="toggleTheme()" id="slider">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <!-- Theme Switcher End -->
+
+        <!-- Custom Cursor -->
+        <!--<div class="cursor">
+            <span class="cursor-text d-flex flex-column align-items-center justify-content-center rounded-circle bg-white text-title fs-14 fw-semibold"></span>
+        </div>-->
+        <!--<div class="cursor-inner"></div>-->
+
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+                <div class="position-relative z-1">
+                    <!-- Navbar To Start -->
+                    <!-- <div class="navbar-top style-two position-relative z-2">
+                        <div class="container style-two">
+                            <div class="row">
+                                <div class="col-md-7 mb-sm-6">
+                                    <ul class="contact-info list-unstyled text-md-start text-center mb-0">
+                                        <li class="d-inline-block"><a href="tel:18083609282" class="contact-num d-block fw-bold text_secondary link-hover-secondary">+1 (808) 360-9282</a></li>
+                                        <li class="d-inline-block"><a href="/cdn-cgi/l/email-protection#0f676a6363604f6a777d6077216c6062" class="contact-mail fw-normal text-white hover-text-secondary d-inline-block">hello<span class="text_secondary">@</span>exrox.com</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-5">
+                                    <ul class="social-profile style-two list-unstyled text-md-end text-center mb-0">
+                                        <li><a href="https://www.facebook.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-facebook-fill"></i></a></li>
+                                        <li><a href="https://x.com/?lang=en" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-twitter-x-line"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-linkedin-fill"></i></a></li>
+                                        <li><a href="https://www.instagram.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-instagram-line"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- Navbar Top End -->
+
+                    <!-- Navbar Area Start -->
+                    <div class="navbar-area style-one position-relative z-2" id="navbar" style="background-color:white">
+                    <div class="container style-two">
+                        <div class="navbar-wrapper d-flex justify-content-between align-items-center">
+                            <a href="index.html" class="navbar-brand">
+                                <img src="assets/img/Tglogo.jpg"
+                                     alt="Thackersey Group"
+                                     class="navbar-logo" />
+                            </a>
+
+                            <style>
+                                .navbar-logo {
+                                    height: 80px;
+                                    width: auto;
+                                    display: block;
+                                    object-fit: contain;
+                                }
+
+                                /* Mobile view */
+                                @media (max-width: 768px) {
+                                    .navbar-logo {
+                                        height: 45px; /* adjust as needed */
+                                    }
+                                }
+
+                                @media (max-width: 480px) {
+                                    .navbar-logo {
+                                        height: 38px;
+                                    }
+                                }
+                            </style>
+                            <div class="menu-area mx-auto">
+                                <div class="overlay"></div>
+                                <nav class="menu">
+                                    <div class="menu-mobile-header">
+                                        <button type="button"
+                                                class="menu-mobile-arrow bg-transparent border-0">
+                                            <i class="ri-arrow-left-s-line"></i>
+                                        </button>
+                                        <div class="menu-mobile-title"></div>
+                                        <button type="button"
+                                                class="menu-mobile-close bg-transparent border-0">
+                                            <i class="ri-close-line"></i>
+                                        </button>
+                                    </div>
+                                    <ul class="menu-section p-0 mb-0 lh-1">
+                                        <li class="menu-item-has-children">
+                                            <a href="index.html">Home</a>
+                                        </li>
+
+                                        <li class="menu-item-has-children">
+                                            <a href="javascript:void(0)">
+                                                Group Companies<i class="ri-arrow-down-s-line"></i>
+                                            </a>
+                                            <ul class="menu-subs menu-column-1">
+                                                <li>
+                                                    <a href="capriconrealty.html">Capricon Realty</a>
+                                                </li>
+                                                <li>
+                                                    <a href="bhishmarealty.html">Bhishma Realty</a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="our-investments.html">Our Investments</a>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="philanthropy.html">Philanthropy</a>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="work-with-us.html">Work with us</a>
+                                        </li>
+                                        <!-- <li class="menu-item-has-children">
+                  <a href="javascript:void(0)"
+                    >Careers<i class="ri-arrow-down-s-line"></i
+                  ></a>
+                  <ul class="menu-subs menu-column-1">
+                    <li><a href="services.html">Real Estate</a></li>
+                    <li><a href="services.html">Pre-Leased Assets</a></li>
+                    <li><a href="services.html">Financial Assets</a></li>
+                  </ul>
+                </li> -->
+                                        <li><a href="index.html#homecontact">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="other-options d-flex flex-wrap align-items-center justify-content-end">
+
+                                <!-- Social Icons (Desktop) -->
+                                <div class="option-item d-lg-flex d-none gap-3">
+
+                                    <a href="https://www.facebook.com/share/1HoKeAFxWK/" target="_blank" class="social-icon">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+
+                                    <a href="https://www.instagram.com/thackerseyfoundation/" target="_blank" class="social-icon">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+
+                                    <a href="https://www.linkedin.com/company/capricon-realty-private-limited/?originalSubdomain=in" target="_blank" class="social-icon">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+
+                                </div>
+
+                                <!-- Mobile Menu Button -->
+                                <div class="option-item d-lg-none">
+                                    <button type="button" class="menu-mobile-trigger">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                </div>
+
+                            </div>
+                            <style>
+                                .social-icon {
+                                    width: 40px;
+                                    height: 40px;
+                                    border-radius: 50%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    background: #1a265e;
+                                    color: #fff;
+                                    font-size: 16px;
+                                    transition: 0.3s;
+                                    text-decoration: none;
+                                }
+
+                                    .social-icon:hover {
+                                        background: #1a265e; /* classy gold-ish tone */
+                                        color: #fff;
+                                        transform: translateY(-3px);
+                                    }
+                            </style>
+                        </div>
+                    </div>
+                </div>
+          <!-- Navbar Area End -->
+
+
+                    <!-- Breadcrumb Area Start -->
+                    <div class="breadcrumb-area style-one position-relative z-1">
+                        <div class="br-bg img-container position-absolute top-0 start-0 w-100">
+                            <img src="assets\img\client-data\PhotosCrown\bredcrumb-bg.jpg" alt="Image" class="w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="container style-one">
+                            <div class="row">
+                                <div class="col-xxl-10 col-lg-8">
+                                    <h2 class="section-title style-three text-white fw-bold mb-20 reveal-text">WORK WITH US</h2>
+                                    <ul class="br-menu list-unstyled mb-0">
+                                        <li class="fs-xxl-18"><a href="index.html">Home</a></li>
+                                        <li class="fs-xxl-18">Work with us</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Breadcrumb Area End -->
+
+                    <div class="bg-albastor">
+                        <div class="container style-one pt-120">
+
+                            <div class="row">
+                                <div class="col-lg-8 offset-lg-2">
+                                    <h6 class="fs-18 fw-normal text-center text-secondary mb-12">Join Thackersey Group</h6>
+                                    <h2 class="section-title style-two text-title text-center mb-35">
+                                        Build your legacy with us. We invest in professional development and offer a stable, supportive environment.
+                                    </h2>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center pb-90">
+                                <div class="col-xl-4 col-md-6 mb-4">
+                                    <div class="job-feature-card style-one bg-white round-20 p-4 shadow-sm h-100 d-flex flex-column align-items-center text-center">
+                                        <div class="icon-box mb-4 bg-albastor rounded-circle d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                                            <img src="assets/img/icons/growth.svg" alt="Career Growth" width="40">
+                                        </div>
+                                        <h3 class="fs-22 fw-bold mb-3">Career Growth</h3>
+                                        <p class="fs-18 text-gray mb-0">Opportunities to work on high-value asset management and strategic real estate projects.</p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6 mb-4">
+                                    <div class="job-feature-card style-one bg-white round-20 p-4 shadow-sm h-100 d-flex flex-column align-items-center text-center">
+                                        <div class="icon-box mb-4 bg-albastor rounded-circle d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                                            <img src="assets/img/icons/balance.svg" alt="Stability" width="40">
+                                        </div>
+                                        <h3 class="fs-22 fw-bold mb-3">Stability & Heritage</h3>
+                                        <p class="fs-18 text-gray mb-0">Join a group with a long-standing heritage and a diverse, financially stable portfolio.</p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6 mb-4">
+                                    <div class="job-feature-card style-one bg-white round-20 p-4 shadow-sm h-100 d-flex flex-column align-items-center text-center">
+                                        <div class="icon-box mb-4 bg-albastor rounded-circle d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                                            <img src="assets/img/icons/culture.svg" alt="Culture" width="40">
+                                        </div>
+                                        <h3 class="fs-22 fw-bold mb-3">Collaborative Culture</h3>
+                                        <p class="fs-18 text-gray mb-0">Work directly with senior leadership and experienced professionals in a transparent environment.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between mb-40 border-bottom pb-4 text-center text-md-start">
+                                        <div class="mb-3 mb-md-0">
+                                            <h2 class="reveal-text-bottom text-title mb-0">Current Openings</h2>
+                                            <p class="fs-18 text-gray mb-0 mt-2">Find the role that fits your expertise.</p>
+                                        </div>
+                                        <div>
+                                            <a href="https://www.linkedin.com/company/capricon-realty-private-limited/" target="_blank" class="btn style-one d-inline-flex align-items-center">
+                                                <span class="btn-icon-one d-flex flex-column align-items-center justify-content-center rounded-circle transition"><i class="ri-linkedin-fill"></i></span>
+                                                <span class="btn-text fw-bold d-flex flex-column align-items-center justify-content-center transition">Follow on LinkedIn</span>
+                                                <span class="btn-icon-two d-flex flex-column align-items-center justify-content-center rounded-circle transition"><i class="ri-arrow-right-line"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="job-card-wrap pb-60">
+
+                                <!-- Job 1 -->
+                                <div class="job-card style-one bg-white round-20 p-4 mb-30 shadow-sm border-start border-4 border-secondary transition hover-lift d-none">
+                                    <div class="row align-items-center g-4">
+                                        <div class="col-auto">
+                                            <div class="employer-logo bg-albastor rounded-circle d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                                <img src="assets/img/client-data/downloaded/capricon_realty_private_limited_logo.jpg" alt="Capricon" style="max-width: 60%;">
+                                            </div>
+                                        </div>
+                                        <div class="col-md col-12">
+                                            <h3 class="fs-22 fw-bold mb-2">
+                                                <a href="javascript:void(0);" onclick="toggleJD('jd1', this)" class="text-title link-hover-secondary">
+                                                    PE/VC & Investment Analyst
+                                                    <i class="ri-arrow-down-s-line ms-1"></i>
+                                                </a>
+                                            </h3>
+                                            <ul class="list-unstyled d-flex flex-wrap text-gray fs-16 mb-0 gap-3">
+                                                <li class="d-flex align-items-center"><i class="ri-building-line me-2 text_secondary"></i> Capricon Realty</li>
+                                                <li class="d-flex align-items-center"><i class="ri-map-pin-line me-2 text_secondary"></i> Mumbai</li>
+                                                <li class="d-flex align-items-center"><i class="ri-briefcase-line me-2 text_secondary"></i> 3 - 4 Years Exp.</li>
+                                            </ul>
+                                            <div id="jd1" style="display:none; margin-top: 15px; border-top: 1px solid #dee2e6; padding-top: 15px;">
+                                                <p class="fs-15 text-muted">We are looking for a detail-oriented PE/VC & Investment Analyst to support our investment team in evaluating real estate opportunities, conducting financial due diligence, and managing investor relations.</p>
+                                                <p class="fw-semibold mb-1">Key Responsibilities:</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Analyze potential PE/VC investment opportunities in the real estate sector.</li>
+                                                    <li>Prepare financial models, pitch decks, and investment memos.</li>
+                                                    <li>Conduct market research and competitive benchmarking.</li>
+                                                    <li>Support due diligence processes and deal structuring.</li>
+                                                    <li>Liaise with investors, funds, and internal stakeholders.</li>
+                                                </ul>
+                                                <p class="fw-semibold mb-1">Requirements:</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>3–4 years of experience in PE/VC, investment banking, or real estate finance.</li>
+                                                    <li>Strong financial modeling and analytical skills.</li>
+                                                    <li>MBA/CA/CFA preferred.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 mt-3 mt-md-0 text-md-end">
+                                            <a href="https://www.naukri.com/job-listings-pe-vc-investment-analyst-capricon-realty-mumbai-3-to-4-years-101225023522?src=seo_srp&sid=17658589693698297&xp=1&px=1" target="_blank" class="btn btn-outline-secondary rounded-pill px-4 fw-semibold">
+                                                Apply Now <i class="ri-external-link-line ms-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Job 2 -->
+                                <div class="job-card style-one bg-white round-20 p-4 mb-30 shadow-sm border-start border-4 border-secondary transition hover-lift">
+                                    <div class="row align-items-center g-4">
+                                        <div class="col-auto">
+                                            <div class="employer-logo bg-albastor rounded-circle d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                                <img src="assets/img/client-data/downloaded/capricon_realty_private_limited_logo.jpg" alt="Capricon" style="max-width: 60%;">
+                                            </div>
+                                        </div>
+                                        <div class="col-md col-12">
+                                            <h3 class="fs-22 fw-bold mb-2">
+                                                <a href="javascript:void(0);" onclick="toggleJD('jd2', this)" class="text-title link-hover-secondary">
+                                                    Manager - Accounts
+                                                    <i class="ri-arrow-down-s-line ms-1"></i>
+                                                </a>
+                                            </h3>
+                                            <ul class="list-unstyled d-flex flex-wrap text-gray fs-16 mb-0 gap-3">
+                                                <li class="d-flex align-items-center"><i class="ri-building-line me-2 text_secondary"></i> Capricon Realty</li>
+                                                <li class="d-flex align-items-center"><i class="ri-map-pin-line me-2 text_secondary"></i> Mumbai</li>
+                                                <li class="d-flex align-items-center"><i class="ri-briefcase-line me-2 text_secondary"></i> 5 - 8 Years Exp.</li>
+                                            </ul>
+                                            <div id="jd2" style="display:none; margin-top: 15px; border-top: 1px solid #dee2e6; padding-top: 15px;">
+                                                <p class="fs-15 text-muted">We are seeking an experienced Accounts Manager to oversee day-to-day financial operations, ensure compliance, and drive accurate reporting for our real estate projects.</p>
+                                                <p class="fw-semibold mb-1">Key Responsibilities:</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Manage accounts payable/receivable and general ledger entries.</li>
+                                                    <li>Prepare monthly, quarterly, and annual financial statements.</li>
+                                                    <li>Ensure GST, TDS, and other statutory compliance.</li>
+                                                    <li>Coordinate with auditors and manage audit processes.</li>
+                                                    <li>Oversee project-wise cost tracking and budget variance analysis.</li>
+                                                </ul>
+                                                <p class="fw-semibold mb-1">Requirements:</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>5–8 years of experience in accounts, preferably in real estate.</li>
+                                                    <li>Proficiency in Tally, SAP, or similar accounting software.</li>
+                                                    <li>CA/CMA or equivalent qualification preferred.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 mt-3 mt-md-0 text-md-end">
+                                            <a href="mailto:careers@thackerseygroup.com" class="btn btn-outline-secondary rounded-pill px-4 fw-semibold">
+                                                Apply Now <i class="ri-mail-line ms-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Job 3 -->
+                                <div class="job-card style-one bg-white round-20 p-4 mb-30 shadow-sm border-start border-4 border-secondary transition hover-lift d-none">
+                                    <div class="row align-items-center g-4">
+                                        <div class="col-auto">
+                                            <div class="employer-logo bg-albastor rounded-circle d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                                <img src="assets/img/client-data/downloaded/capricon_realty_private_limited_logo.jpg" alt="Capricon" style="max-width: 60%;">
+                                            </div>
+                                        </div>
+                                        <div class="col-md col-12">
+                                            <h3 class="fs-22 fw-bold mb-2">
+                                                <a href="javascript:void(0);" onclick="toggleJD('jd3', this)" class="text-title link-hover-secondary">
+                                                    Accounting & Investment Strategy Manager
+                                                    <i class="ri-arrow-down-s-line ms-1"></i>
+                                                </a>
+                                            </h3>
+                                            <ul class="list-unstyled d-flex flex-wrap text-gray fs-16 mb-0 gap-3">
+                                                <li class="d-flex align-items-center"><i class="ri-building-line me-2 text_secondary"></i> Capricon Realty</li>
+                                                <li class="d-flex align-items-center"><i class="ri-map-pin-line me-2 text_secondary"></i> Mumbai</li>
+                                                <li class="d-flex align-items-center"><i class="ri-briefcase-line me-2 text_secondary"></i> 10 - 15 Years Exp.</li>
+                                            </ul>
+                                            <div id="jd3" style="display:none; margin-top: 15px; border-top: 1px solid #dee2e6; padding-top: 15px;">
+                                                <p class="fs-15 text-muted">A senior leadership role combining deep accounting expertise with strategic investment acumen to drive financial planning, investor strategy, and long-term growth at Capricon Realty.</p>
+                                                <p class="fw-semibold mb-1">Key Responsibilities:</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Lead the accounting function and ensure robust financial controls.</li>
+                                                    <li>Drive investment strategy, portfolio analysis, and capital allocation decisions.</li>
+                                                    <li>Prepare and present financial reports to senior leadership and investors.</li>
+                                                    <li>Manage relationships with banks, financial institutions, and PE/VC partners.</li>
+                                                    <li>Oversee MIS reporting, forecasting, and long-term financial planning.</li>
+                                                </ul>
+                                                <p class="fw-semibold mb-1">Requirements:</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>10–15 years of experience in accounting and investment strategy.</li>
+                                                    <li>Strong background in real estate finance and capital markets.</li>
+                                                    <li>CA/MBA Finance or equivalent; CFA is a plus.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 mt-3 mt-md-0 text-md-end">
+                                            <a href="https://www.naukri.com/job-listings-accounting-and-investment-strategy-manager-capricon-realty-mumbai-10-to-15-years-091225020092?src=seo_srp&sid=17658589693698297&xp=3&px=1" target="_blank" class="btn btn-outline-secondary rounded-pill px-4 fw-semibold">
+                                                Apply Now <i class="ri-external-link-line ms-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Job 4: Accountant -->
+                                <div class="job-card style-one bg-white round-20 p-4 mb-30 shadow-sm border-start border-4 border-secondary transition hover-lift">
+                                    <div class="row align-items-center g-4">
+                                        <div class="col-auto">
+                                            <div class="employer-logo bg-albastor rounded-circle d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                                <img src="assets/img/Tglogo.jpg" alt="Thackersey Group" style="max-width: 60%;">
+                                            </div>
+                                        </div>
+                                        <div class="col-md col-12">
+                                            <h3 class="fs-22 fw-bold mb-2">
+                                                <a href="javascript:void(0);" onclick="toggleJD('jd4', this)" class="text-title link-hover-secondary">
+                                                    Accountant
+                                                    <i class="ri-arrow-down-s-line ms-1"></i>
+                                                </a>
+                                            </h3>
+                                            <ul class="list-unstyled d-flex flex-wrap text-gray fs-16 mb-0 gap-3">
+                                                <li class="d-flex align-items-center"><i class="ri-map-pin-line me-2 text_secondary"></i> Fort, Mumbai</li>
+                                                <li class="d-flex align-items-center"><i class="ri-briefcase-line me-2 text_secondary"></i> 5 - 7 Years Exp.</li>
+                                                <li class="d-flex align-items-center"><i class="ri-money-rupee-circle-line me-2 text_secondary"></i> 8 - 12 LPA</li>
+                                            </ul>
+                                            <div id="jd4" style="display:none; margin-top: 15px; border-top: 1px solid #dee2e6; padding-top: 15px;">
+                                                <p class="fs-15 text-muted">We are seeking a highly skilled and experienced Accountant with a solid understanding of accounting, investments and taxation. The Accountant will play a crucial role in assisting the accounting team with various tasks, including the preparation, maintenance, and review of financial records.</p>
+                                                <p class="fw-semibold mb-1">Key Responsibilities:</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Finalisation of accounts and financial statement preparation.</li>
+                                                    <li>Maintaining proper books of accounts.</li>
+                                                    <li>Income tax computation.</li>
+                                                    <li>GST compliance and filing.</li>
+                                                    <li>TDS compliance and filing.</li>
+                                                    <li>Tax audit knowledge.</li>
+                                                    <li>Fixed asset register.</li>
+                                                    <li>Bank reconciliation.</li>
+                                                    <li>Party ledgers reconciliation.</li>
+                                                    <li>Working knowledge of Tally Prime and Microsoft Excel.</li>
+                                                </ul>
+                                                <p class="fw-semibold mb-1">Qualifications:</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Bachelor's degree in Accounting.</li>
+                                                    <li>CA Intermediate (desirable qualification).</li>
+                                                    <li>Minimum 5–8 years of experience in accounts, finance and taxation.</li>
+                                                    <li>Proficiency in Tally and Microsoft Office.</li>
+                                                    <li>Strong analytical, problem-solving, and organizational skills.</li>
+                                                </ul>
+                                                <p class="fw-semibold mb-1">What's in It for You:</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Opportunity to work for a prestigious group with a strong track record.</li>
+                                                    <li>Stable, peaceful, yet productive work environment.</li>
+                                                    <li>Steady growth opportunities within the organization.</li>
+                                                    <li>PF, Gratuity, Medical insurance, Train pass and other benefits.</li>
+                                                </ul>
+                                                <p class="fs-15 text-muted"><strong>Working Conditions:</strong> Full-time, Monday to Saturday (1st, 3rd & 5th Saturdays). Occasional overtime during peak periods.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 mt-3 mt-md-0 text-md-end">
+                                            <a href="mailto:careers@thackerseygroup.com" class="btn btn-outline-secondary rounded-pill px-4 fw-semibold">
+                                                Apply Now <i class="ri-mail-line ms-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Job 5: Property and Admin Manager -->
+                                <div class="job-card style-one bg-white round-20 p-4 mb-30 shadow-sm border-start border-4 border-secondary transition hover-lift d-none">
+                                    <div class="row align-items-center g-4">
+                                        <div class="col-auto">
+                                            <div class="employer-logo bg-albastor rounded-circle d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                                <img src="assets/img/Tglogo.jpg" alt="Thackersey Group" style="max-width: 60%;">
+                                            </div>
+                                        </div>
+                                        <div class="col-md col-12">
+                                            <h3 class="fs-22 fw-bold mb-2">
+                                                <a href="javascript:void(0);" onclick="toggleJD('jd5', this)" class="text-title link-hover-secondary">
+                                                    Property and Admin Manager
+                                                    <i class="ri-arrow-down-s-line ms-1"></i>
+                                                </a>
+                                            </h3>
+                                            <ul class="list-unstyled d-flex flex-wrap text-gray fs-16 mb-0 gap-3">
+                                                <li class="d-flex align-items-center"><i class="ri-map-pin-line me-2 text_secondary"></i> Mumbai</li>
+                                                <li class="d-flex align-items-center"><i class="ri-briefcase-line me-2 text_secondary"></i> 8 - 15 Years Exp.</li>
+                                                <li class="d-flex align-items-center"><i class="ri-user-line me-2 text_secondary"></i> Reports to: Directors / President</li>
+                                            </ul>
+                                            <div id="jd5" style="display:none; margin-top: 15px; border-top: 1px solid #dee2e6; padding-top: 15px;">
+                                                <p class="fs-15 text-muted">To oversee and manage all aspects of the organization's property portfolio, including acquisition, maintenance, legal compliance, security, and facility operations. The role requires a proactive individual capable of managing multiple responsibilities — from property management to government liaison support.</p>
+                                                <p class="fw-semibold mb-1">Key Responsibilities:</p>
+                                                <p class="fw-semibold mb-1 ms-2">1. Property Management & Acquisition</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Communicate with property dealers and agents regarding available properties for sale/rent.</li>
+                                                    <li>Develop strategies and implement plans for property leasing, acquisition and disposition.</li>
+                                                    <li>Manage the group's properties, including supervision of security, housekeeping, and maintenance.</li>
+                                                    <li>Liaise with licensees of flats and commercial centres for license fees, property tax, maintenance, and payment follow-ups.</li>
+                                                </ul>
+                                                <p class="fw-semibold mb-1 ms-2">2. Liaison & Legal Coordination</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Liaise with government and semi-government bodies such as BMC, MHADA, Collectorate, and Tehsil offices.</li>
+                                                    <li>Attend and coordinate court cases in consultation with legal counsel.</li>
+                                                    <li>Handle trademark and domain-related issues.</li>
+                                                </ul>
+                                                <p class="fw-semibold mb-1 ms-2">3. Facility Management</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Oversee repairs, maintenance, vehicles, security, housekeeping, and vendor negotiations.</li>
+                                                    <li>Set up and manage new offices and properties in different locations.</li>
+                                                    <li>Lead engineering and infrastructure team.</li>
+                                                </ul>
+                                                <p class="fw-semibold mb-1 ms-2">4. Security & Safety Management</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Develop and implement robust security measures for all company properties.</li>
+                                                    <li>Supervise security staff and maintain relationships with local authorities.</li>
+                                                </ul>
+                                                <p class="fw-semibold mb-1">Qualifications:</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Bachelor's degree in Business Administration, Real Estate Management, or related field.</li>
+                                                    <li>8–15 years of relevant experience in property, facility, and security management.</li>
+                                                    <li>Experience dealing with government bodies, legal processes, and corporate administration preferred.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 mt-3 mt-md-0 text-md-end">
+                                            <a href="mailto:careers@thackerseygroup.com" class="btn btn-outline-secondary rounded-pill px-4 fw-semibold">
+                                                Apply Now <i class="ri-mail-line ms-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Job 6: Assistant Manager – Compliance -->
+                                <div class="job-card style-one bg-white round-20 p-4 mb-30 shadow-sm border-start border-4 border-secondary transition hover-lift d-none">
+                                    <div class="row align-items-center g-4">
+                                        <div class="col-auto">
+                                            <div class="employer-logo bg-albastor rounded-circle d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                                <img src="assets/img/Tglogo.jpg" alt="Thackersey Group" style="max-width: 60%;">
+                                            </div>
+                                        </div>
+                                        <div class="col-md col-12">
+                                            <h3 class="fs-22 fw-bold mb-2">
+                                                <a href="javascript:void(0);" onclick="toggleJD('jd6', this)" class="text-title link-hover-secondary">
+                                                    Assistant Manager – Compliance
+                                                    <i class="ri-arrow-down-s-line ms-1"></i>
+                                                </a>
+                                            </h3>
+                                            <ul class="list-unstyled d-flex flex-wrap text-gray fs-16 mb-0 gap-3">
+                                                <li class="d-flex align-items-center"><i class="ri-map-pin-line me-2 text_secondary"></i> Fort, Mumbai</li>
+                                                <li class="d-flex align-items-center"><i class="ri-briefcase-line me-2 text_secondary"></i> 3 - 5 Years Exp.</li>
+                                                <li class="d-flex align-items-center"><i class="ri-money-rupee-circle-line me-2 text_secondary"></i> 8 - 11 LPA</li>
+                                            </ul>
+                                            <div id="jd6" style="display:none; margin-top: 15px; border-top: 1px solid #dee2e6; padding-top: 15px;">
+                                                <p class="fs-15 text-muted">We are seeking a proactive and detail-oriented person to support the Company Secretary in ensuring effective Corporate Governance, Regulatory Compliance and Legal Support. The ideal candidate will help manage statutory obligations, support board and committee processes, and maintain accurate legal and corporate records.</p>
+                                                <p class="fw-semibold mb-1">Key Responsibilities:</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Assist the Company Secretary in preparing and filing statutory returns with regulatory authorities.</li>
+                                                    <li>Maintain and update statutory registers and records in compliance with applicable laws.</li>
+                                                    <li>Draft agendas, notices, and minutes for Board, Committee, and General Meetings.</li>
+                                                    <li>Support preparation of annual reports and other disclosures.</li>
+                                                    <li>Maintain and organize confidential corporate documents and files.</li>
+                                                    <li>Track changes in applicable laws and ensure compliance.</li>
+                                                    <li>Coordinate with RTA, NSDL, CDSL, Shareholders, external consultants, auditors, and regulators.</li>
+                                                </ul>
+                                                <p class="fw-semibold mb-1">Qualifications:</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Qualified Company Secretary with minimum 3–5 years of relevant experience.</li>
+                                                    <li>Experience in legal field preferred.</li>
+                                                    <li>Good understanding of Companies Act, Regulations, and corporate governance principles.</li>
+                                                    <li>Proficiency in MS Office (Word and Excel).</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 mt-3 mt-md-0 text-md-end">
+                                            <a href="mailto:careers@thackerseygroup.com" class="btn btn-outline-secondary rounded-pill px-4 fw-semibold">
+                                                Apply Now <i class="ri-mail-line ms-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Job 7: Assistant HR Manager -->
+                                <div class="job-card style-one bg-white round-20 p-4 mb-30 shadow-sm border-start border-4 border-secondary transition hover-lift">
+                                    <div class="row align-items-center g-4">
+                                        <div class="col-auto">
+                                            <div class="employer-logo bg-albastor rounded-circle d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                                <img src="assets/img/Tglogo.jpg" alt="Thackersey Group" style="max-width: 60%;">
+                                            </div>
+                                        </div>
+                                        <div class="col-md col-12">
+                                            <h3 class="fs-22 fw-bold mb-2">
+                                                <a href="javascript:void(0);" onclick="toggleJD('jd7', this)" class="text-title link-hover-secondary">
+                                                    Assistant HR Manager
+                                                    <i class="ri-arrow-down-s-line ms-1"></i>
+                                                </a>
+                                            </h3>
+                                            <ul class="list-unstyled d-flex flex-wrap text-gray fs-16 mb-0 gap-3">
+                                                <li class="d-flex align-items-center"><i class="ri-map-pin-line me-2 text_secondary"></i> Mumbai</li>
+                                                <li class="d-flex align-items-center"><i class="ri-briefcase-line me-2 text_secondary"></i> 3 - 5 Years Exp.</li>
+                                            </ul>
+                                            <div id="jd7" style="display:none; margin-top: 15px; border-top: 1px solid #dee2e6; padding-top: 15px;">
+                                                <p class="fs-15 text-muted">The Assistant HR Manager supports in overseeing daily human resources operations, implementing HR policies, and managing employee-related processes. This role plays a key part in recruitment, employee relations, performance management, and compliance with labour laws.</p>
+                                                <p class="fw-semibold mb-1">Key Responsibilities:</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Assist in planning and implementing HR strategies aligned with organizational goals.</li>
+                                                    <li>Support recruitment and selection processes (job postings, screening, interviews, onboarding).</li>
+                                                    <li>Coordinate employee onboarding, orientation, and exit procedures.</li>
+                                                    <li>Maintain employee records and HR documentation.</li>
+                                                    <li>Support performance appraisal and employee development programs.</li>
+                                                    <li>Handle employee relations issues and assist in conflict resolution.</li>
+                                                    <li>Assist in payroll coordination, attendance, and leave management.</li>
+                                                    <li>Ensure compliance with labour laws, company policies, and HR best practices.</li>
+                                                    <li>Prepare HR reports, analytics, and presentations for management.</li>
+                                                    <li>Assist in disciplinary procedures and grievance handling.</li>
+                                                </ul>
+                                                <p class="fw-semibold mb-1">Qualifications:</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Bachelor's degree in Human Resources, Business Administration, or related field.</li>
+                                                    <li>3–5 years of experience in HR or a similar role.</li>
+                                                    <li>HR certification (SHRM, CIPD, or equivalent) is a plus.</li>
+                                                    <li>Strong knowledge of HR policies, labour laws, and HR best practices.</li>
+                                                    <li>Proficiency in HR software and MS Office.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 mt-3 mt-md-0 text-md-end">
+                                            <a href="mailto:careers@thackerseygroup.com" class="btn btn-outline-secondary rounded-pill px-4 fw-semibold">
+                                                Apply Now <i class="ri-mail-line ms-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Job 8: Account and Finance Strategy Manager -->
+                                <div class="job-card style-one bg-white round-20 p-4 mb-30 shadow-sm border-start border-4 border-secondary transition hover-lift d-none">
+                                    <div class="row align-items-center g-4">
+                                        <div class="col-auto">
+                                            <div class="employer-logo bg-albastor rounded-circle d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                                                <img src="assets/img/Tglogo.jpg" alt="Thackersey Group" style="max-width: 60%;">
+                                            </div>
+                                        </div>
+                                        <div class="col-md col-12">
+                                            <h3 class="fs-22 fw-bold mb-2">
+                                                <a href="javascript:void(0);" onclick="toggleJD('jd8', this)" class="text-title link-hover-secondary">
+                                                    Account and Finance Strategy Manager
+                                                    <i class="ri-arrow-down-s-line ms-1"></i>
+                                                </a>
+                                            </h3>
+                                            <ul class="list-unstyled d-flex flex-wrap text-gray fs-16 mb-0 gap-3">
+                                                <li class="d-flex align-items-center"><i class="ri-map-pin-line me-2 text_secondary"></i> Mumbai</li>
+                                                <li class="d-flex align-items-center"><i class="ri-briefcase-line me-2 text_secondary"></i> 10+ Years Exp.</li>
+                                                <li class="d-flex align-items-center"><i class="ri-money-rupee-circle-line me-2 text_secondary"></i> 20 - 25 LPA</li>
+                                                <li class="d-flex align-items-center"><i class="ri-award-line me-2 text_secondary"></i> Chartered Accountant</li>
+                                            </ul>
+                                            <div id="jd8" style="display:none; margin-top: 15px; border-top: 1px solid #dee2e6; padding-top: 15px;">
+                                                <p class="fs-15 text-muted">A senior finance leadership role requiring deep expertise in accounting, compliance, and investment strategy to drive financial planning and long-term growth.</p>
+                                                <p class="fw-semibold mb-1">Key Responsibilities:</p>
+                                                <p class="fw-semibold mb-1 ms-2">Record Maintenance</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Maintaining proper books of accounts.</li>
+                                                    <li>Investment accounting along with its proper documentation.</li>
+                                                    <li>Payroll checking and its tax working.</li>
+                                                </ul>
+                                                <p class="fw-semibold mb-1 ms-2">Accounts Payable and Receivable</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Process sales, purchase, receipts, payments, and other financial transactions.</li>
+                                                    <li>Ensure payables and receivables function as per set protocols and identify improvement areas.</li>
+                                                </ul>
+                                                <p class="fw-semibold mb-1 ms-2">Reconciliation</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Bank, vendor, and customer ledger reconciliation.</li>
+                                                    <li>GST credit and TDS credit reconciliation.</li>
+                                                    <li>Investment accounting and closing.</li>
+                                                </ul>
+                                                <p class="fw-semibold mb-1 ms-2">Financial Reporting</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Balance sheets and profit/loss accounts as per Indian Accounting Standards.</li>
+                                                    <li>Monthly, quarterly, and annual cash and income MIS.</li>
+                                                    <li>Fixed assets schedule as per Companies Act and Income Tax.</li>
+                                                </ul>
+                                                <p class="fw-semibold mb-1 ms-2">Compliance</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Tax compliances including direct tax, TDS, TCS, GST and RERA.</li>
+                                                    <li>Coordination with internal and external auditors.</li>
+                                                </ul>
+                                                <p class="fw-semibold mb-1">Qualifications:</p>
+                                                <ul class="fs-15 text-muted">
+                                                    <li>Chartered Accountant (CA) — mandatory.</li>
+                                                    <li>10+ years of relevant experience.</li>
+                                                    <li>Strong ethics to handle sensitive financial information honestly.</li>
+                                                    <li>Ability to work well under pressure and meet deadlines.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 mt-3 mt-md-0 text-md-end">
+                                            <a href="mailto:careers@thackerseygroup.com" class="btn btn-outline-secondary rounded-pill px-4 fw-semibold">
+                                                Apply Now <i class="ri-mail-line ms-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <script>
+                                function toggleJD(id, el) {
+                                    var jd = document.getElementById(id);
+                                    var icon = el.querySelector('i');
+                                    if (jd.style.display === 'none' || jd.style.display === '') {
+                                        jd.style.display = 'block';
+                                        if (icon) { icon.classList.remove('ri-arrow-down-s-line'); icon.classList.add('ri-arrow-up-s-line'); }
+                                    } else {
+                                        jd.style.display = 'none';
+                                        if (icon) { icon.classList.remove('ri-arrow-up-s-line'); icon.classList.add('ri-arrow-down-s-line'); }
+                                    }
+                                }
+                            </script>
+                            <div class="row justify-content-center pb-120 pt-120">
+                                <div class="col-xl-9 col-lg-10">
+                                    <div class="contact-form style-three bg-white round-20 p-4 p-md-5 shadow-lg border-top border-5 border-secondary">
+                                        <div class="text-center mb-45">
+                                            <h2 class="section-title style-two fw-bold mb-15">General Application</h2>
+                                            <p class="fs-18 text-gray">Don't see a role that fits? Submit your CV for future consideration.</p>
+                                        </div>
+
+                                        <form action="https://formspree.io/f/mreynday" method="POST" id="generalApplicationForm" enctype="multipart/form-data">
+                                            <div class="row g-4">
+
+                                                <!-- Full Name -->
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="fw-semibold text-title mb-2">Full Name <span class="text-danger">*</span></label>
+                                                        <input type="text" name="name" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="e.g. John Doe" required>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Email -->
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="fw-semibold text-title mb-2">Email Address <span class="text-danger">*</span></label>
+                                                        <input type="email" name="email" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="e.g. john@example.com" required>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Phone -->
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="fw-semibold text-title mb-2">Phone Number</label>
+                                                        <input type="tel" name="phone" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="+91 98765 43210">
+                                                    </div>
+                                                </div>
+
+                                                <!-- Position -->
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="fw-semibold text-title mb-2">Position applying for</label>
+                                                        <select name="position" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" style="height: 54px;">
+                                                            <option value="">Select a position</option>
+                                                            <option value="PE/VC & Investment Analyst">PE/VC & Investment Analyst</option>
+                                                            <option value="Manager - Accounts">Manager - Accounts</option>
+                                                            <option value="Accounting & Investment Strategy Manager">Accounting & Investment Strategy Manager</option>
+                                                            <option value="Accountant">Accountant</option>
+                                                            <option value="Property and Admin Manager">Property and Admin Manager</option>
+                                                            <option value="Assistant Manager – Compliance">Assistant Manager – Compliance</option>
+                                                            <option value="Assistant HR Manager">Assistant HR Manager</option>
+                                                            <option value="Account and Finance Strategy Manager">Account and Finance Strategy Manager</option>
+                                                            <option value="Other">Other</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Upload CV -->
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label class="fw-semibold text-title mb-2">Upload Resume / CV <span class="text-danger">*</span></label>
+                                                        <div class="upload-box bg-albastor rounded-3 p-4 text-center border border-dashed border-secondary position-relative hover-lift transition">
+                                                            <input type="file" name="resume" accept=".pdf,.doc,.docx" class="position-absolute top-0 start-0 w-100 h-100 opacity-0 cursor-pointer" required>
+                                                            <i class="ri-upload-cloud-2-line fs-32 text_secondary mb-2 d-block"></i>
+                                                            <span class="fs-16 fw-medium text-title d-block">Click to upload or drag and drop</span>
+                                                            <span class="fs-14 text-gray d-block mt-1">PDF, DOC, DOCX (Max 5MB)</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Continue Button -->
+                                                <div class="col-12 text-center" id="continueWrap">
+                                                    <button type="button" onclick="expandForm()" class="btn btn-outline-secondary rounded-pill px-5 py-3 fw-semibold fs-16">
+                                                        Continue <i class="ri-arrow-down-s-line ms-1"></i>
+                                                    </button>
+                                                </div>
+
+                                                <!-- ===== EXPANDED SECTION ===== -->
+                                                <div id="formExpanded" style="display:none; width:100%;">
+                                                    <div class="row g-4">
+
+                                                        <!-- DOB -->
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label class="fw-semibold text-title mb-2">Date of Birth</label>
+                                                                <input type="date" name="dob" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0">
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Address -->
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label class="fw-semibold text-title mb-2">Address</label>
+                                                                <textarea name="address" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" rows="3" placeholder="Enter your full residential address"></textarea>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Message -->
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label class="fw-semibold text-title mb-2">Can you tell us about your relevant experience for this position?</label>
+                                                                <textarea name="message" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" rows="4" placeholder="Briefly describe your experience..."></textarea>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Professional Assessment Section -->
+                                                        <div class="col-12 mt-3">
+                                                            <h4 class="fw-bold text-title mb-3 pb-2 border-bottom border-secondary">Professional Assessment</h4>
+                                                        </div>
+
+                                                        <!-- Work Ethic -->
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label class="fw-semibold text-title mb-3">Which of the following best describes your work ethic? <span class="text-danger">*</span></label>
+                                                                <div class="d-flex flex-column gap-2">
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="work_ethic" value="A" class="me-3 mt-1" required>
+                                                                        <span class="fs-16 text-title">I am results-oriented and dedicated to delivering high-quality work.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="work_ethic" value="B" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I focus on getting tasks done quickly, even if it means compromising quality.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="work_ethic" value="C" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I believe in achieving a balance between work and personal life.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="work_ethic" value="D" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I prefer to complete tasks with minimal involvement from others.</span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Decision Making -->
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label class="fw-semibold text-title mb-3">How do you prefer to make decisions? <span class="text-danger">*</span></label>
+                                                                <div class="d-flex flex-column gap-2">
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="decision_making" value="A" class="me-3 mt-1" required>
+                                                                        <span class="fs-16 text-title">I gather all relevant information and weigh the pros and cons before making a decision.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="decision_making" value="B" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I make quick decisions based on my instincts.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="decision_making" value="C" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I prefer to let others make the decision and follow their lead.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="decision_making" value="D" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I delay decision-making until it is absolutely necessary.</span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Project Management -->
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label class="fw-semibold text-title mb-3">What is your approach to managing multiple projects with tight deadlines? <span class="text-danger">*</span></label>
+                                                                <div class="d-flex flex-column gap-2">
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="project_management" value="A" class="me-3 mt-1" required>
+                                                                        <span class="fs-16 text-title">I prioritize tasks based on urgency and importance.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="project_management" value="B" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I work on all tasks simultaneously to get them done faster.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="project_management" value="C" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I focus on one project at a time, even if it means missing deadlines.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="project_management" value="D" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I delegate as many tasks as possible to others.</span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Motivation -->
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label class="fw-semibold text-title mb-3">How do you keep yourself motivated during repetitive tasks or projects? <span class="text-danger">*</span></label>
+                                                                <div class="d-flex flex-column gap-2">
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="motivation" value="A" class="me-3 mt-1" required>
+                                                                        <span class="fs-16 text-title">I remind myself of the long-term benefits and focus on completing the task efficiently.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="motivation" value="B" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I look for new challenges or ways to improve my work.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="motivation" value="C" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I take frequent breaks to refresh myself.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="motivation" value="D" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I delegate repetitive tasks to others when possible.</span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Conflict Management -->
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label class="fw-semibold text-title mb-3">How do you manage conflicts in a team? <span class="text-danger">*</span></label>
+                                                                <div class="d-flex flex-column gap-2">
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="conflict_management" value="A" class="me-3 mt-1" required>
+                                                                        <span class="fs-16 text-title">I mediate and listen to all sides to find a solution.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="conflict_management" value="B" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I avoid getting involved in conflicts.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="conflict_management" value="C" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I prefer to take charge and make a decision without consulting others.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="conflict_management" value="D" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I follow the majority opinion and avoid confrontation.</span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Stress Management -->
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label class="fw-semibold text-title mb-3">How do you handle stressful situations at work? <span class="text-danger">*</span></label>
+                                                                <div class="d-flex flex-column gap-2">
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="stress_management" value="A" class="me-3 mt-1" required>
+                                                                        <span class="fs-16 text-title">I remain calm and analyze the situation logically.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="stress_management" value="B" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I delegate tasks to others to ease the burden.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="stress_management" value="C" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I tend to avoid stressful situations and look for alternatives.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="stress_management" value="D" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I work harder and longer to resolve the issue quickly.</span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Uncertainty Handling -->
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label class="fw-semibold text-title mb-3">How do you handle uncertainties in your work? <span class="text-danger">*</span></label>
+                                                                <div class="d-flex flex-column gap-2">
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="uncertainty_handling" value="A" class="me-3 mt-1" required>
+                                                                        <span class="fs-16 text-title">I remain adaptable and look for opportunities even in uncertain conditions.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="uncertainty_handling" value="B" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I follow a strict strategy, even if the market fluctuates.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="uncertainty_handling" value="C" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I avoid taking risks during market fluctuations.</span>
+                                                                    </label>
+                                                                    <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
+                                                                        <input type="radio" name="uncertainty_handling" value="D" class="me-3 mt-1">
+                                                                        <span class="fs-16 text-title">I stop all activities until the market stabilizes.</span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Employment Details Section -->
+                                                        <div class="col-12 mt-3">
+                                                            <h4 class="fw-bold text-title mb-3 pb-2 border-bottom border-secondary">Employment Details</h4>
+                                                        </div>
+
+                                                        <!-- Years of Experience -->
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label class="fw-semibold text-title mb-2">Years of relevant work experience <span class="text-danger">*</span></label>
+                                                                <input type="number" name="experience_years" min="0" step="0.5" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="e.g. 5" required>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Current CTC -->
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label class="fw-semibold text-title mb-2">Current CTC (including all variables) <span class="text-danger">*</span></label>
+                                                                <input type="text" name="current_ctc" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="e.g. ₹12,00,000 per annum" required>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Expected CTC -->
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label class="fw-semibold text-title mb-2">Expected CTC <span class="text-danger">*</span></label>
+                                                                <input type="text" name="expected_ctc" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="e.g. ₹15,00,000 per annum" required>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Notice Period -->
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label class="fw-semibold text-title mb-2">Notice period <span class="text-danger">*</span></label>
+                                                                <select name="notice_period" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" style="height: 54px;" required>
+                                                                    <option value="">Select notice period</option>
+                                                                    <option value="Immediate">Immediate / Serving Notice</option>
+                                                                    <option value="15 days">15 days</option>
+                                                                    <option value="1 month">1 month</option>
+                                                                    <option value="2 months">2 months</option>
+                                                                    <option value="3 months">3 months</option>
+                                                                    <option value="Negotiable">Negotiable</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Reason for Leaving -->
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label class="fw-semibold text-title mb-2">Reason for leaving current job <span class="text-danger">*</span></label>
+                                                                <textarea name="reason_leaving" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" rows="4" placeholder="Please briefly explain your reason for seeking new opportunities..." required></textarea>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Submit -->
+                                                        <div class="col-12 text-center mt-4">
+                                                            <button type="submit" class="btn style-one d-inline-flex align-items-center px-5 py-3">
+                                                                <span class="btn-icon-one d-flex flex-column align-items-center justify-content-center rounded-circle transition">
+                                                                    <i class="ri-send-plane-fill"></i>
+                                                                </span>
+                                                                <span class="btn-text fw-bold d-flex flex-column align-items-center justify-content-center transition">
+                                                                    Submit Application
+                                                                </span>
+                                                                <span class="btn-icon-two d-flex flex-column align-items-center justify-content-center rounded-circle transition">
+                                                                    <i class="ri-arrow-right-line"></i>
+                                                                </span>
+                                                            </button>
+
+                                                            <p class="mt-4 text-gray fs-14">
+                                                                Alternatively, email your CV to:
+                                                                <a href="mailto:Careers@thackerseygroup.com" class="text_secondary fw-bold text-decoration-underline">
+                                                                    Careers@thackerseygroup.com
+                                                                </a>
+                                                            </p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <!-- ===== END EXPANDED SECTION ===== -->
+
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function expandForm() {
+                                    document.getElementById('formExpanded').style.display = 'block';
+                                    document.getElementById('continueWrap').style.display = 'none';
+                                    document.getElementById('formExpanded').scrollIntoView({ behavior: 'smooth', block: 'start' });
+                                }
+
+                                document.getElementById('generalApplicationForm').addEventListener('submit', function(event) {
+                                    var submitBtn = this.querySelector('button[type="submit"]');
+                                    var originalText = submitBtn.querySelector('.btn-text').textContent;
+                                    submitBtn.disabled = true;
+                                    submitBtn.querySelector('.btn-text').textContent = 'Sending...';
+                                });
+                            </script>
+
+
+                        </div>
+</div>
+                </div>
+
+                
+                <footer class="footer-area style-one">
+                    <div class="container style-one">
+                        <!-- TOP SECTION -->
+                        <div class="footer-top pt-120 pb-70">
+                            <div class="row gy-5 align-items-start">
+                                <!-- BRAND + ADDRESS -->
+                                <div class="col-xxl-4 col-lg-4 col-md-12">
+                                    <div class="footer-widget">
+                                        <a href="index.html" class="d-inline-block mb-35">
+                                            <img src="assets/img/client-data/downloaded/thackerseygrouplogo.jpg"
+                                                 alt="Thackersey Group"
+                                                 style="height: 90px; width: auto; object-fit: contain" />
+                                        </a>
+
+                                        <p class="text-white fs-xxl-18 mb-20">
+                                            Thackersey Group<br>Sir Vithaldas Chambers, 16,<br />
+                                            Mumbai Samachar Marg,<br />
+                                            Mumbai – 400 001, Maharashtra, India
+                                        </p>
+
+                                        <div class="mb-14">
+                                            <a href="tel:02269243300"
+                                               class="fw-semibold text-white fs-xxl-18">
+                                                022 6924 3300
+                                            </a>
+                                        </div>
+
+                                        <a href="mailto:contact@thackerseygroup.com"
+                                           class="fs-xxl-18 fw-semibold text-white d-block mb-15">
+                                            contact@thackerseygroup.com
+                                        </a>
+
+                                        <!-- Social Icons -->
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="https://www.facebook.com/share/1HoKeAFxWK/" target="_blank" class="text-white fs-18">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+
+                                            <a href="https://www.instagram.com/thackerseyfoundation/" target="_blank" class="text-white fs-18">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+
+                                            <a href="https://www.linkedin.com/company/capricon-realty-private-limited/?originalSubdomain=in" target="_blank" class="text-white fs-18">
+                                                <i class="fab fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <!-- NAVIGATION -->
+                                <div class="col-xxl-3 col-lg-3 col-md-6">
+                                    <div class="footer-widget">
+                                        <h3 class="footer-widget-title fs-22 text-white mb-25">
+                                            Navigation
+                                        </h3>
+
+                                        <ul class="footer-menu style-one list-unstyled mb-20">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="philanthropy.html">Philanthropy</a></li>
+                                            <li><a href="work-with-us.html">Work with us</a></li>
+                                            <li><a href="index.html#homecontact">Get in Touch</a></li>
+                                        </ul>
+                                        <h3 class="footer-widget-title fs-22 text-white mb-20">
+                                            Legal & Compliance
+                                        </h3>
+                                        <p class="text-gray fs-xxl-18 mb-30">
+                                            Thackersey Group is a collective reference to group
+                                            companies and not an independent legal entity. All website
+                                            content is provided for general informational purposes
+                                            only and should not be relied upon for decision-making.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- LEGAL + TRUST -->
+                                <div class="col-xxl-5 col-lg-5 col-md-6">
+                                    <div class="footer-widget">
+
+                                        <h3 class="footer-widget-title fs-22 text-white mb-20">
+                                            Locate Us
+                                        </h3>
+
+                                        <div class="comp-map style-one">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12672.308534929807!2d72.82701121834178!3d18.933939327982547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1c4bb3560b7%3A0x2a9208d3dc688f1c!2sThackersey%20Group!5e0!3m2!1sen!2sin!4v1769623309116!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy">
+                                            </iframe>
+                                        </div>
+                                        <!-- TRUST STRIP -->
+                                        <div class="d-flex flex-wrap align-items-center gap-25"
+                                             style="
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            padding-top: 20px;
+          ">
+
+                                            <!-- <ul class="social-profile style-one list-unstyled d-flex gap-12 mb-0">
+                              <li>
+                                <a href="#" target="_blank" class="rounded-circle">
+                                  <i class="ri-facebook-fill"></i>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#" target="_blank" class="rounded-circle">
+                                  <i class="ri-linkedin-fill"></i>
+                                </a>
+                              </li>
+                            </ul> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FOOTER BOTTOM -->
+                        <div class="footer-bottom pt-30 pb-30"
+                             style="border-top: 1px solid rgba(255, 255, 255, 0.12)">
+                            <div class="row align-items-center gy-3">
+                                <div class="col-md-6 text-md-start text-center">
+                                    <p class="fs-xxl-15 text-gray mb-0">
+                                        ©Copyright Thackersey Group | All Rights Reserved.
+                                    </p>
+                                    <p class="fs-xxl-15 text-gray mb-0">
+                                        Designed and Developed by <a class="text-white" href="https://www.kanhaiyasuthar.com/" style="font-weight:bold">TechSpeex</a>
+                                    </p>
+                                </div>
+
+                                <div class="col-md-6 text-md-end text-center">
+                                    <ul class="footer-bottom-menu list-unstyled d-inline-flex gap-30 mb-0">
+                                        <li>
+                                            <a href="terms-conditions.html">Terms & Conditions</a>
+                                        </li>
+                                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                        <li><a href="diclaimer.html">Disclaimer</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- Footer End -->
+
+            </div>
+        </div>
+        <!-- Back to Top -->
+        <div id="progress-wrap" class="progress-wrap style-one">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+              <path id="progress-path" d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+            </svg>
+        </div>
+
+        <!-- Link of JS files -->
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/megamenu.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/fslightbox.js"></script>
+        <script src="assets/js/gsap.min.js"></script>
+        <script src="assets/js/scrollTrigger.min.js"></script>
+        <script src="assets/js/lenis.min.js"></script>
+        <script src="assets/js/scrollToPlugin.js"></script>
+        <script src="assets/js/SplitText.min.js"></script>
+        <script src="assets/js/customEase.js"></script>
+        <script src="assets/js/scrollcue.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

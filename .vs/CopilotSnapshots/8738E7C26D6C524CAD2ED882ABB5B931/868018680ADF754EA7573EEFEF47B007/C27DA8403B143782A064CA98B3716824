@@ -1,0 +1,453 @@
+﻿
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Link of CSS files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/scrollcue.min.css">
+    <link rel="stylesheet" href="assets/css/remixicon.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/dark-theme.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+          rel="stylesheet" />
+    <title>Terms & Conditions - Thackersey Group</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+    <body>
+
+       <!--  Preloader Start -->
+        <div class="preloader-area" id="preloader">
+            <div class="spinner">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <!--  Preloader End -->
+
+        <!-- Theme Switcher Start -->
+        <div class="switch-theme-mode d-none">
+            <label id="switch" class="switch">
+                <input type="checkbox" onchange="toggleTheme()" id="slider">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <!-- Theme Switcher End -->
+
+        <!-- Custom Cursor -->
+        <!--<div class="cursor">
+            <span class="cursor-text d-flex flex-column align-items-center justify-content-center rounded-circle bg-white text-title fs-14 fw-semibold"></span>
+        </div>-->
+        <!--<div class="cursor-inner"></div>-->
+
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+                <div class="bg-albastor position-relative z-1">
+                    <!-- Navbar To Start -->
+                    <div class="navbar-area style-one position-relative z-2" id="navbar" style="background-color:white">
+                        <div class="container style-two">
+                            <div class="navbar-wrapper d-flex justify-content-between align-items-center">
+                                <a href="index.html" class="navbar-brand">
+                                    <img src="assets/img/Tglogo.jpg"
+                                         alt="Thackersey Group"
+                                         class="navbar-logo" />
+                                </a>
+
+                                <style>
+                                    .navbar-logo {
+                                        height: 80px;
+                                        width: auto;
+                                        display: block;
+                                        object-fit: contain;
+                                    }
+
+                                    /* Mobile view */
+                                    @media (max-width: 768px) {
+                                        .navbar-logo {
+                                            height: 45px; /* adjust as needed */
+                                        }
+                                    }
+
+                                    @media (max-width: 480px) {
+                                        .navbar-logo {
+                                            height: 38px;
+                                        }
+                                    }
+                                </style>
+                                <div class="menu-area mx-auto">
+                                    <div class="overlay"></div>
+                                    <nav class="menu">
+                                        <div class="menu-mobile-header">
+                                            <button type="button"
+                                                    class="menu-mobile-arrow bg-transparent border-0">
+                                                <i class="ri-arrow-left-s-line"></i>
+                                            </button>
+                                            <div class="menu-mobile-title"></div>
+                                            <button type="button"
+                                                    class="menu-mobile-close bg-transparent border-0">
+                                                <i class="ri-close-line"></i>
+                                            </button>
+                                        </div>
+                                        <ul class="menu-section p-0 mb-0 lh-1">
+                                            <li class="menu-item-has-children">
+                                                <a href="index.html">Home</a>
+                                            </li>
+
+                                            <li class="menu-item-has-children">
+                                                <a href="javascript:void(0)">
+                                                    Group Companies<i class="ri-arrow-down-s-line"></i>
+                                                </a>
+                                                <ul class="menu-subs menu-column-1">
+                                                    <li>
+                                                        <a href="capriconrealty.html">Capricon Realty</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="bhishmarealty.html">Bhishma Realty</a>
+                                                    </li>
+
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="our-investments.html">Our Investments</a>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="philanthropy.html">Philanthropy</a>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="work-with-us.html">Work with us</a>
+                                            </li>
+                                            <!-- <li class="menu-item-has-children">
+                                  <a href="javascript:void(0)"
+                                    >Careers<i class="ri-arrow-down-s-line"></i
+                                  ></a>
+                                  <ul class="menu-subs menu-column-1">
+                                    <li><a href="services.html">Real Estate</a></li>
+                                    <li><a href="services.html">Pre-Leased Assets</a></li>
+                                    <li><a href="services.html">Financial Assets</a></li>
+                                  </ul>
+                                </li> -->
+                                            <li><a href="index.html#homecontact">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="other-options d-flex flex-wrap align-items-center justify-content-end">
+
+                                    <!-- Social Icons (Desktop) -->
+                                    <div class="option-item d-lg-flex d-none gap-3">
+
+                                        <a href="https://www.facebook.com/share/1HoKeAFxWK/" target="_blank" class="social-icon">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+
+                                        <a href="https://www.instagram.com/thackerseyfoundation/" target="_blank" class="social-icon">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+
+                                        <a href="https://www.linkedin.com/company/capricon-realty-private-limited/?originalSubdomain=in" target="_blank" class="social-icon">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+
+                                    </div>
+
+                                    <!-- Mobile Menu Button -->
+                                    <div class="option-item d-lg-none">
+                                        <button type="button" class="menu-mobile-trigger">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </button>
+                                    </div>
+
+                                </div>
+                                <style>
+                                    .social-icon {
+                                        width: 40px;
+                                        height: 40px;
+                                        border-radius: 50%;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        background: #1a265e;
+                                        color: #fff;
+                                        font-size: 16px;
+                                        transition: 0.3s;
+                                        text-decoration: none;
+                                    }
+
+                                        .social-icon:hover {
+                                            background: #1a265e; /* classy gold-ish tone */
+                                            color: #fff;
+                                            transform: translateY(-3px);
+                                        }
+                                </style>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Navbar Area End -->
+                    <!-- Breadcrumb Area Start -->
+                    <div class="breadcrumb-area style-one position-relative z-1">
+                        <div class="br-bg img-container position-absolute top-0 start-0 w-100">
+                            <img src="assets/img/breadcrumb/br-17.jpg" alt="Image" class="w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="container style-one">
+                            <div class="row">
+                                <div class="col-xxl-10 col-lg-8">
+                                    <h2 class="section-title style-three text-white fw-bold mb-20 reveal-text">TERMS & CONDITIONS</h2>
+                                    <ul class="br-menu list-unstyled mb-0">
+                                        <li class="fs-xxl-18"><a href="index.html">Home</a></li>
+                                        <li class="fs-xxl-18">Terms & Conditions</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Breadcrumb Area End -->
+                    <!-- Terms & Conditions Start -->
+                    <div class="container style-one ptb-120">
+                        <div class="terms-wrap">
+                            <h6 class="font-primary fs-18 mb-5">Last updated on January 01, 2026.</h6>
+
+                            <div class="single-para">
+                                <h5>Acceptance of Terms</h5>
+                                <p class="ps-md-5 ms-md-5">By accessing or using this website and any services described herein, you agree to be bound by these Terms & Conditions. If you disagree with any part, please discontinue use immediately.</p>
+                            </div>
+
+                            <div class="single-para">
+                                <h5>About Our Services</h5>
+                                <p class="ps-md-5 ms-md-5">Thackersey Group and its affiliates provide services including:</p>
+                                <ul class="features-list style-one list-unstyled ps-md-5 ms-md-5">
+                                    <li class="position-relative">Real Estate Asset Management</li>
+                                    <li class="position-relative">Pre-Leased Property Investments</li>
+                                    <li class="position-relative">Financial and Capital Investment Advisory</li>
+                                    <li class="position-relative">Philanthropic Program Coordination</li>
+                                </ul>
+                                <p class="ps-md-5 ms-md-5">Any specific engagement may be governed by a separate agreement outlining scope, fees, and responsibilities.</p>
+                            </div>
+
+                            <div class="single-para">
+                                <h5>User Conduct</h5>
+                                <p class="ps-md-5 ms-md-5">You agree to:</p>
+                                <ul class="features-list style-one list-unstyled ps-md-5 ms-md-5">
+                                    <li class="position-relative">Provide accurate and complete information when requested</li>
+                                    <li class="position-relative">Not misuse the website or any content provided</li>
+                                    <li class="position-relative">Respect intellectual property and privacy rights of others</li>
+                                </ul>
+                            </div>
+
+                            <div class="single-para">
+                                <h5>Intellectual Property</h5>
+                                <p class="ps-md-5 ms-md-5">All content, trademarks, logos, and materials on this website are owned by Thackersey Group or its licensors. You may not reproduce or distribute any content without express written permission.</p>
+                            </div>
+
+                            <div class="single-para">
+                                <h5>Privacy & Data Use</h5>
+                                <p class="ps-md-5 ms-md-5">We collect and process personal data in accordance with our Privacy Policy. By using this site, you consent to our collection and use of data as outlined.</p>
+                            </div>
+
+                            <div class="single-para">
+                                <h5>Third-Party Links</h5>
+                                <p class="ps-md-5 ms-md-5">This site may link to third-party resources. Thackersey Group is not responsible for their content, accuracy, or practices.</p>
+                            </div>
+
+                            <div class="single-para">
+                                <h5>Disclaimer of Liability</h5>
+                                <p class="ps-md-5 ms-md-5">To the fullest extent allowed by law, Thackersey Group will not be liable for any indirect, special, incidental, or consequential losses arising from use of this website or reliance on any information provided.</p>
+                            </div>
+
+                            <div class="single-para">
+                                <h5>Governing Law</h5>
+                                <p class="ps-md-5 ms-md-5">These Terms are governed by the laws of the jurisdiction in which Thackersey Group is registered, and disputes will be resolved exclusively in appropriate courts within that jurisdiction.</p>
+                            </div>
+
+                            <div class="single-para">
+                                <h5>Contact Information</h5>
+                                <p class="ps-md-5 ms-md-5">Questions about these Terms can be directed to:</p>
+                                <ul class="features-list style-one list-unstyled ps-md-5 ms-md-5">
+                                    <li class="position-relative"><span class="text-title fw-semibold">Email:</span> <a href="mailto:contact@thackerseygroup.com" class="text-para hover-text-primary transition">contact@thackerseygroup.com</a></li>
+                                    <li class="position-relative"><span class="text-title fw-semibold">Website:</span> <a href="https://www.thackerseygroup.com" target="_blank" class="text-para hover-text-primary transition">www.thackerseygroup.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Terms & Conditions End -->
+
+
+                </div>
+
+                <footer class="footer-area style-one">
+                    <div class="container style-one">
+                        <!-- TOP SECTION -->
+                        <div class="footer-top pt-120 pb-70">
+                            <div class="row gy-5 align-items-start">
+                                <!-- BRAND + ADDRESS -->
+                                <div class="col-xxl-4 col-lg-4 col-md-12">
+                                    <div class="footer-widget">
+                                        <a href="index.html" class="d-inline-block mb-35">
+                                            <img src="assets/img/client-data/downloaded/thackerseygrouplogo.jpg"
+                                                 alt="Thackersey Group"
+                                                 style="height: 90px; width: auto; object-fit: contain" />
+                                        </a>
+
+                                        <p class="text-white fs-xxl-18 mb-20">
+                                            Thackersey Group<br>Sir Vithaldas Chambers, 16,<br />
+                                            Mumbai Samachar Marg,<br />
+                                            Mumbai – 400 001, Maharashtra, India
+                                        </p>
+
+                                        <div class="mb-14">
+                                            <a href="tel:02269243300"
+                                               class="fw-semibold text-white fs-xxl-18">
+                                                022 6924 3300
+                                            </a>
+                                        </div>
+
+                                        <a href="mailto:contact@thackerseygroup.com"
+                                           class="fs-xxl-18 fw-semibold text-white d-block mb-15">
+                                            contact@thackerseygroup.com
+                                        </a>
+
+                                        <!-- Social Icons -->
+                                        <div class="d-flex align-items-center gap-3">
+                                            <a href="https://www.facebook.com/share/1HoKeAFxWK/" target="_blank" class="text-white fs-18">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+
+                                            <a href="https://www.instagram.com/thackerseyfoundation/" target="_blank" class="text-white fs-18">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+
+                                            <a href="https://www.linkedin.com/company/capricon-realty-private-limited/?originalSubdomain=in" target="_blank" class="text-white fs-18">
+                                                <i class="fab fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <!-- NAVIGATION -->
+                                <div class="col-xxl-3 col-lg-3 col-md-6">
+                                    <div class="footer-widget">
+                                        <h3 class="footer-widget-title fs-22 text-white mb-25">
+                                            Navigation
+                                        </h3>
+
+                                        <ul class="footer-menu style-one list-unstyled mb-20">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="philanthropy.html">Philanthropy</a></li>
+                                            <li><a href="work-with-us.html">Work with us</a></li>
+                                            <li><a href="index.html#homecontact">Get in Touch</a></li>
+                                        </ul>
+                                        <h3 class="footer-widget-title fs-22 text-white mb-20">
+                                            Legal & Compliance
+                                        </h3>
+                                        <p class="text-gray fs-xxl-18 mb-30">
+                                            Thackersey Group is a collective reference to group
+                                            companies and not an independent legal entity. All website
+                                            content is provided for general informational purposes
+                                            only and should not be relied upon for decision-making.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- LEGAL + TRUST -->
+                                <div class="col-xxl-5 col-lg-5 col-md-6">
+                                    <div class="footer-widget">
+
+                                        <h3 class="footer-widget-title fs-22 text-white mb-20">
+                                            Locate Us
+                                        </h3>
+
+                                        <div class="comp-map style-one">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12672.308534929807!2d72.82701121834178!3d18.933939327982547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1c4bb3560b7%3A0x2a9208d3dc688f1c!2sThackersey%20Group!5e0!3m2!1sen!2sin!4v1769623309116!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy">
+                                            </iframe>
+                                        </div>
+                                        <!-- TRUST STRIP -->
+                                        <div class="d-flex flex-wrap align-items-center gap-25"
+                                             style="
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            padding-top: 20px;
+          ">
+
+                                            <!-- <ul class="social-profile style-one list-unstyled d-flex gap-12 mb-0">
+                                  <li>
+                                    <a href="#" target="_blank" class="rounded-circle">
+                                      <i class="ri-facebook-fill"></i>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="#" target="_blank" class="rounded-circle">
+                                      <i class="ri-linkedin-fill"></i>
+                                    </a>
+                                  </li>
+                                </ul> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FOOTER BOTTOM -->
+                        <div class="footer-bottom pt-30 pb-30"
+                             style="border-top: 1px solid rgba(255, 255, 255, 0.12)">
+                            <div class="row align-items-center gy-3">
+                                <div class="col-md-6 text-md-start text-center">
+                                    <p class="fs-xxl-15 text-gray mb-0">
+                                        ©Copyright Thackersey Group | All Rights Reserved.
+                                    </p>
+                                    <p class="fs-xxl-15 text-gray mb-0">
+                                        Designed and Developed by <a class="text-white" href="https://www.kanhaiyasuthar.com/" style="font-weight:bold">TechSpeex</a>
+                                    </p>
+                                </div>
+
+                                <div class="col-md-6 text-md-end text-center">
+                                    <ul class="footer-bottom-menu list-unstyled d-inline-flex gap-30 mb-0">
+                                        <li>
+                                            <a href="terms-conditions.html">Terms & Conditions</a>
+                                        </li>
+                                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                        <li><a href="diclaimer.html">Disclaimer</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+        <!-- Back to Top -->
+        <div id="progress-wrap" class="progress-wrap style-one">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+              <path id="progress-path" d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+            </svg>
+        </div>
+
+        <!-- Link of JS files -->
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/megamenu.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/fslightbox.js"></script>
+        <script src="assets/js/gsap.min.js"></script>
+        <script src="assets/js/scrollTrigger.min.js"></script>
+        <script src="assets/js/lenis.min.js"></script>
+        <script src="assets/js/scrollToPlugin.js"></script>
+        <script src="assets/js/SplitText.min.js"></script>
+        <script src="assets/js/customEase.js"></script>
+        <script src="assets/js/scrollcue.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9c6b1aa8bf3bdb0a',t:'MTc2OTg4MjM3OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

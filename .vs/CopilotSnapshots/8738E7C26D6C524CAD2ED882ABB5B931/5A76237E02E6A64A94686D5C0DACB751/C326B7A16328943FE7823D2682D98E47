@@ -1,0 +1,952 @@
+﻿
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Link of CSS files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/scrollcue.min.css">
+    <link rel="stylesheet" href="assets/css/remixicon.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/dark-theme.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+          rel="stylesheet" />
+    <title>Exrox – Accounting & Management Consulting HTML Template</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!--  Preloader Start -->
+    <div class="preloader-area" id="preloader">
+        <div class="spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!--  Preloader End -->
+    <!-- Theme Switcher Start -->
+    <div class="switch-theme-mode d-none">
+        <label id="switch" class="switch">
+            <input type="checkbox" onchange="toggleTheme()" id="slider">
+            <span class="slider round"></span>
+        </label>
+    </div>
+    <!-- Theme Switcher End -->
+    <!-- Custom Cursor -->
+    <!--<div class="cursor">
+        <span class="cursor-text d-flex flex-column align-items-center justify-content-center rounded-circle bg-white text-title fs-14 fw-semibold"></span>
+    </div>-->
+    <!--<div class="cursor-inner"></div>-->
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <div class="position-relative z-1">
+                <!-- Navbar To Start -->
+                <div class="navbar-area style-one position-relative z-2" id="navbar" style="background-color:white">
+                    <div class="container style-two">
+                        <div class="navbar-wrapper d-flex justify-content-between align-items-center">
+                            <a href="index.html" class="navbar-brand">
+                                <img src="assets/img/Tglogo.jpg"
+                                     alt="Thackersey Group"
+                                     class="navbar-logo" />
+                            </a>
+
+                            <style>
+                                .navbar-logo {
+                                    height: 80px;
+                                    width: auto;
+                                    display: block;
+                                    object-fit: contain;
+                                }
+
+                                /* Mobile view */
+                                @media (max-width: 768px) {
+                                    .navbar-logo {
+                                        height: 45px; /* adjust as needed */
+                                    }
+                                }
+
+                                @media (max-width: 480px) {
+                                    .navbar-logo {
+                                        height: 38px;
+                                    }
+                                }
+                            </style>
+                            <div class="menu-area mx-auto">
+                                <div class="overlay"></div>
+                                <nav class="menu">
+                                    <div class="menu-mobile-header">
+                                        <button type="button"
+                                                class="menu-mobile-arrow bg-transparent border-0">
+                                            <i class="ri-arrow-left-s-line"></i>
+                                        </button>
+                                        <div class="menu-mobile-title"></div>
+                                        <button type="button"
+                                                class="menu-mobile-close bg-transparent border-0">
+                                            <i class="ri-close-line"></i>
+                                        </button>
+                                    </div>
+                                    <ul class="menu-section p-0 mb-0 lh-1">
+                                        <li class="menu-item-has-children">
+                                            <a href="index.html">Home</a>
+                                        </li>
+
+                                        <li class="menu-item-has-children">
+                                            <a href="javascript:void(0)">
+                                                Group Companies<i class="ri-arrow-down-s-line"></i>
+                                            </a>
+                                            <ul class="menu-subs menu-column-1">
+                                                <li>
+                                                    <a href="capriconrealty.html">Capricon Realty</a>
+                                                </li>
+                                                <li>
+                                                    <a href="bhishmarealty.html">Bhishma Realty</a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="our-investments.html">Our Investments</a>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="philanthropy.html">Philanthropy</a>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="work-with-us.html">Work with us</a>
+                                        </li>
+                                        <!-- <li class="menu-item-has-children">
+                  <a href="javascript:void(0)"
+                    >Careers<i class="ri-arrow-down-s-line"></i
+                  ></a>
+                  <ul class="menu-subs menu-column-1">
+                    <li><a href="services.html">Real Estate</a></li>
+                    <li><a href="services.html">Pre-Leased Assets</a></li>
+                    <li><a href="services.html">Our Investments</a></li>
+                  </ul>
+                </li> -->
+                                        <li><a href="index.html#homecontact">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="other-options d-flex flex-wrap align-items-center justify-content-end">
+
+                                <!-- Social Icons (Desktop) -->
+                                <div class="option-item d-lg-flex d-none gap-3">
+
+                                    <a href="https://www.facebook.com/share/1HoKeAFxWK/" target="_blank" class="social-icon">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+
+                                    <a href="https://www.instagram.com/thackerseyfoundation/" target="_blank" class="social-icon">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+
+                                    <a href="https://www.linkedin.com/company/capricon-realty-private-limited/?originalSubdomain=in" target="_blank" class="social-icon">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+
+                                </div>
+
+                                <!-- Mobile Menu Button -->
+                                <div class="option-item d-lg-none">
+                                    <button type="button" class="menu-mobile-trigger">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                </div>
+
+                            </div>
+                            <style>
+                                .social-icon {
+                                    width: 40px;
+                                    height: 40px;
+                                    border-radius: 50%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    background: #1a265e;
+                                    color: #fff;
+                                    font-size: 16px;
+                                    transition: 0.3s;
+                                    text-decoration: none;
+                                }
+
+                                    .social-icon:hover {
+                                        background: #1a265e; /* classy gold-ish tone */
+                                        color: #fff;
+                                        transform: translateY(-3px);
+                                    }
+                            </style>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navbar Area End -->
+                <!-- Breadcrumb Area Start -->
+                <div class="breadcrumb-area style-one position-relative z-1" style="background-color: #1a265e;">
+                    <div class="container style-one">
+                        <div class="row">
+                            <div class="col-xxl-10 col-lg-8">
+                                <h2 class="section-title style-three text-white fw-bold mb-20 reveal-text">PHILANTHROPY</H2>
+                                <ul class="br-menu list-unstyled mb-0">
+                                    <li class="fs-xxl-18"><a href="index.html">Home</a></li>
+                                    <li class="fs-xxl-18">Philanthropy</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Breadcrumb Area End -->
+                <!-- Case Details Section Start -->
+                <div class="bg-albastor">
+                    <div class="container style-one ptb-120">
+                        <div class="row">
+                            <!-- MAIN CONTENT -->
+                            <div class="col-xxl-7 col-xl-8 pe-xxl-1">
+                                <div class="case-desc mb-45">
+
+                                    <!-- HERO -->
+                                    <div class="single-para">
+                                        <h1 class="reveal-text-bottom">Building Impact Beyond Business</h1>
+                                        <ul class="blog-metainfo style-three list-unstyled">
+                                            <li class="position-relative fs-xxl-18">Thackersey Foundation</li>
+                                            <li class="position-relative fs-xxl-18">Community First</li>
+                                            <li class="position-relative fs-xxl-18">Long-Term Commitment</li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- HERO IMAGE -->
+                                    <!-- HERO IMAGE -->
+                                    <div class="hero-images-wrapper"
+                                         data-cue="anim-left"
+                                         data-duration="800">
+
+                                        <div class="hero-img">
+                                            <img src="assets/img/client-data/downloaded/432176147_780222313992503_2862896771532035933_n.jfif"
+                                                 alt="Dog Welfare Image 1">
+                                        </div>
+
+                                        <div class="hero-img">
+                                            <img src="assets/img/client-data/downloaded/dog2.png"
+                                                 alt="Dog Welfare Image 2">
+                                        </div>
+
+                                    </div>
+                                    <style>
+                                        /* Wrapper */
+                                        .hero-images-wrapper {
+                                            display: flex;
+                                            gap: 20px;
+                                        }
+
+                                        /* Each image container */
+                                        .hero-img {
+                                            flex: 1;
+                                            height: 320px;
+                                            border-radius: 20px;
+                                            overflow: hidden; /* THIS is the key */
+                                            position: relative;
+                                        }
+
+                                            /* Image */
+                                            .hero-img img {
+                                                width: 100%;
+                                                height: 100%;
+                                                object-fit: cover;
+                                                display: block;
+                                                border-radius: 0; /* prevent double rounding issues */
+                                                transition: transform 0.4s ease;
+                                            }
+
+                                            /* Hover effect (safe) */
+                                            .hero-img:hover img {
+                                                transform: scale(1.05);
+                                            }
+
+                                        /* Mobile */
+                                        @media (max-width: 767px) {
+                                            .hero-images-wrapper {
+                                                flex-direction: column;
+                                            }
+
+                                            .hero-img {
+                                                height: 220px;
+                                            }
+                                        }
+                                    </style>
+                                    <br />
+                                    <!-- INTRO -->
+                                    <div class="single-para">
+                                        <h5>Our Approach to Giving Back</h5>
+                                        <p>
+                                            The Thackersey Foundation is the philanthropic arm of the Thackersey Group, created to carry
+                                            forward a long-standing belief: business success must translate into social responsibility.
+                                            Our initiatives focus on building sustainable impact across communities, guided by empathy,
+                                            discipline, and long-term commitment.
+                                        </p>
+                                    </div>
+                                    <!-- PHILOSOPHY -->
+                                    <div class="single-para">
+                                        <h5>Our Philosophy</h5>
+                                        <ul class="features-list style-one list-unstyled">
+                                            <li class="position-relative">Long-term, consistent engagement over one-time donations</li>
+                                            <li class="position-relative">Community-driven and need-based initiatives</li>
+                                            <li class="position-relative">Focus on sustainability and dignity</li>
+                                            <li class="position-relative">Quiet impact over performative charity</li>
+                                            <li class="position-relative">Responsibility that grows with scale</li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- CAUSES -->
+                                    <div class="single-para">
+                                        <h5>Our Focus Areas</h5>
+                                        <ul class="features-list style-one list-unstyled">
+                                            <li class="position-relative">Animal Welfare</li>
+                                            <li class="position-relative">Education & Skill Enhancement for Underprivileged Children</li>
+                                            <li class="position-relative">Senior Citizen Welfare</li>
+                                            <li class="position-relative">Women Empowerment</li>
+                                        </ul>
+                                    </div>
+                                    <div class="single-para" id="our-initiatives">
+                                        <h2>Our Initiatives – Creating Lasting Change</h2>
+                                        <p>
+                                            Explore our ongoing projects that focus on education, healthcare, community
+                                            development, and environmental sustainability. Each initiative is designed to
+                                            address specific needs and make a meaningful difference in the lives of those
+                                            we serve.
+                                        </p>
+
+                                        <div class="row gy-4 mt-3">
+
+                                            <!-- 1. Child Education -->
+                                            <div class="col-md-6">
+                                                <div class="initiative-card round-20 bg-white p-4 h-100">
+                                                    <h3 class="fs-20 fw-semibold text-title mb-10">Child Education</h3>
+                                                    <p class="text-para fs-xxl-18 mb-10">
+                                                        We are dedicated to ensuring that every child has access to quality education.
+                                                        By providing resources, support, and innovative programs, we work to bridge
+                                                        the gap in educational opportunities, particularly for underprivileged children.
+                                                    </p>
+                                                    <a href="https://www.thackerseyfoundation.com/initiative"
+                                                       target="_blank"
+                                                       class="fs-xxl-18 fw-semibold link-hover-primary">
+                                                        Supported organisations →
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- 2. Animal Welfare -->
+                                            <div class="col-md-6">
+                                                <div class="initiative-card round-20 bg-white p-4 h-100">
+                                                    <h3 class="fs-20 fw-semibold text-title mb-10">Animal Welfare</h3>
+                                                    <p class="text-para fs-xxl-18 mb-10">
+                                                        Our foundation advocates for the humane treatment and well-being of animals.
+                                                        We support shelters, rescue operations, and awareness programs that protect
+                                                        animals from cruelty and promote their care.
+                                                    </p>
+                                                    <a href="https://www.thackerseyfoundation.com/initiative"
+                                                       target="_blank"
+                                                       class="fs-xxl-18 fw-semibold link-hover-primary">
+                                                        Supported organisations →
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- 3. Senior Citizen Welfare -->
+                                            <div class="col-md-6">
+                                                <div class="initiative-card round-20 bg-white p-4 h-100">
+                                                    <h3 class="fs-20 fw-semibold text-title mb-10">Senior Citizen Welfare</h3>
+                                                    <p class="text-para fs-xxl-18 mb-10">
+                                                        We honour the elderly by addressing their unique needs, from healthcare to
+                                                        social inclusion. Our programs enhance the quality of life for senior citizens,
+                                                        ensuring they receive the respect, care, and companionship they deserve.
+                                                    </p>
+                                                    <a href="https://www.thackerseyfoundation.com/initiative"
+                                                       target="_blank"
+                                                       class="fs-xxl-18 fw-semibold link-hover-primary">
+                                                        Supported organisations →
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- 4. Skill Enhancement for Rural Children -->
+                                            <div class="col-md-6">
+                                                <div class="initiative-card round-20 bg-white p-4 h-100">
+                                                    <h3 class="fs-20 fw-semibold text-title mb-10">Skill Enhancement for Rural Children</h3>
+                                                    <p class="text-para fs-xxl-18 mb-10">
+                                                        Recognising the potential within every child, we provide skill development
+                                                        programs aimed at empowering rural youth with the tools and knowledge they
+                                                        need to build successful futures.
+                                                    </p>
+                                                    <a href="https://www.thackerseyfoundation.com/initiative"
+                                                       target="_blank"
+                                                       class="fs-xxl-18 fw-semibold link-hover-primary">
+                                                        Supported organisations →
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- 5. Women Empowerment -->
+                                            <div class="col-md-6">
+                                                <div class="initiative-card round-20 bg-white p-4 h-100">
+                                                    <h3 class="fs-20 fw-semibold text-title mb-10">Women Empowerment</h3>
+                                                    <p class="text-para fs-xxl-18 mb-10">
+                                                        We are committed to advancing the rights and opportunities for women.
+                                                        Through education, vocational training, and advocacy, we work to empower
+                                                        women to lead independent, fulfilling lives.
+                                                    </p>
+                                                    <a href="https://www.thackerseyfoundation.com/initiative"
+                                                       target="_blank"
+                                                       class="fs-xxl-18 fw-semibold link-hover-primary">
+                                                        Supported organisations →
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- 6. Medical Aid for the Needy -->
+                                            <div class="col-md-6">
+                                                <div class="initiative-card round-20 bg-white p-4 h-100">
+                                                    <h3 class="fs-20 fw-semibold text-title mb-10">Medical Aid for the Needy</h3>
+                                                    <p class="text-para fs-xxl-18 mb-10">
+                                                        Healthcare is a fundamental right. Our foundation provides financial assistance,
+                                                        medical supplies, and access to healthcare facilities for those who cannot
+                                                        afford them.
+                                                    </p>
+                                                    <a href="https://www.thackerseyfoundation.com/initiative"
+                                                       target="_blank"
+                                                       class="fs-xxl-18 fw-semibold link-hover-primary">
+                                                        Supported organisations →
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- 7. Support for the Paralympics -->
+                                            <div class="col-md-6">
+                                                <div class="initiative-card round-20 bg-white p-4 h-100">
+                                                    <h3 class="fs-20 fw-semibold text-title mb-10">Support for the Paralympics</h3>
+                                                    <p class="text-para fs-xxl-18 mb-10">
+                                                        We believe in the power of sports to transform lives. Our foundation proudly
+                                                        supports Paralympic athletes through sponsorships, training programs, and
+                                                        awareness campaigns that promote inclusivity and celebrate extraordinary
+                                                        achievement.
+                                                    </p>
+                                                    <a href="https://www.thackerseyfoundation.com/initiative"
+                                                       target="_blank"
+                                                       class="fs-xxl-18 fw-semibold link-hover-primary">
+                                                        Supported organisations →
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- 8. Art and Artist Preservation -->
+                                            <div class="col-md-6">
+                                                <div class="initiative-card round-20 bg-white p-4 h-100">
+                                                    <h3 class="fs-20 fw-semibold text-title mb-10">Art &amp; Artist Preservation</h3>
+                                                    <p class="text-para fs-xxl-18 mb-10">
+                                                        Art is the soul of our culture. We support artists and cultural heritage through
+                                                        grants, exhibitions, and educational programs, ensuring art continues to inspire
+                                                        future generations.
+                                                    </p>
+                                                    <a href="https://www.thackerseyfoundation.com/initiative"
+                                                       target="_blank"
+                                                       class="fs-xxl-18 fw-semibold link-hover-primary">
+                                                        Supported organisations →
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div><!-- /.row -->
+                                    </div>
+
+
+                                    <!-- IMAGE GRID -->
+                                    <div class="row">
+
+                                        <div class="col-md-12 mb-30">
+                                            <div class="single-img img-container overflow-hidden d-flex align-items-stretch h-100 round-20 mb-35" data-cue="anim-top" data-duration="800" data-delay="300">
+                                                <img src="assets/img/client-data/downloaded/2026.jpg" alt="Community Development" class="w-100 h-100 object-fit-cover round-20">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- HOW WE WORK -->
+                                    <div class="single-para">
+                                        <h5>How We Work</h5>
+                                        <p>
+                                            Our initiatives are designed and executed through partnerships with trusted institutions
+                                            and grassroots organizations. Each program is monitored for relevance, continuity, and
+                                            long-term benefit rather than short-lived outcomes.
+                                        </p>
+                                    </div>
+
+
+                                    <!-- IMPACT METRICS -->
+                                    <div class="single-para">
+                                        <h5>Our Impact Focus</h5>
+                                        <div class="counter-card-wrap d-flex flex-wrap justify-content-md-between">
+                                            <div class="counter-card style-two">
+                                                <h3 class="fs-64 lh-1 mb-3">4+</h3>
+                                                <span class="fs-xxl-18 d-block">Core Cause Areas</span>
+                                            </div>
+                                            <div class="counter-card style-two">
+                                                <h3 class="fs-64 lh-1 mb-3">Long-term</h3>
+                                                <span class="fs-xxl-18 d-block">Commitment Horizon</span>
+                                            </div>
+                                            <div class="counter-card style-two">
+                                                <h3 class="fs-64 lh-1 mb-3">India</h3>
+                                                <span class="fs-xxl-18 d-block">Community Reach</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- SIDEBAR -->
+                            <div class="col-xxl-4 offset-xxl-1 col-xl-4 ps-xxl-4">
+                                <aside class="sidebar mt-lg-50">
+
+                                    <div class="sidebar-widget round-20">
+                                        <h3 class="sidebar-widget-title fs-24 fw-semibold text-title mb-20">Foundation Details</h3>
+                                        <ul class="case-infolist list-unstyled mb-0">
+                                            <li>
+                                                <span class="text-title d-block">Entity</span>
+                                                <span class="text-para d-block">Thackersey Foundation</span>
+                                            </li>
+                                            <li>
+                                                <span class="text-title d-block">Focus</span>
+                                                <span class="text-para d-block">Social Development</span>
+                                            </li>
+                                            <li>
+                                                <span class="text-title d-block">Coverage</span>
+                                                <span class="text-para d-block">India</span>
+                                            </li>
+                                            <li>
+                                                <span class="text-title d-block">Approach</span>
+                                                <span class="text-para d-block">Sustainable & Long-Term</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="sidebar-widget round-20">
+                                        <h3 class="sidebar-widget-title fs-24 fw-semibold text-title mb-25">Explore More</h3>
+                                        <ul class="case-infolist list-unstyled mb-0">
+                                            <li class="d-block fs-xxl-18">
+                                                <a href="https://www.thackerseyfoundation.com" target="_blank">Visit Foundation Website</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="sidebar-widget round-20">
+                                        <h3 class="sidebar-widget-title fs-24 fw-semibold text-title mb-20">
+                                            Senior Citizen Recreation Centre
+                                        </h3>
+                                      
+                                        <div class="single-img img-container overflow-hidden round-15 mb-20">
+                                            <img src="assets/img/client-data/downloaded/senior-centre.jpg"
+                                                 alt="Senior Citizen Recreational Centre Mahalaxmi"
+                                                 class="w-100 round-15">
+                                        </div>
+
+                                        <p class="text-para fs-xxl-18 mb-15">
+                                            In collaboration with our partners, we have facilitated a recreational centre
+                                            for senior citizens at our premises in Mahalaxmi, Mumbai.
+                                        </p>
+
+                                        <ul class="case-infolist list-unstyled mb-0">
+                                            <li class="fs-xxl-18">Indoor games (carrom, cards)</li>
+                                            <li class="fs-xxl-18">Cognitive & motor skill activities</li>
+                                            <li class="fs-xxl-18">Group interactions & social bonding</li>
+                                            <li class="fs-xxl-18">Assistance with ID renewals</li>
+                                            <li class="fs-xxl-18">Contests & local outings</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sidebar-widget round-20">
+                                        <h3 class="sidebar-widget-title fs-24 fw-semibold text-title mb-20">
+                                            Animal Welfare – Paw Garage
+                                        </h3>
+                                       
+                                        <div class="single-img img-container overflow-hidden round-15 mb-20">
+                                            <img src="assets/img/client-data/downloaded/paw-garage.jpg"
+                                                 alt="Paw Garage Animal Hospital Valsad Gujarat"
+                                                 class="w-100 round-15">
+                                        </div>
+
+                                        <p class="text-para fs-xxl-18 mb-15">
+                                            In Valsad, Gujarat, we established <strong>Paw Garage</strong>—an in-patient animal
+                                            hospital providing critical medical and post-operative care to community dogs.
+                                        </p>
+
+                                        <ul class="case-infolist list-unstyled mb-0">
+                                            <li class="fs-xxl-18">In-patient medical facilities</li>
+                                            <li class="fs-xxl-18">Rescue, Rehab & Release model</li>
+                                            <li class="fs-xxl-18">Post-operative & long-term care</li>
+                                            <li class="fs-xxl-18">Serving Killa-Pardi & Kaprada region</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sidebar-widget round-20">
+                                        <h3 class="sidebar-widget-title fs-24 fw-semibold text-title mb-20">
+                                            Education & Awareness Program
+                                        </h3>
+                                     
+                                        <div class="single-img img-container overflow-hidden round-15 mb-20">
+                                            <img src="assets/img/client-data/downloaded/education-awareness.jpg"
+                                                 alt="Educational Awareness Program with RESQ"
+                                                 class="w-100 round-15">
+                                        </div>
+
+                                        <p class="text-para fs-xxl-18 mb-15">
+                                            Alongside RESQ Charitable Trust, we support a school-based educational initiative
+                                            that empowers students with compassion, responsibility, and environmental awareness.
+                                        </p>
+
+                                        <ul class="case-infolist list-unstyled mb-0">
+                                            <li class="fs-xxl-18">Responsible pet ownership</li>
+                                            <li class="fs-xxl-18">Environmental stewardship</li>
+                                            <li class="fs-xxl-18">Humane treatment of animals</li>
+                                            <li class="fs-xxl-18">Interactive learning modules</li>
+                                            <li class="fs-xxl-18">Compassion-led education</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="sidebar-widget round-20">
+                                        <h3 class="sidebar-widget-title fs-24 fw-semibold text-title mb-20">
+                                            Implementation Framework
+                                        </h3>
+
+                                        <!-- Phase 1 -->
+                                        <div class="mb-20 pb-15" style="border-bottom:1px solid #eee;">
+                                            <h5 class="fw-semibold fs-18 mb-10 text-secondary">Phase 1: Understanding Community Needs</h5>
+                                            <ul class="list-unstyled mb-0">
+                                                <li class="d-flex align-items-start mb-8">
+                                                    <span class="me-2">✔</span>
+                                                    <span class="fs-16 text-gray">Engagement with local stakeholders</span>
+                                                </li>
+                                                <li class="d-flex align-items-start">
+                                                    <span class="me-2">✔</span>
+                                                    <span class="fs-16 text-gray">Assessment of gaps and priorities</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <!-- Phase 2 -->
+                                        <div class="mb-20 pb-15" style="border-bottom:1px solid #eee;">
+                                            <h5 class="fw-semibold fs-18 mb-10 text-secondary">Phase 2: Program Execution</h5>
+                                            <ul class="list-unstyled mb-0">
+                                                <li class="d-flex align-items-start mb-8">
+                                                    <span class="me-2">✔</span>
+                                                    <span class="fs-16 text-gray">Partnership with credible institutions</span>
+                                                </li>
+                                                <li class="d-flex align-items-start">
+                                                    <span class="me-2">✔</span>
+                                                    <span class="fs-16 text-gray">Structured rollout of initiatives</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <!-- Phase 3 -->
+                                        <div class="mb-25">
+                                            <h5 class="fw-semibold fs-18 mb-10 text-secondary">Phase 3: Continuity & Review</h5>
+                                            <ul class="list-unstyled mb-0">
+                                                <li class="d-flex align-items-start mb-8">
+                                                    <span class="me-2">✔</span>
+                                                    <span class="fs-16 text-gray">Periodic evaluation and refinement</span>
+                                                </li>
+                                                <li class="d-flex align-items-start">
+                                                    <span class="me-2">✔</span>
+                                                    <span class="fs-16 text-gray">Sustained involvement over time</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </aside>
+                            </div>
+                            <div class="container ptb-120">
+                                <div class="row">
+                                    <div class="col-xl-10">
+                                        <h2 class="reveal-text-bottom">
+                                            Latest Articles
+                                        </h2>
+                                        <p class="fs-xxl-18 mb-4">
+                                            Stories of compassion, innovation, and impact driving meaningful change for people, communities, and the planet
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="blog-slider-one swiper">
+                                    <div class="swiper-wrapper">
+
+                                        <!-- Blog 1 -->
+                                        <div class="swiper-slide">
+                                            <div class="blog-card style-one bg-white position-relative round-20 mb-30">
+                                                <div class="blog-img position-relative overflow-hidden">
+                                                    <img src="assets/img/client-data/downloaded/sunitshettyanimalwelfare.jpg" alt="Mechanical Elephant Temple">
+                                                </div>
+                                                <div class="blog-info">
+                                                    <ul class="blog-metainfo style-one list-unstyled">
+                                                        <li>Animal Welfare</li>
+                                                        <li>TIMES OF INDIA</li>
+                                                    </ul>
+                                                    <h3>
+                                                        <a href="https://timesofindia.indiatimes.com/city/hubballi/actor-suniel-shetty-gifts-mechanical-elephant-to-temple/articleshow/118510248.cms" class="text-title link-hover-primary">
+                                                            Suniel Shetty gifts life-size mechanical elephant to Karnataka temple
+                                                        </a>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <!-- Blog 3 -->
+                                        <div class="swiper-slide">
+                                            <div class="blog-card style-one bg-white position-relative round-20 mb-30">
+                                                <div class="blog-img position-relative overflow-hidden">
+                                                    <img src="assets/img/client-data/downloaded/Delhi-Mechanisation-Project-Event-2025-2-800x533.webp" alt="E-Rickshaw Initiative">
+                                                </div>
+                                                <div class="blog-info">
+                                                    <ul class="blog-metainfo style-one list-unstyled">
+                                                        <li>Sustainability</li>
+                                                        <li>PETA INDIA</li>
+                                                    </ul>
+                                                    <h3>
+                                                        <a href="https://www.petaindia.com/blog/thackersey-group-transforms-lives-of-ten-families-and-animals-through-support-of-e-rickshaw-imitative/" class="text-title link-hover-primary">
+                                                            Thackersey Group empowers families and animals through e-rickshaw initiative
+                                                        </a>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Blog 2 -->
+                                        <div class="swiper-slide">
+                                            <div class="blog-card style-one bg-white position-relative round-20 mb-30">
+                                                <div class="blog-img position-relative overflow-hidden">
+                                                    <img src="assets/img/client-data/downloaded/suniel-shetty-252654145-16x9_0.avif" alt="Temple Mechanical Elephant Initiative">
+                                                </div>
+                                                <div class="blog-info">
+                                                    <ul class="blog-metainfo style-one list-unstyled">
+                                                        <li>Compassion</li>
+                                                        <li>INDIA TODAY</li>
+                                                    </ul>
+                                                    <h3>
+                                                        <a href="https://www.indiatoday.in/movies/celebrities/story/suniel-shetty-gifts-life-size-mechanical-elephant-to-karnataka-temple-2685396-2025-02-25" class="text-title link-hover-primary">
+                                                            Mechanical elephant initiative promotes cruelty-free temple traditions
+                                                        </a>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="blog-pagination text-center swiper-pagination"></div>
+                                </div>
+                            </div>
+
+                            <style>
+                                .blog-img {
+                                    width: 100%;
+                                    height: 260px; /* choose your visual height */
+                                    overflow: hidden;
+                                }
+
+                                    .blog-img img {
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover; /* magic spell */
+                                        display: block;
+                                    }
+                            </style>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Case Details Section End -->
+
+            </div>
+
+            <footer class="footer-area style-one">
+                <div class="container style-one">
+                    <!-- TOP SECTION -->
+                    <div class="footer-top pt-120 pb-70">
+                        <div class="row gy-5 align-items-start">
+                            <!-- BRAND + ADDRESS -->
+                            <div class="col-xxl-4 col-lg-4 col-md-12">
+                                <div class="footer-widget">
+                                    <a href="index.html" class="d-inline-block mb-35">
+                                        <img src="assets/img/client-data/downloaded/thackerseygrouplogo.jpg"
+                                             alt="Thackersey Group"
+                                             style="height: 90px; width: auto; object-fit: contain" />
+                                    </a>
+
+                                    <p class="text-white fs-xxl-18 mb-20">
+                                        Thackersey Group<br>Sir Vithaldas Chambers, 16,<br />
+                                        Mumbai Samachar Marg,<br />
+                                        Mumbai – 400 001, Maharashtra, India
+                                    </p>
+
+                                    <div class="mb-14">
+                                        <a href="tel:02269243300"
+                                           class="fw-semibold text-white fs-xxl-18">
+                                            022 6924 3300
+                                        </a>
+                                    </div>
+
+                                    <a href="mailto:contact@thackerseygroup.com"
+                                       class="fs-xxl-18 fw-semibold text-white d-block mb-15">
+                                        contact@thackerseygroup.com
+                                    </a>
+
+                                    <!-- Social Icons -->
+                                    <div class="d-flex align-items-center gap-3">
+                                        <a href="https://www.facebook.com/share/1HoKeAFxWK/" target="_blank" class="text-white fs-18">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+
+                                        <a href="https://www.instagram.com/thackerseyfoundation/" target="_blank" class="text-white fs-18">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+
+                                        <a href="https://www.linkedin.com/company/capricon-realty-private-limited/?originalSubdomain=in" target="_blank" class="text-white fs-18">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- NAVIGATION -->
+                            <div class="col-xxl-3 col-lg-3 col-md-6">
+                                <div class="footer-widget">
+                                    <h3 class="footer-widget-title fs-22 text-white mb-25">
+                                        Navigation
+                                    </h3>
+
+                                    <ul class="footer-menu style-one list-unstyled mb-20">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="philanthropy.html">Philanthropy</a></li>
+                                        <li><a href="work-with-us.html">Work with us</a></li>
+                                        <li><a href="index.html#homecontact">Get in Touch</a></li>
+                                    </ul>
+                                    <h3 class="footer-widget-title fs-22 text-white mb-20">
+                                        Legal & Compliance
+                                    </h3>
+                                    <p class="text-gray fs-xxl-18 mb-30">
+                                        Thackersey Group is a collective reference to group
+                                        companies and not an independent legal entity. All website
+                                        content is provided for general informational purposes
+                                        only and should not be relied upon for decision-making.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- LEGAL + TRUST -->
+                            <div class="col-xxl-5 col-lg-5 col-md-6">
+                                <div class="footer-widget">
+
+                                    <h3 class="footer-widget-title fs-22 text-white mb-20">
+                                        Locate Us
+                                    </h3>
+
+                                    <div class="comp-map style-one">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12672.308534929807!2d72.82701121834178!3d18.933939327982547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1c4bb3560b7%3A0x2a9208d3dc688f1c!2sThackersey%20Group!5e0!3m2!1sen!2sin!4v1769623309116!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy">
+                                        </iframe>
+                                    </div>
+                                    <!-- TRUST STRIP -->
+                                    <div class="d-flex flex-wrap align-items-center gap-25"
+                                         style="
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            padding-top: 20px;
+          ">
+
+                                        <!-- <ul class="social-profile style-one list-unstyled d-flex gap-12 mb-0">
+                              <li>
+                                <a href="#" target="_blank" class="rounded-circle">
+                                  <i class="ri-facebook-fill"></i>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#" target="_blank" class="rounded-circle">
+                                  <i class="ri-linkedin-fill"></i>
+                                </a>
+                              </li>
+                            </ul> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FOOTER BOTTOM -->
+                    <div class="footer-bottom pt-30 pb-30"
+                         style="border-top: 1px solid rgba(255, 255, 255, 0.12)">
+                        <div class="row align-items-center gy-3">
+                            <div class="col-md-6 text-md-start text-center">
+                                <p class="fs-xxl-15 text-gray mb-0">
+                                    ©Copyright Thackersey Group | All Rights Reserved.
+                                </p>
+                                <p class="fs-xxl-15 text-gray mb-0">
+                                    Designed and Developed by <a class="text-white" href="https://www.kanhaiyasuthar.com/" style="font-weight:bold">TechSpeex</a>
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 text-md-end text-center">
+                                <ul class="footer-bottom-menu list-unstyled d-inline-flex gap-30 mb-0">
+                                    <li>
+                                        <a href="terms-conditions.html">Terms & Conditions</a>
+                                    </li>
+                                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                    <li><a href="diclaimer.html">Disclaimer</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer End -->
+
+        </div>
+    </div>
+    <!-- Back to Top -->
+    <div id="progress-wrap" class="progress-wrap style-one">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path id="progress-path" d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- Link of JS files -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/megamenu.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/fslightbox.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/scrollTrigger.min.js"></script>
+    <script src="assets/js/lenis.min.js"></script>
+    <script src="assets/js/scrollToPlugin.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/customEase.js"></script>
+    <script src="assets/js/scrollcue.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>(function () { function c() { var b = a.contentDocument || a.contentWindow.document; if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'9c527ab52b9ed896',t:'MTc2OTYyNDE2OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>
+</body>
+</html>

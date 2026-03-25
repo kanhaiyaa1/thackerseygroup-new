@@ -145,7 +145,10 @@
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="our-investments.html">Our Investments</a>
+                                            <a href="financial-assets.html">Financial Assets</a>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="index.html#team">Team</a>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="philanthropy.html">Philanthropy</a>
@@ -154,15 +157,15 @@
                                             <a href="work-with-us.html">Work with us</a>
                                         </li>
                                         <!-- <li class="menu-item-has-children">
-                  <a href="javascript:void(0)"
-                    >Careers<i class="ri-arrow-down-s-line"></i
-                  ></a>
-                  <ul class="menu-subs menu-column-1">
-                    <li><a href="services.html">Real Estate</a></li>
-                    <li><a href="services.html">Pre-Leased Assets</a></li>
-                    <li><a href="services.html">Financial Assets</a></li>
-                  </ul>
-                </li> -->
+      <a href="javascript:void(0)"
+        >Careers<i class="ri-arrow-down-s-line"></i
+      ></a>
+      <ul class="menu-subs menu-column-1">
+        <li><a href="services.html">Real Estate</a></li>
+        <li><a href="services.html">Pre-Leased Assets</a></li>
+        <li><a href="services.html">Financial Assets</a></li>
+      </ul>
+    </li> -->
                                         <li><a href="index.html#homecontact">Contact</a></li>
                                     </ul>
                                 </nav>
@@ -760,14 +763,17 @@
                                             <p class="fs-18 text-gray">Don't see a role that fits? Submit your CV for future consideration.</p>
                                         </div>
                                         <!--Getform.io-->
-                                        <form action="https://formspree.io/f/mreynday" method="POST" id="generalApplicationForm" enctype="multipart/form-data">
+                                        <!-- ===== FORMINIT SDK (Add this before closing </body> tag or in your scripts section) ===== -->
+                                        <script src="https://forminit.com/sdk/v1/forminit.js"></script>
+
+                                        <form id="generalApplicationForm" enctype="multipart/form-data">
                                             <div class="row g-4">
 
                                                 <!-- Full Name -->
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <label class="fw-semibold text-title mb-2">Full Name <span class="text-danger">*</span></label>
-                                                        <input type="text" name="name" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="e.g. John Doe" required>
+                                                        <input type="text" name="fi-sender-fullName" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="e.g. John Doe" required>
                                                     </div>
                                                 </div>
 
@@ -775,7 +781,7 @@
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <label class="fw-semibold text-title mb-2">Email Address <span class="text-danger">*</span></label>
-                                                        <input type="email" name="email" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="e.g. john@example.com" required>
+                                                        <input type="email" name="fi-sender-email" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="e.g. john@example.com" required>
                                                     </div>
                                                 </div>
 
@@ -783,7 +789,8 @@
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <label class="fw-semibold text-title mb-2">Phone Number</label>
-                                                        <input type="tel" name="phone" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="+91 98765 43210">
+                                                        <input type="tel" id="phoneInput" name="fi-sender-phone" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="+91 98765 43210">
+                                                        <span id="phoneError" class="text-danger fs-14 mt-1" style="display:none;">Please enter a valid phone number (e.g. +91 98765 43210 or 10-digit mobile number)</span>
                                                     </div>
                                                 </div>
 
@@ -791,14 +798,14 @@
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <label class="fw-semibold text-title mb-2">Position applying for</label>
-                                                        <select name="position" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" style="height: 54px;">
+                                                        <select name="fi-select-position" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" style="height: 54px;">
                                                             <option value="">Select a position</option>
-                                                            <option value="PE/VC & Investment Analyst">PE/VC & Investment Analyst</option>
+                                                            <option value="PE/VC & Investment Analyst">PE/VC &amp; Investment Analyst</option>
                                                             <option value="Manager - Accounts">Manager - Accounts</option>
-                                                            <option value="Accounting & Investment Strategy Manager">Accounting & Investment Strategy Manager</option>
+                                                            <option value="Accounting & Investment Strategy Manager">Accounting &amp; Investment Strategy Manager</option>
                                                             <option value="Accountant">Accountant</option>
                                                             <option value="Property and Admin Manager">Property and Admin Manager</option>
-                                                            <option value="Assistant Manager – Compliance">Assistant Manager – Compliance</option>
+                                                            <option value="Assistant Manager - Compliance">Assistant Manager – Compliance</option>
                                                             <option value="Assistant HR Manager">Assistant HR Manager</option>
                                                             <option value="Account and Finance Strategy Manager">Account and Finance Strategy Manager</option>
                                                             <option value="Other">Other</option>
@@ -811,9 +818,9 @@
                                                     <div class="form-group">
                                                         <label class="fw-semibold text-title mb-2">Upload Resume / CV <span class="text-danger">*</span></label>
                                                         <div class="upload-box bg-albastor rounded-3 p-4 text-center border border-dashed border-secondary position-relative hover-lift transition">
-                                                            <input type="file" name="resume" accept=".pdf,.doc,.docx" class="position-absolute top-0 start-0 w-100 h-100 opacity-0 cursor-pointer" required>
+                                                            <input type="file" name="fi-file-resume" id="resumeFileInput" accept=".pdf,.doc,.docx" class="position-absolute top-0 start-0 w-100 h-100 opacity-0 cursor-pointer" required>
                                                             <i class="ri-upload-cloud-2-line fs-32 text_secondary mb-2 d-block"></i>
-                                                            <span class="fs-16 fw-medium text-title d-block">Click to upload or drag and drop</span>
+                                                            <span class="fs-16 fw-medium text-title d-block" id="fileLabel">Click to upload or drag and drop</span>
                                                             <span class="fs-14 text-gray d-block mt-1">PDF, DOC, DOCX (Max 5MB)</span>
                                                         </div>
                                                     </div>
@@ -834,7 +841,7 @@
                                                         <div class="col-md-6">
                                                             <div class="form-group">
                                                                 <label class="fw-semibold text-title mb-2">Date of Birth</label>
-                                                                <input type="date" name="dob" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0">
+                                                                <input type="date" name="fi-date-dob" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0">
                                                             </div>
                                                         </div>
 
@@ -842,7 +849,7 @@
                                                         <div class="col-md-6">
                                                             <div class="form-group">
                                                                 <label class="fw-semibold text-title mb-2">Address</label>
-                                                                <textarea name="address" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" rows="3" placeholder="Enter your full residential address"></textarea>
+                                                                <textarea name="fi-sender-address" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" rows="3" placeholder="Enter your full residential address"></textarea>
                                                             </div>
                                                         </div>
 
@@ -850,7 +857,7 @@
                                                         <div class="col-12">
                                                             <div class="form-group">
                                                                 <label class="fw-semibold text-title mb-2">Can you tell us about your relevant experience for this position?</label>
-                                                                <textarea name="message" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" rows="4" placeholder="Briefly describe your experience..."></textarea>
+                                                                <textarea name="fi-text-experience" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" rows="4" placeholder="Briefly describe your experience..."></textarea>
                                                             </div>
                                                         </div>
 
@@ -865,19 +872,19 @@
                                                                 <label class="fw-semibold text-title mb-3">Which of the following best describes your work ethic? <span class="text-danger">*</span></label>
                                                                 <div class="d-flex flex-column gap-2">
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="work_ethic" value="A" class="me-3 mt-1" required>
+                                                                        <input type="radio" name="fi-select-work_ethic" value="Results-oriented, dedicated to high-quality work" class="me-3 mt-1" required>
                                                                         <span class="fs-16 text-title">I am results-oriented and dedicated to delivering high-quality work.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="work_ethic" value="B" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-work_ethic" value="Focus on speed over quality" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I focus on getting tasks done quickly, even if it means compromising quality.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="work_ethic" value="C" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-work_ethic" value="Work-life balance oriented" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I believe in achieving a balance between work and personal life.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="work_ethic" value="D" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-work_ethic" value="Independent with minimal involvement" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I prefer to complete tasks with minimal involvement from others.</span>
                                                                     </label>
                                                                 </div>
@@ -890,19 +897,19 @@
                                                                 <label class="fw-semibold text-title mb-3">How do you prefer to make decisions? <span class="text-danger">*</span></label>
                                                                 <div class="d-flex flex-column gap-2">
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="decision_making" value="A" class="me-3 mt-1" required>
+                                                                        <input type="radio" name="fi-select-decision_making" value="Gather info and weigh pros/cons" class="me-3 mt-1" required>
                                                                         <span class="fs-16 text-title">I gather all relevant information and weigh the pros and cons before making a decision.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="decision_making" value="B" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-decision_making" value="Quick instinct-based decisions" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I make quick decisions based on my instincts.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="decision_making" value="C" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-decision_making" value="Follow others lead" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I prefer to let others make the decision and follow their lead.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="decision_making" value="D" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-decision_making" value="Delay until necessary" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I delay decision-making until it is absolutely necessary.</span>
                                                                     </label>
                                                                 </div>
@@ -915,19 +922,19 @@
                                                                 <label class="fw-semibold text-title mb-3">What is your approach to managing multiple projects with tight deadlines? <span class="text-danger">*</span></label>
                                                                 <div class="d-flex flex-column gap-2">
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="project_management" value="A" class="me-3 mt-1" required>
+                                                                        <input type="radio" name="fi-select-project_management" value="Prioritize by urgency and importance" class="me-3 mt-1" required>
                                                                         <span class="fs-16 text-title">I prioritize tasks based on urgency and importance.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="project_management" value="B" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-project_management" value="Work on all simultaneously" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I work on all tasks simultaneously to get them done faster.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="project_management" value="C" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-project_management" value="One project at a time" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I focus on one project at a time, even if it means missing deadlines.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="project_management" value="D" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-project_management" value="Delegate as much as possible" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I delegate as many tasks as possible to others.</span>
                                                                     </label>
                                                                 </div>
@@ -940,19 +947,19 @@
                                                                 <label class="fw-semibold text-title mb-3">How do you keep yourself motivated during repetitive tasks or projects? <span class="text-danger">*</span></label>
                                                                 <div class="d-flex flex-column gap-2">
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="motivation" value="A" class="me-3 mt-1" required>
+                                                                        <input type="radio" name="fi-select-motivation" value="Focus on long-term benefits" class="me-3 mt-1" required>
                                                                         <span class="fs-16 text-title">I remind myself of the long-term benefits and focus on completing the task efficiently.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="motivation" value="B" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-motivation" value="Seek new challenges" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I look for new challenges or ways to improve my work.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="motivation" value="C" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-motivation" value="Take frequent breaks" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I take frequent breaks to refresh myself.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="motivation" value="D" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-motivation" value="Delegate repetitive tasks" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I delegate repetitive tasks to others when possible.</span>
                                                                     </label>
                                                                 </div>
@@ -965,19 +972,19 @@
                                                                 <label class="fw-semibold text-title mb-3">How do you manage conflicts in a team? <span class="text-danger">*</span></label>
                                                                 <div class="d-flex flex-column gap-2">
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="conflict_management" value="A" class="me-3 mt-1" required>
+                                                                        <input type="radio" name="fi-select-conflict_management" value="Mediate and find solutions" class="me-3 mt-1" required>
                                                                         <span class="fs-16 text-title">I mediate and listen to all sides to find a solution.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="conflict_management" value="B" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-conflict_management" value="Avoid involvement" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I avoid getting involved in conflicts.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="conflict_management" value="C" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-conflict_management" value="Take charge unilaterally" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I prefer to take charge and make a decision without consulting others.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="conflict_management" value="D" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-conflict_management" value="Follow majority opinion" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I follow the majority opinion and avoid confrontation.</span>
                                                                     </label>
                                                                 </div>
@@ -990,19 +997,19 @@
                                                                 <label class="fw-semibold text-title mb-3">How do you handle stressful situations at work? <span class="text-danger">*</span></label>
                                                                 <div class="d-flex flex-column gap-2">
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="stress_management" value="A" class="me-3 mt-1" required>
+                                                                        <input type="radio" name="fi-select-stress_management" value="Stay calm and analyze logically" class="me-3 mt-1" required>
                                                                         <span class="fs-16 text-title">I remain calm and analyze the situation logically.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="stress_management" value="B" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-stress_management" value="Delegate to ease burden" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I delegate tasks to others to ease the burden.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="stress_management" value="C" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-stress_management" value="Avoid stress and find alternatives" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I tend to avoid stressful situations and look for alternatives.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="stress_management" value="D" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-stress_management" value="Work harder to resolve quickly" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I work harder and longer to resolve the issue quickly.</span>
                                                                     </label>
                                                                 </div>
@@ -1015,19 +1022,19 @@
                                                                 <label class="fw-semibold text-title mb-3">How do you handle uncertainties in your work? <span class="text-danger">*</span></label>
                                                                 <div class="d-flex flex-column gap-2">
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="uncertainty_handling" value="A" class="me-3 mt-1" required>
+                                                                        <input type="radio" name="fi-select-uncertainty_handling" value="Adaptable, seek opportunities" class="me-3 mt-1" required>
                                                                         <span class="fs-16 text-title">I remain adaptable and look for opportunities even in uncertain conditions.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="uncertainty_handling" value="B" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-uncertainty_handling" value="Follow strict strategy" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I follow a strict strategy, even if the market fluctuates.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="uncertainty_handling" value="C" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-uncertainty_handling" value="Avoid risks during fluctuations" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I avoid taking risks during market fluctuations.</span>
                                                                     </label>
                                                                     <label class="d-flex align-items-start p-3 bg-albastor rounded-3 cursor-pointer hover-lift transition">
-                                                                        <input type="radio" name="uncertainty_handling" value="D" class="me-3 mt-1">
+                                                                        <input type="radio" name="fi-select-uncertainty_handling" value="Stop until market stabilizes" class="me-3 mt-1">
                                                                         <span class="fs-16 text-title">I stop all activities until the market stabilizes.</span>
                                                                     </label>
                                                                 </div>
@@ -1043,7 +1050,7 @@
                                                         <div class="col-md-6">
                                                             <div class="form-group">
                                                                 <label class="fw-semibold text-title mb-2">Years of relevant work experience <span class="text-danger">*</span></label>
-                                                                <input type="number" name="experience_years" min="0" step="0.5" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="e.g. 5" required>
+                                                                <input type="number" name="fi-text-experience_years" min="0" step="0.5" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="e.g. 5" required>
                                                             </div>
                                                         </div>
 
@@ -1051,7 +1058,7 @@
                                                         <div class="col-md-6">
                                                             <div class="form-group">
                                                                 <label class="fw-semibold text-title mb-2">Current CTC (including all variables) <span class="text-danger">*</span></label>
-                                                                <input type="text" name="current_ctc" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="e.g. ₹12,00,000 per annum" required>
+                                                                <input type="text" name="fi-text-current_ctc" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="e.g. 12,00,000 per annum" required>
                                                             </div>
                                                         </div>
 
@@ -1059,7 +1066,7 @@
                                                         <div class="col-md-6">
                                                             <div class="form-group">
                                                                 <label class="fw-semibold text-title mb-2">Expected CTC <span class="text-danger">*</span></label>
-                                                                <input type="text" name="expected_ctc" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="e.g. ₹15,00,000 per annum" required>
+                                                                <input type="text" name="fi-text-expected_ctc" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" placeholder="e.g. 15,00,000 per annum" required>
                                                             </div>
                                                         </div>
 
@@ -1067,7 +1074,7 @@
                                                         <div class="col-md-6">
                                                             <div class="form-group">
                                                                 <label class="fw-semibold text-title mb-2">Notice period <span class="text-danger">*</span></label>
-                                                                <select name="notice_period" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" style="height: 54px;" required>
+                                                                <select name="fi-select-notice_period" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" style="height: 54px;" required>
                                                                     <option value="">Select notice period</option>
                                                                     <option value="Immediate">Immediate / Serving Notice</option>
                                                                     <option value="15 days">15 days</option>
@@ -1083,13 +1090,13 @@
                                                         <div class="col-12">
                                                             <div class="form-group">
                                                                 <label class="fw-semibold text-title mb-2">Reason for leaving current job <span class="text-danger">*</span></label>
-                                                                <textarea name="reason_leaving" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" rows="4" placeholder="Please briefly explain your reason for seeking new opportunities..." required></textarea>
+                                                                <textarea name="fi-text-reason_leaving" class="w-100 bg-albastor fs-16 text-title border-0 rounded-3 p-3 outline-0" rows="4" placeholder="Please briefly explain your reason for seeking new opportunities..." required></textarea>
                                                             </div>
                                                         </div>
 
                                                         <!-- Submit -->
                                                         <div class="col-12 text-center mt-4">
-                                                            <button type="submit" class="btn style-one d-inline-flex align-items-center px-5 py-3">
+                                                            <button type="submit" id="submitBtn" class="btn style-one d-inline-flex align-items-center px-5 py-3">
                                                                 <span class="btn-icon-one d-flex flex-column align-items-center justify-content-center rounded-circle transition">
                                                                     <i class="ri-send-plane-fill"></i>
                                                                 </span>
@@ -1100,6 +1107,9 @@
                                                                     <i class="ri-arrow-right-line"></i>
                                                                 </span>
                                                             </button>
+
+                                                            <!-- Status Messages -->
+                                                            <div id="formStatus" class="mt-3" style="display:none;"></div>
 
                                                             <p class="mt-4 text-gray fs-14">
                                                                 Alternatively, email your CV to:
@@ -1115,6 +1125,139 @@
 
                                             </div>
                                         </form>
+
+                                        <script>
+                                            // ===== FILE NAME DISPLAY =====
+                                            document.getElementById('resumeFileInput').addEventListener('change', function () {
+                                                var label = document.getElementById('fileLabel');
+                                                if (this.files.length > 0) {
+                                                    label.textContent = this.files[0].name;
+                                                    label.style.color = '#28a745';
+                                                } else {
+                                                    label.textContent = 'Click to upload or drag and drop';
+                                                    label.style.color = '';
+                                                }
+                                            });
+
+                                            // ===== CLEAR PHONE ERROR ON TYPING =====
+                                            document.getElementById('phoneInput').addEventListener('input', function () {
+                                                document.getElementById('phoneError').style.display = 'none';
+                                                this.style.border = '';
+                                            });
+
+                                            // ===== EXPAND FORM =====
+                                            function expandForm() {
+                                                document.getElementById('formExpanded').style.display = 'block';
+                                                document.getElementById('continueWrap').style.display = 'none';
+                                            }
+
+                                            // ===== PHONE VALIDATION & E.164 FORMATTING =====
+                                            function formatPhoneE164(rawPhone) {
+                                                // Strip all spaces, dashes, parentheses, dots
+                                                var phone = rawPhone.replace(/[\s\-\(\)\.]/g, '');
+
+                                                // If empty, return empty (phone is optional)
+                                                if (phone === '') return '';
+
+                                                // If already starts with +, validate: must be + followed by 7-15 digits
+                                                if (phone.startsWith('+')) {
+                                                    if (/^\+[0-9]{7,15}$/.test(phone)) return phone;
+                                                    return null; // invalid
+                                                }
+
+                                                // Remove leading 0 (common in Indian numbers like 098765...)
+                                                if (phone.startsWith('0')) {
+                                                    phone = phone.substring(1);
+                                                }
+
+                                                // 10-digit Indian mobile number (starts with 6-9)
+                                                if (/^[6-9][0-9]{9}$/.test(phone)) {
+                                                    return '+91' + phone;
+                                                }
+
+                                                // If 7-15 digits without +, add + prefix
+                                                if (/^[0-9]{7,15}$/.test(phone)) {
+                                                    return '+' + phone;
+                                                }
+
+                                                return null; // invalid
+                                            }
+
+                                            // ===== FORM SUBMISSION VIA FORMINIT SDK =====
+                                            var forminit = new Forminit();
+                                            var FORM_ID = '2hk1pkbpyu8';
+
+                                            document.getElementById('generalApplicationForm').addEventListener('submit', async function (e) {
+                                                e.preventDefault();
+
+                                                var submitBtn = document.getElementById('submitBtn');
+                                                var formStatus = document.getElementById('formStatus');
+                                                var phoneInput = document.getElementById('phoneInput');
+                                                var phoneError = document.getElementById('phoneError');
+
+                                                // Reset previous errors
+                                                phoneError.style.display = 'none';
+                                                phoneInput.style.border = '';
+
+                                                // ===== VALIDATE PHONE BEFORE SUBMIT =====
+                                                var rawPhone = phoneInput.value.trim();
+                                                if (rawPhone !== '') {
+                                                    var formatted = formatPhoneE164(rawPhone);
+                                                    if (formatted === null) {
+                                                        phoneError.style.display = 'block';
+                                                        phoneInput.style.border = '2px solid #dc3545';
+                                                        phoneInput.focus();
+                                                        return; // Stop submission
+                                                    }
+                                                    // Set the formatted E.164 value into the input
+                                                    phoneInput.value = formatted;
+                                                }
+
+                                                // Disable button and show loading
+                                                submitBtn.disabled = true;
+                                                submitBtn.style.opacity = '0.6';
+                                                formStatus.style.display = 'block';
+                                                formStatus.innerHTML = '<span class="text-warning fw-semibold">Submitting your application...</span>';
+
+                                                // ===== FILE SIZE VALIDATION (5MB) =====
+                                                var fileInput = document.getElementById('resumeFileInput');
+                                                if (fileInput.files.length > 0 && fileInput.files[0].size > 5 * 1024 * 1024) {
+                                                    formStatus.innerHTML = '<span class="text-danger fw-semibold">File size exceeds 5MB. Please upload a smaller file.</span>';
+                                                    submitBtn.disabled = false;
+                                                    submitBtn.style.opacity = '1';
+                                                    return;
+                                                }
+
+                                                try {
+                                                    var formData = new FormData(this);
+
+                                                    // If phone is empty, remove it so Forminit does not validate an empty string
+                                                    if (rawPhone === '') {
+                                                        formData.delete('fi-sender-phone');
+                                                    }
+
+                                                    var result = await forminit.submit(FORM_ID, formData);
+
+                                                    if (result.error) {
+                                                        formStatus.innerHTML = '<span class="text-danger fw-semibold">Something went wrong: ' + result.error.message + '</span>';
+                                                        submitBtn.disabled = false;
+                                                        submitBtn.style.opacity = '1';
+                                                        return;
+                                                    }
+
+                                                    // ===== SUCCESS =====
+                                                    formStatus.innerHTML = '<span class="text-success fw-semibold fs-18">&#10003; Application submitted successfully! We will get back to you shortly.</span>';
+                                                    this.reset();
+                                                    document.getElementById('fileLabel').textContent = 'Click to upload or drag and drop';
+                                                    document.getElementById('fileLabel').style.color = '';
+
+                                                } catch (err) {
+                                                    formStatus.innerHTML = '<span class="text-danger fw-semibold">Network error. Please try again or email your CV directly.</span>';
+                                                    submitBtn.disabled = false;
+                                                    submitBtn.style.opacity = '1';
+                                                }
+                                            });
+                                        </script>
 
                                     </div>
                                 </div>

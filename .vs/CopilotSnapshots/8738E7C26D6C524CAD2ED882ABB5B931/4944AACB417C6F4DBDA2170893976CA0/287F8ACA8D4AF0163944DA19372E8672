@@ -1,11 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zxx">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Thackersey Group Investments - A diverse portfolio spanning real estate, financial assets, and pre-leased properties. Learn about our strategic investment approach and opportunities.">
-    <meta name="keywords" content="investments, real estate investment, financial assets, pre-leased properties, asset portfolio, investment opportunities, portfolio management">
 
     <!-- Link of CSS files -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -19,7 +17,7 @@
     <link rel="stylesheet" href="assets/css/dark-theme.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
           rel="stylesheet" />
-    <title>Our Investments - Thackersey Group Portfolio</title>
+    <title>Exrox – Accounting & Management Consulting HTML Template</title>
     <link rel="icon" type="image/png" href="assets/img/favicon.ico" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -1050,7 +1048,7 @@
                     <div class="row pb-30">
                         
                         <div class="mb-30">
-                            <form action="https://formspree.io/f/xreywjqr" method="POST" class="contact-form style-three bg-white round-20" id="pitchToUsForm">
+                            <form action="#" class="contact-form style-three bg-white round-20">
                                 <h2 class="reveal-text-bottom" style="padding-bottom:30px;">
                                
                                     Pitch to us
@@ -1060,50 +1058,40 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group mb-45">
-                                            <input type="text" name="first_name" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="First Name*" required="">
+                                            <input type="text" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="First Name*" required="">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group mb-45">
-                                            <input type="text" name="last_name" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Last Name*" required="">
+                                            <input type="text" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Last Name*" required="">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group mb-45">
-                                            <input type="email" name="email" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Email*" required="">
+                                            <input type="email" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Email*" required="">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group mb-45">
-                                            <input type="tel" name="phone" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Phone Number">
+                                            <input type="tel" class="w-100 bg-transparent fs-xxl-18 text-title outline-0" placeholder="Phone Number">
                                         </div>
                                     </div>
 
                                     <div class="col-12">
                                         <div class="form-group mb-22">
-                                            <textarea name="message" class="w-100 bg-transparent fs-xxl-18 text-title outline-0 resize-0" placeholder="How Can We help?"></textarea>
+                                            <textarea class="w-100 bg-transparent fs-xxl-18 text-title outline-0 resize-0" placeholder="How Can We help?"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <button type="submit" class="btn style-one d-flex align-items-center" data-cue="slideInLeft" data-delay="300" data-show="true" style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 300ms; animation-direction: normal; animation-fill-mode: both;">
+                                        <button class="btn style-one d-flex align-items-center" data-cue="slideInLeft" data-delay="300" data-show="true" style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 300ms; animation-direction: normal; animation-fill-mode: both;">
                                             <span class="btn-icon-one d-flex flex-column align-items-center justify-content-center rounded-circle transition"><img src="assets/img/icons/right-arrow.svg" alt="Icon" class="d-block mx-auto"></span>
                                             <span class="btn-text fw-bold d-flex flex-column align-items-center justify-content-center transition">Send Message</span>
                                             <span class="btn-icon-two d-flex flex-column align-items-center justify-content-center rounded-circle transition"><img src="assets/img/icons/right-arrow.svg" alt="Icon" class="d-block mx-auto"></span>
                                         </button>
-                                        <div id="pitchToUsStatus" class="mt-2"></div>
                                     </div>
                                 </div>
                             </form>
                         </div>
-
-                        <script>
-                            document.getElementById('pitchToUsForm').addEventListener('submit', function(event) {
-                                var submitBtn = this.querySelector('button[type="submit"]');
-                                var originalText = submitBtn.querySelector('.btn-text').textContent;
-                                submitBtn.disabled = true;
-                                submitBtn.querySelector('.btn-text').textContent = 'Sending...';
-                            });
-                        </script>
                     </div>
                    
                 </div>
