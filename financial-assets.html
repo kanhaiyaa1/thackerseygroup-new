@@ -573,6 +573,7 @@
                         flex-direction: column;
                         align-items: center;
                         justify-content: center;
+                        text-decoration: none;
                     }
 
                         .brand-logo:hover {
@@ -587,9 +588,44 @@
                             width: auto;
                             height: auto;
                             object-fit: contain;
-                          
+                            transition: opacity 0.3s ease;
                         }
 
+                        .brand-logo:hover img {
+                            opacity: 0;
+                        }
+
+                        .brand-logo-info {
+                            position: absolute;
+                            inset: 0;
+                            padding: 15px;
+                            background: #ffffff;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            opacity: 0;
+                            transition: opacity 0.3s ease;
+                            text-align: center;
+                        }
+
+                        .brand-logo:hover .brand-logo-info {
+                            opacity: 1;
+                        }
+
+                        .brand-logo-info h5 {
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: #0B1220;
+                            margin-bottom: 8px;
+                        }
+
+                        .brand-logo-info p {
+                            font-size: 12px;
+                            color: #55606E;
+                            margin: 0;
+                            line-height: 1.4;
+                        }
 
                     .brand-logo-wrap {
                         justify-content: center;
@@ -601,46 +637,14 @@
                             height: 100px;
                             padding: 15px;
                         }
-                    }
 
-                    /* MODAL */
+                        .brand-logo-info h5 {
+                            font-size: 14px;
+                        }
 
-                    .brand-modal-overlay {
-                        position: fixed;
-                        inset: 0;
-                        background: rgba(0,0,0,0.6);
-                        display: none;
-                        align-items: center;
-                        justify-content: center;
-                        z-index: 9999;
-                    }
-
-                    .brand-modal-box {
-                        background: #fff;
-                        padding: 30px;
-                        max-width: 420px;
-                        width: 90%;
-                        border-radius: 10px;
-                        text-align: center;
-                        position: relative;
-                    }
-
-                    .brand-modal-close {
-                        position: absolute;
-                        top: 10px;
-                        right: 15px;
-                        font-size: 24px;
-                        cursor: pointer;
-                    }
-
-                    .brand-modal-box h4 {
-                        margin-bottom: 10px;
-                        font-weight: 600;
-                    }
-
-                    .brand-modal-box p {
-                        font-size: 14px;
-                        color: #555;
+                        .brand-logo-info p {
+                            font-size: 11px;
+                        }
                     }
                 </style>
 
@@ -672,38 +676,42 @@
                             <div class="row g-3">
 
                                 <div class="col-6 col-md-6 col-lg-6">
-                                    <a href="#" class="brand-logo brand-modal round-20"
-                                       data-title="3ev"
-                                       data-link="https://3ev.in/"
-                                       data-desc="3ev designs, develops, manufactures and operates 3-wheel electric vehicles for rear-world performance. With decades of experience in off-grid, renewable energy, power electronics 3ev are addressing the real world demands towards affordable greentech vehicles into the market. 3ev provides micro-mobility solutions from the ground up. 3ev offer end-to-end solutions in each hyper-local community they serve, including professional services for passengers, small-parcel deliveries, and freight. 3ev’s focus is on each local ecosystem that they work in, and they strive to provide the highest quality connections to all members in order to build-up and enhance communities.">
+                                    <a href="https://3ev.in/" target="_blank" class="brand-logo round-20">
                                         <img src="assets/img/client-data/fund-links/3ev.png" loading="lazy">
+                                        <div class="brand-logo-info">
+                                            <h5>3ev</h5>
+                                            <p>3-wheel electric vehicles for micro-mobility solutions.</p>
+                                        </div>
                                     </a>
                                 </div>
 
                                 <div class="col-6 col-md-6 col-lg-6">
-                                    <a href="#" class="brand-logo brand-modal round-20"
-                                       data-title="3eco"
-                                       data-link="https://3eco.in/"
-                                       data-desc="3eco Systems is a B2B transportation services provider solving last-mile bottlenecks for IntraCity enterprise customers. 3eco are leading the highly-fragmented last-mile into a technology-enabled future with greater efficiency, productivity, and corporate scale. 3eco’s full-stack IT platform for Command & Control over a Dedicated Resource Base of EVs, Infrastructure, and FT Staff supports high utilization and local operating density. By removing HyperLocal bottlenecks, 3eco share efficiency and productivity gains with their customers while providing high-value services in the markets they serve.">
+                                    <a href="https://3eco.in/" target="_blank" class="brand-logo round-20">
                                         <img src="assets/img/client-data/fund-links/3eco.png" loading="lazy">
+                                        <div class="brand-logo-info">
+                                            <h5>3eco</h5>
+                                            <p>B2B transportation solving last-mile logistics.</p>
+                                        </div>
                                     </a>
                                 </div>
 
                                 <div class="col-6 col-md-6 col-lg-6">
-                                    <a href="#" class="brand-logo brand-modal round-20"
-                                       data-title="Neuron"
-                                       data-link="https://www.neuronenergy.in/"
-                                       data-desc="Founded in 2018, Neuron Energy was established with a vision to power India’s transition to sustainable energy through intelligent products and solutions. With a strong focus on clean technology, Neuron is building reliable, future-ready energy systems across the electric mobility and energy storage space.">
+                                    <a href="https://www.neuronenergy.in/" target="_blank" class="brand-logo round-20">
                                         <img src="assets/img/client-data/fund-links/Neuron.png" loading="lazy">
+                                        <div class="brand-logo-info">
+                                            <h5>Neuron</h5>
+                                            <p>Sustainable energy systems for electric mobility.</p>
+                                        </div>
                                     </a>
                                 </div>
 
                                 <div class="col-6 col-md-6 col-lg-6">
-                                    <a href="#" class="brand-logo brand-modal round-20"
-                                       data-title="Goldi Solar"
-                                       data-link="https://goldisolar.com/"
-                                       data-desc="Goldi Solar is India’s largest Solar PV module manufacturing company with annual capacity of 14.7 GW. Since inception in 2011, the company has been supplying world-class high efficiency modules in India and various geographies across the globe. Recently, the company recorded the largest and highest manufacturing expansion in India’s renewable industry for Solar PV Modules from 3 GW to 14.7 GW in the last 12 months.">
+                                    <a href="https://goldisolar.com/" target="_blank" class="brand-logo round-20">
                                         <img src="assets/img/client-data/fund-links/GoldiSolar.png" loading="lazy">
+                                        <div class="brand-logo-info">
+                                            <h5>Goldi Solar</h5>
+                                            <p>India’s largest Solar PV module manufacturer.</p>
+                                        </div>
                                     </a>
                                 </div>
 
@@ -715,93 +723,103 @@
                             <div class="row g-3 justify-content-center">
 
                                 <div class="col-6 col-md-4 col-lg-3">
-                                    <a href="#" class="brand-logo brand-modal round-20"
-                                       data-title="LOHUM"
-                                       data-link="https://lohum.com/"
-                                       data-desc="The world’s largest producer of sustainable battery raw materials through recycling, repurposing, and low-carbon refining. Over the last three years, LOHUM has been able to create the technology & infrastructure to recycle 2 GWh and reuse 300 MWh of battery capacity per annum.">
+                                    <a href="https://lohum.com/" target="_blank" class="brand-logo round-20">
                                         <img src="assets/img/client-data/fund-links/LOHUM.png" loading="lazy">
+                                        <div class="brand-logo-info">
+                                            <h5>LOHUM</h5>
+                                            <p>Sustainable battery recycling and refining.</p>
+                                        </div>
                                     </a>
                                 </div>
 
                                 <div class="col-6 col-md-4 col-lg-3">
-                                    <a href="#" class="brand-logo brand-modal round-20"
-                                       data-title="Illuvia"
-                                       data-link="https://iluviapro.com/"
-                                       data-desc="Online brand offering hair care products. It offers a range of products such as shampoos, conditioners, serums, hair repair masks, and argan oil. The platform offers tailored, and performance-driven products.">
+                                    <a href="https://iluviapro.com/" target="_blank" class="brand-logo round-20">
                                         <img src="assets/img/client-data/fund-links/Illuvia.png" loading="lazy">
+                                        <div class="brand-logo-info">
+                                            <h5>Illuvia</h5>
+                                            <p>Premium hair care products online.</p>
+                                        </div>
                                     </a>
                                 </div>
 
                                 <div class="col-6 col-md-4 col-lg-3">
-                                    <a href="#" class="brand-logo brand-modal round-20"
-                                       data-title="Dr. Doodley"
-                                       data-link="https://doodley.in/"
-                                       data-desc="Provider of at-home pet healthcare solutions. The company allows pet owners to connect with veterinary professionals for routine check-ups and specialized treatments. It provides pet supplies, online veterinary consultations, pet grooming, and veterinary services. The platform provides services like grooming sessions, vaccine reminders, at-home and online veterinary consultations, and access to pet supplies like food, toys, and medical equipment.">
+                                    <a href="https://doodley.in/" target="_blank" class="brand-logo round-20">
                                         <img src="assets/img/client-data/fund-links/DrDoodley.png" loading="lazy">
+                                        <div class="brand-logo-info">
+                                            <h5>Dr. Doodley</h5>
+                                            <p>At-home pet healthcare solutions.</p>
+                                        </div>
                                     </a>
                                 </div>
 
                                 <div class="col-6 col-md-4 col-lg-3">
-                                    <a href="#" class="brand-logo brand-modal round-20"
-                                       data-title="Mydesignation"
-                                       data-link="https://www.mydesignation.com/"
-                                       data-desc="Online platform offering casual apparel for men and women. It provides a range of clothing options designed for everyday wear, with styles catering to different preferences. The platform operates primarily in the B2C commerce space, making products directly accessible to individual shoppers.">
+                                    <a href="https://www.mydesignation.com/" target="_blank" class="brand-logo round-20">
                                         <img src="assets/img/client-data/fund-links/Mydesignation.png" loading="lazy">
+                                        <div class="brand-logo-info">
+                                            <h5>Mydesignation</h5>
+                                            <p>Casual apparel for everyday wear.</p>
+                                        </div>
                                     </a>
                                 </div>
 
 
                                 <div class="col-6 col-md-4 col-lg-3">
-                                    <a href="#" class="brand-logo brand-modal round-20"
-                                       data-title="hBits"
-                                       data-link="https://hbits.co/"
-                                       data-desc="hBits is a Mumbai-based SEBI-regulated platform founded in 2018 that enables fractional ownership of pre-leased, Grade A commercial real estate. It allows individual investors to invest in high-value commercial properties with lower ticket sizes to earn rental income and capital appreciation. The company aims to make institutional-grade real estate accessible through a transparent, tech-enabled, and compliant SM REIT framework.">
+                                    <a href="https://hbits.co/" target="_blank" class="brand-logo round-20">
                                         <img src="assets/img/client-data/fund-links/hBits.jpeg" alt="hBits Logo" loading="lazy">
+                                        <div class="brand-logo-info">
+                                            <h5>hBits</h5>
+                                            <p>Fractional ownership of commercial real estate.</p>
+                                        </div>
                                     </a>
                                 </div>
 
                                 <div class="col-6 col-md-4 col-lg-3">
-                                    <a href="#" class="brand-logo brand-modal round-20"
-                                       data-title="The Hosteller"
-                                       data-link="https://www.thehosteller.com/"
-                                       data-desc="The Hosteller began in 2014 with a simple vision - to create amazing, affordable & accessible backpacker hostels all around India for ‘young at heart’ travellers. We work towards building experiences for our community of travellers thereby creating ever lasting backpacking memories.">
+                                    <a href="https://www.thehosteller.com/" target="_blank" class="brand-logo round-20">
                                         <img src="assets/img/client-data/fund-links/thehosteller.webp" alt="The Hosteller Logo" loading="lazy">
+                                        <div class="brand-logo-info">
+                                            <h5>The Hosteller</h5>
+                                            <p>Affordable backpacker hostels across India.</p>
+                                        </div>
                                     </a>
                                 </div>
 
                                 <div class="col-6 col-md-4 col-lg-3">
-                                    <a href="#" class="brand-logo brand-modal round-20"
-                                       data-title="Rumik"
-                                       data-link="https://rumik.ai/"
-                                       data-desc="Rumik is an AI research lab focused on building ‘the most human ai,’ centered around three core capabilities: an expressive voice model (Silk), an adaptive memory system (Mesh), and contextual conversation understanding (Peek). These combine to power their flagship product, Ira, a companion AI that chats, calls, sends voice notes, and does activities like watching YouTube or playing chess with users.">
+                                    <a href="https://rumik.ai/" target="_blank" class="brand-logo round-20">
                                         <img src="assets/img/client-data/fund-links/rumikAI.png" alt="Rumik Logo" loading="lazy">
+                                        <div class="brand-logo-info">
+                                            <h5>Rumik</h5>
+                                            <p>AI research lab for human-like AI.</p>
+                                        </div>
                                     </a>
                                 </div>
 
                                 <div class="col-6 col-md-4 col-lg-3">
-                                    <a href="#" class="brand-logo brand-modal round-20"
-                                       data-title="QNu Labs"
-                                       data-link="https://www.qnulabs.com/"
-                                       data-desc="QNu Labs is building the future of cyber security by providing unconditional data encryption and security for enterprises using Quantum Key Distribution.">
+                                    <a href="https://www.qnulabs.com/" target="_blank" class="brand-logo round-20">
                                         <img src="assets/img/client-data/fund-links/qunu-labs.jpg" alt="QNu Labs Logo" loading="lazy">
+                                        <div class="brand-logo-info">
+                                            <h5>QNu Labs</h5>
+                                            <p>Quantum key distribution for cybersecurity.</p>
+                                        </div>
                                     </a>
                                 </div>
 
                                 <div class="col-6 col-md-4 col-lg-3">
-                                    <a href="#" class="brand-logo brand-modal round-20"
-                                       data-title="Eternz"
-                                       data-link="https://www.eternz.com/"
-                                       data-desc="Bengaluru-based curated online marketplace for jewellery that addresses trust and discovery challenges in online jewelry shopping. Offers products from verified brands with a focus on delivering an authentic and unique customer experience.">
+                                    <a href="https://www.eternz.com/" target="_blank" class="brand-logo round-20">
                                         <img src="assets/img/client-data/fund-links/eternz.jpg" alt="Eternz Logo" loading="lazy">
+                                        <div class="brand-logo-info">
+                                            <h5>Eternz</h5>
+                                            <p>Curated online jewellery marketplace.</p>
+                                        </div>
                                     </a>
                                 </div>
 
                                 <div class="col-6 col-md-4 col-lg-3">
-                                    <a href="#" class="brand-logo brand-modal round-20"
-                                       data-title="Luzo"
-                                       data-link="https://www.luzo.app/"
-                                       data-desc="We provide a booking platform for luxury salons for women. The platform purchases booking slots from salons in advance at a low price, allowing users to book and pay through the platform to use the salons at a discounted rate.">
+                                    <a href="https://www.luzo.app/" target="_blank" class="brand-logo round-20">
                                         <img src="assets/img/client-data/fund-links/luzo.png" alt="Luzo Logo" loading="lazy">
+                                        <div class="brand-logo-info">
+                                            <h5>Luzo</h5>
+                                            <p>Luxury salon booking platform for women.</p>
+                                        </div>
                                     </a>
                                 </div>
                             </div>
@@ -809,55 +827,6 @@
 
                     </div>
                 </div>
-
-
-
-                <!-- MODAL -->
-
-                <div id="brandModal" class="brand-modal-overlay">
-                    <div class="brand-modal-box">
-
-                        <span class="brand-modal-close">&times;</span>
-
-                        <h4 id="brandTitle"></h4>
-
-                        <p id="brandDesc"></p>
-
-                        <a id="brandLink" href="#" target="_blank" class="fs-xxl-18 fw-semibold link-hover-primary" style="display: inline-block; margin-top: 20px;">Visit Website →</a>
-
-                    </div>
-                </div>
-
-
-                <script>
-
-                    document.querySelectorAll(".brand-modal").forEach(item => {
-
-                        item.addEventListener("click", function (e) {
-
-                            e.preventDefault()
-
-                            document.getElementById("brandTitle").innerText = this.dataset.title
-                            document.getElementById("brandDesc").innerText = this.dataset.desc
-                            document.getElementById("brandLink").href = this.dataset.link
-
-                            document.getElementById("brandModal").style.display = "flex"
-
-                        })
-
-                    })
-
-                    document.querySelector(".brand-modal-close").onclick = function () {
-                        document.getElementById("brandModal").style.display = "none"
-                    }
-
-                    window.onclick = function (e) {
-                        if (e.target.id === "brandModal") {
-                            document.getElementById("brandModal").style.display = "none"
-                        }
-                    }
-
-                </script>
                 <div class="wh-area style-two bg-albastor pb-120">
                     <div class="container style-one">
                         <div class="row">
